@@ -1,0 +1,673 @@
+0000000000000000000000000000000000000000 3ed4e1c1ee30bc8b24f511aac04cdbac207ecd53 Crimson <necroticpublic@gmail.com> 1464819477 -0400	clone: from https://Crimson@bitbucket.org/NecroticDev/necrotic_source.git
+3ed4e1c1ee30bc8b24f511aac04cdbac207ecd53 f00b23022106e9f2b3ead26dff5af158c871841c Crimson <necroticpublic@gmail.com> 1464821296 -0400	commit: DB message change
+f00b23022106e9f2b3ead26dff5af158c871841c abc23245bf1db9a22e75cfd11710bbaf16805313 Crimson <necroticpublic@gmail.com> 1464920469 -0400	commit: Amulet of Power recipe fixed
+abc23245bf1db9a22e75cfd11710bbaf16805313 05704b3f33191d4c76a0406bcb591574c8115d98 Crimson <necroticpublic@gmail.com> 1464924331 -0400	pull origin master: Fast-forward
+05704b3f33191d4c76a0406bcb591574c8115d98 b0dfb2776f1609fdc2e1a78c63d74e273fd6ae4d Crimson <necroticpublic@gmail.com> 1464924370 -0400	commit: Farming cape:
+b0dfb2776f1609fdc2e1a78c63d74e273fd6ae4d 5ee8f37f1546ca978563674c48b8503b8171b3a1 Crimson <necroticpublic@gmail.com> 1464925103 -0400	commit: White lilies stackable, sweet corn edible, mackerel edible, mackerel cookable
+5ee8f37f1546ca978563674c48b8503b8171b3a1 c217ad286c8bad4cd227744e5791d1937ce7799e Crimson <necroticpublic@gmail.com> 1465074972 -0400	commit: Roasted Bird Meat and Chicken can now be cooked.
+c217ad286c8bad4cd227744e5791d1937ce7799e 77afcfba1c64aa8572cefa3804b95ad7439a0491 Crimson <necroticpublic@gmail.com> 1465075198 -0400	commit: Construction message so people don't keep asking why it's broken
+77afcfba1c64aa8572cefa3804b95ad7439a0491 a259432f05a3aa76b96229a3f9b3f7e104681c1f Crimson <necroticpublic@gmail.com> 1465075697 -0400	commit: Firemaking cape has 1/10 chance to save your logs
+a259432f05a3aa76b96229a3f9b3f7e104681c1f aca0ef08ca783353daab5f77789ee584dd4a24e2 Crimson <necroticpublic@gmail.com> 1465076964 -0400	commit: Can fish without proper equipment, still need bait
+aca0ef08ca783353daab5f77789ee584dd4a24e2 616e0ca941aca5c62c81fb5670b54cbad18db145 Crimson <necroticpublic@gmail.com> 1465077470 -0400	commit: 10% chance to save an herb while mixing unfinished potions
+616e0ca941aca5c62c81fb5670b54cbad18db145 fdd6206491de74e8eab6fb6e853e94b4f1877e27 Crimson <necroticpublic@gmail.com> 1465080632 -0400	commit: mining cape -> all gems are banked, 33% chance to get double coal while mining coal
+fdd6206491de74e8eab6fb6e853e94b4f1877e27 de8b0aa3744fcaa53292b8032a3dd0df17e86673 Crimson <necroticpublic@gmail.com> 1465084470 -0400	commit: 1/4 chance to recycle essence while crafting runes.
+de8b0aa3744fcaa53292b8032a3dd0df17e86673 cfde45710506ecea9f5fe06f7fdac60300a90ba6 Crimson <necroticpublic@gmail.com> 1465084492 -0400	commit: removed message
+cfde45710506ecea9f5fe06f7fdac60300a90ba6 15561ccfd4b32f66b50bc59b06bc78474414ebf2 Crimson <necroticpublic@gmail.com> 1465088524 -0400	commit: 1/4 Chance to save all coal while smelting a bar
+15561ccfd4b32f66b50bc59b06bc78474414ebf2 2b1a243ddcb6af78aab2a920d5051d77e5a1328e Crimson <necroticpublic@gmail.com> 1465089318 -0400	commit: Don't lose task streak when resetting tasks.
+2b1a243ddcb6af78aab2a920d5051d77e5a1328e d4e50ba4c7436f186a76aad05fa232e054a4c3d2 Crimson <necroticpublic@gmail.com> 1465089606 -0400	commit: fixed mining and cooking gauntlets not being sold in max shop
+d4e50ba4c7436f186a76aad05fa232e054a4c3d2 265d4ec98d803e531b5a24e6358d0e9d706351df Crimson <necroticpublic@gmail.com> 1465091186 -0400	pull origin master: Fast-forward
+265d4ec98d803e531b5a24e6358d0e9d706351df fc0d55ba6b5d7650e163e239ccd149cd805dfabc Crimson <necroticpublic@gmail.com> 1465091200 -0400	commit: Dragon kiteshield stop drag bolts (e)
+fc0d55ba6b5d7650e163e239ccd149cd805dfabc 88952b2bc898fbe7a8dd98bf69ea9acd0adea660 Crimson <necroticpublic@gmail.com> 1465091215 -0400	commit: changed antifire msg
+88952b2bc898fbe7a8dd98bf69ea9acd0adea660 55cb37b9fa68376a4a7a14774316093b8a9d71fe Crimson <necroticpublic@gmail.com> 1465094450 -0400	commit: Fire resistance is now fixed.
+55cb37b9fa68376a4a7a14774316093b8a9d71fe fba5ab9c1283f074e2017af7646d328067adf6e4 Crimson <necroticpublic@gmail.com> 1465094570 -0400	commit: focus sight and hexcrest more likely to drop
+fba5ab9c1283f074e2017af7646d328067adf6e4 c07064552c998b0dd0336f34cb7a8cbdfc2db5ee Crimson <necroticpublic@gmail.com> 1465095247 -0400	commit: Fixed spirit shields
+c07064552c998b0dd0336f34cb7a8cbdfc2db5ee 46b482e202454ea48842ce42e283ea37d6490898 Crimson <necroticpublic@gmail.com> 1465102498 -0400	commit: spirit shield shit
+46b482e202454ea48842ce42e283ea37d6490898 ad9da0bb3ddb9ae59a5824bd665af206a1880cc9 Crimson <necroticpublic@gmail.com> 1465161381 -0400	commit: Removed strange case of money being sent from bank to money pouch...
+ad9da0bb3ddb9ae59a5824bd665af206a1880cc9 8b8f18babf895e3bc7a2e031043157ca25bea14d Crimson <necroticpublic@gmail.com> 1465161421 -0400	commit: Re-wrote how spirit shield interacts if the player is also praying.
+8b8f18babf895e3bc7a2e031043157ca25bea14d bd0be54fca3abbdf88803c0e9bb714e76deb4837 Crimson <necroticpublic@gmail.com> 1465163457 -0400	commit: Ely effect is now 100% accurate
+bd0be54fca3abbdf88803c0e9bb714e76deb4837 04f260ce8d943d3f4e2d4e88c228505f12d38d7c Crimson <necroticpublic@gmail.com> 1465175569 -0400	pull origin master: Fast-forward
+04f260ce8d943d3f4e2d4e88c228505f12d38d7c 0f2784fc65ce4bf1339f4f703fe895f0c4c8b704 Crimson <necroticpublic@gmail.com> 1465175778 -0400	commit: fixed verac's
+0f2784fc65ce4bf1339f4f703fe895f0c4c8b704 60973751822b38435b3d3c70ecd0af247c5c29d4 Crimson <necroticpublic@gmail.com> 1465347984 -0400	commit: Changed rickroll music, sendsong [int] for music managment
+60973751822b38435b3d3c70ecd0af247c5c29d4 177a64df70a6692335a4c8baa931987ddf3acc7d Crimson <necroticpublic@gmail.com> 1465433095 -0400	commit: Fixed tradeable skilling pets
+177a64df70a6692335a4c8baa931987ddf3acc7d b4569a01c6a8fc6343df7dc3d4ac397895e41809 Crimson <necroticpublic@gmail.com> 1465438865 -0400	commit: ::newjail location setup, ::jail and ::unjail not yet ready.
+b4569a01c6a8fc6343df7dc3d4ac397895e41809 8ef800bc318ea16a2fa860a80bb40b17ca14ec09 Crimson <necroticpublic@gmail.com> 1465440161 -0400	commit: uncomment lol
+8ef800bc318ea16a2fa860a80bb40b17ca14ec09 efca7a5b4820647cfa353be074591531dbe8bbb5 Crimson <necroticpublic@gmail.com> 1465440306 -0400	commit: fixed an escape
+efca7a5b4820647cfa353be074591531dbe8bbb5 61edbd1ddd1f8d0c9ee68c0144373df991cc727d Crimson <necroticpublic@gmail.com> 1465441574 -0400	commit: The Big Cashew anti staking
+61edbd1ddd1f8d0c9ee68c0144373df991cc727d f316ef0e2f16833e1054be028902ac656fa8feac Crimson <necroticpublic@gmail.com> 1465442823 -0400	commit: typos
+f316ef0e2f16833e1054be028902ac656fa8feac bd16149ab4490e3ad75b912a6c1a3403e56e2e04 Crimson <necroticpublic@gmail.com> 1465757136 -0400	commit: Lots of bug fixes,
+bd16149ab4490e3ad75b912a6c1a3403e56e2e04 cee213741ec132426ed3c29de9a6248403d1acfe Crimson <necroticpublic@gmail.com> 1465763809 -0400	commit: If an iron man kills a player in the wild, their items are deleted.
+cee213741ec132426ed3c29de9a6248403d1acfe 9be172fc123c2f91f45c53d6f2644e5a6ddb38f9 Crimson <necroticpublic@gmail.com> 1465764020 -0400	commit: gaerg
+9be172fc123c2f91f45c53d6f2644e5a6ddb38f9 ceaef8b1011efba009b94d121703dd085c39aeb4 Crimson <necroticpublic@gmail.com> 1465764818 -0400	commit: nullchecking deaths
+ceaef8b1011efba009b94d121703dd085c39aeb4 37939f6a906ea8c0d40b64dfec3dd76a686cb6b5 Crimson <necroticpublic@gmail.com> 1465769609 -0400	commit: Home bank + heal/pray,
+37939f6a906ea8c0d40b64dfec3dd76a686cb6b5 bf53ee9aaae480410f2bdf2007f7c34cb08f7c44 Crimson <necroticpublic@gmail.com> 1465771171 -0400	commit: null checking on dungeoneering ring
+bf53ee9aaae480410f2bdf2007f7c34cb08f7c44 22b49a34cab94f4b05a806b684e7f20e7fe66a07 Crimson <necroticpublic@gmail.com> 1465771287 -0400	commit: New forum url
+22b49a34cab94f4b05a806b684e7f20e7fe66a07 a18c40175f3d552abcf804f664d1c46fad8b2d90 Crimson <necroticpublic@gmail.com> 1465772590 -0400	commit: Diango event return
+a18c40175f3d552abcf804f664d1c46fad8b2d90 c41114a52ec297b348462c5cf3b216fff0e417cb Crimson <necroticpublic@gmail.com> 1465776960 -0400	commit: unlimited fire, no more bonus xp message on login, new_member_zone + restoring hp/pray
+c41114a52ec297b348462c5cf3b216fff0e417cb c08fce29ea2b41859d29db3376b4a897bf11bd91 Crimson <necroticpublic@gmail.com> 1465777054 -0400	commit: updated version
+c08fce29ea2b41859d29db3376b4a897bf11bd91 fe0bef81b16e3cba6fdc86818cc88b2abb36a905 Crimson <necroticpublic@gmail.com> 1465779198 -0400	commit: spirit shield effects, prices, fire at mem zone
+fe0bef81b16e3cba6fdc86818cc88b2abb36a905 5695d4c9b13e052667ff86f6799ce8e05b4f6146 Crimson <necroticpublic@gmail.com> 1465794134 -0400	pull origin master: Fast-forward
+5695d4c9b13e052667ff86f6799ce8e05b4f6146 c004032e7c2adb85d6acb2974fab8bfbdee6c63c Crimson <necroticpublic@gmail.com> 1466028205 -0400	pull origin master: Fast-forward
+c004032e7c2adb85d6acb2974fab8bfbdee6c63c 879252c4c1e2df5dcf6bdc92e601676b1851d3a0 Crimson <necroticpublic@gmail.com> 1466029724 -0400	commit: zulrah combat strategies
+879252c4c1e2df5dcf6bdc92e601676b1851d3a0 41569b5261e67fb144db26ed4fd8495f28a7e7b6 Crimson <necroticpublic@gmail.com> 1466030546 -0400	commit: Fixed the fuckery. ::zulrah to goto zulrah, ::spawnzulrah to call the zulrah spawn method
+41569b5261e67fb144db26ed4fd8495f28a7e7b6 d02a66058298eae36ccb5894f2bd4ae1cc30277c Crimson <necroticpublic@gmail.com> 1466035169 -0400	commit: debug messages
+d02a66058298eae36ccb5894f2bd4ae1cc30277c 4d0ca5a77958f86d81cd9aaa1b273ff2233a2b64 Crimson <necroticpublic@gmail.com> 1466037020 -0400	commit: People in jail are cucked until unjailed. No yell, no clanchat, no pming non-staff
+4d0ca5a77958f86d81cd9aaa1b273ff2233a2b64 56b9f9513d497a6df4618ddc4fdafe384c0be150 Crimson <necroticpublic@gmail.com> 1466050161 -0400	commit: fallymassacre
+56b9f9513d497a6df4618ddc4fdafe384c0be150 d69f08a234020b88809b3c93072443c60053b97a Crimson <necroticpublic@gmail.com> 1467151956 -0400	pull origin master: Fast-forward
+d69f08a234020b88809b3c93072443c60053b97a 56bea9004fa4ea69ac931ab6c7db651cba7e339b Crimson <necroticpublic@gmail.com> 1467151972 -0400	commit: Blowpipe nerf, Katana speed up
+56bea9004fa4ea69ac931ab6c7db651cba7e339b 833730ea4a5dea5ff9f0c2a42fb797465388e67a Crimson <necroticpublic@gmail.com> 1467152157 -0400	commit: katana accuracy up
+833730ea4a5dea5ff9f0c2a42fb797465388e67a 6ba29b007d2fdd7d5909177eb4185601618b679c Crimson <necroticpublic@gmail.com> 1467171703 -0400	pull origin master: Fast-forward
+6ba29b007d2fdd7d5909177eb4185601618b679c 5bfa49a0c51e39765983a4f9dedc082a16cfddf5 Crimson <necroticpublic@gmail.com> 1467174758 -0400	commit: Steel tempest
+5bfa49a0c51e39765983a4f9dedc082a16cfddf5 0295a00b66263feebb176cb2618980c2bd87af34 Crimson <necroticpublic@gmail.com> 1467175530 -0400	commit: Fixed ironman & HCIM XP rates
+0295a00b66263feebb176cb2618980c2bd87af34 259dcfc0635e242bc4dcba9481c25aa084d260c6 Crimson <necroticpublic@gmail.com> 1467175661 -0400	commit: gaergaerg
+259dcfc0635e242bc4dcba9481c25aa084d260c6 edadb1a1410c2d1498590c77ee953f27b303ba57 Crimson <necroticpublic@gmail.com> 1467177072 -0400	commit: ::veng fixed
+edadb1a1410c2d1498590c77ee953f27b303ba57 d71bc306656a17c26bfb9fabc28662775a373b1f Crimson <necroticpublic@gmail.com> 1467179151 -0400	commit: Def cape not going off in graveyard
+d71bc306656a17c26bfb9fabc28662775a373b1f 3e81169f34f370a01fd3e954aeca11d610ad3cf8 Crimson <necroticpublic@gmail.com> 1467181170 -0400	commit: Fixed glitch with nex set allowing you to eat to 1390. Now you can to eat to your max constiution + 400 (which is 1390 at 99, 1300 at 90, etc).
+3e81169f34f370a01fd3e954aeca11d610ad3cf8 742c13d5cc7f1cdf2a4f0ab16550ee3fc3a6a287 Crimson <necroticpublic@gmail.com> 1467183529 -0400	commit: hexcrest / focus sight are no longer "weapons"
+742c13d5cc7f1cdf2a4f0ab16550ee3fc3a6a287 044ac11af78dffebf9a4a59e278ab7e4748a1a84 Crimson <necroticpublic@gmail.com> 1467185897 -0400	commit: Fixed ghost town portal not teleporting players home
+044ac11af78dffebf9a4a59e278ab7e4748a1a84 29551697308a776d45501c2b7b6b67797b3f5830 Crimson <necroticpublic@gmail.com> 1467224214 -0400	commit: Unlimited fire in FM zone, banker in FM zone.
+29551697308a776d45501c2b7b6b67797b3f5830 bc32601b2ba9813a9a6c503a7fdb27cd550962d2 Crimson <necroticpublic@gmail.com> 1467226593 -0400	commit: ::toggleglobalmessages
+bc32601b2ba9813a9a6c503a7fdb27cd550962d2 93662d54f1232be20cd79884123fd62b0af0cea0 Crimson <necroticpublic@gmail.com> 1467229022 -0400	commit: Permenant no lootshare in Necrotic cc.
+93662d54f1232be20cd79884123fd62b0af0cea0 030357133d2820bf6a743fd8a2bc5f7abeb6e591 Crimson <necroticpublic@gmail.com> 1467257213 -0400	commit: Created auto backup crontab script
+030357133d2820bf6a743fd8a2bc5f7abeb6e591 45353b240c17d97d7ad092ea996b664ec8bdac00 Crimson <necroticpublic@gmail.com> 1467336182 -0400	commit: kilik you're floating
+45353b240c17d97d7ad092ea996b664ec8bdac00 baad9806cc6a16764949d0937c59ac08ebbe638f Crimson <necroticpublic@gmail.com> 1467337524 -0400	commit: "test"
+baad9806cc6a16764949d0937c59ac08ebbe638f 4912c70dc54613f6d72c25e668b998ad31f73ff1 Crimson <necroticpublic@gmail.com> 1467349020 -0400	commit: Zulrah multi
+4912c70dc54613f6d72c25e668b998ad31f73ff1 31e68f509bc7b43e09ad610dfb3da04dbcde17fd Crimson <necroticpublic@gmail.com> 1467363851 -0400	pull origin master: Fast-forward
+31e68f509bc7b43e09ad610dfb3da04dbcde17fd e02f9f65a1ed06a48e57a46fb4dc715016f6e826 Crimson <necroticpublic@gmail.com> 1467437269 -0400	pull origin master: Fast-forward
+e02f9f65a1ed06a48e57a46fb4dc715016f6e826 2fea546745dd5e28a8f6fa1882498c6677d538ff Crimson <necroticpublic@gmail.com> 1467520358 -0400	pull origin master: Fast-forward
+2fea546745dd5e28a8f6fa1882498c6677d538ff 291edb9029d33dd1dd012a8ea4fb763a86f95f91 Crimson <necroticpublic@gmail.com> 1467577675 -0400	commit: new zulrah class
+291edb9029d33dd1dd012a8ea4fb763a86f95f91 6f426b3b8bcd766dab02124bcb00b2e3f2003ec4 Crimson <necroticpublic@gmail.com> 1467659440 -0400	commit: disabled voting & zulrah progress
+6f426b3b8bcd766dab02124bcb00b2e3f2003ec4 ceaaa1156ed3d56ae75ffcfcade0eac93032d97e Crimson <necroticpublic@gmail.com> 1467670117 -0400	commit: voting rehash WIP
+ceaaa1156ed3d56ae75ffcfcade0eac93032d97e 3e22edf8abec818c5401c0c584c99e983e5acf77 Crimson <necroticpublic@gmail.com> 1467670130 -0400	pull origin master: Merge made by the 'recursive' strategy.
+3e22edf8abec818c5401c0c584c99e983e5acf77 532f1ac0fd890b6ffd098df0d4e5ed14778d0caa Crimson <necroticpublic@gmail.com> 1467673193 -0400	commit: ::fly, potion of flight
+532f1ac0fd890b6ffd098df0d4e5ed14778d0caa 4b65929466ec99cc2dde28803c3b22e397ffd472 Crimson <necroticpublic@gmail.com> 1467693245 -0400	commit: We now have a Java Doc.
+4b65929466ec99cc2dde28803c3b22e397ffd472 002062433b8ed1f8798b73c898b542e7c0e2cec7 Crimson <necroticpublic@gmail.com> 1467693379 -0400	commit: jk no javadoc, src tree won't push
+002062433b8ed1f8798b73c898b542e7c0e2cec7 e32636affb41adb2cf58181a32700574376db552 Crimson <necroticpublic@gmail.com> 1467700787 -0400	commit: GlobalItemSpawner for spawning outside barrows
+e32636affb41adb2cf58181a32700574376db552 1d254081914d1bf6fe1b724964c8ae7be67f7d0d Crimson <necroticpublic@gmail.com> 1467701714 -0400	commit: Barrows gear has a 45% chance of dropping, members get runes banked automatically
+1d254081914d1bf6fe1b724964c8ae7be67f7d0d 0cdeb25f82f1d2766c6e3934bc0d255f9372ca19 Crimson <necroticpublic@gmail.com> 1467702188 -0400	commit: dagg rings now drop chance 5, was chance 6.
+0cdeb25f82f1d2766c6e3934bc0d255f9372ca19 0895d2ef470db11282bc894c1ab9285c846044b4 Crimson <necroticpublic@gmail.com> 1467737550 -0400	commit: brackish nerf
+0895d2ef470db11282bc894c1ab9285c846044b4 6b654e61ded2ab7833d380d1c67942ba3802a962 Crimson <necroticpublic@gmail.com> 1467737922 -0400	commit: Brackish sells in store, is now worse than whip.
+6b654e61ded2ab7833d380d1c67942ba3802a962 0895d2ef470db11282bc894c1ab9285c846044b4 Crimson <necroticpublic@gmail.com> 1467739239 -0400	reset: moving to 0895d2ef470db11282bc894c1ab9285c846044b4
+0895d2ef470db11282bc894c1ab9285c846044b4 6b654e61ded2ab7833d380d1c67942ba3802a962 Crimson <necroticpublic@gmail.com> 1467739281 -0400	pull origin master: Fast-forward
+6b654e61ded2ab7833d380d1c67942ba3802a962 0cdeb25f82f1d2766c6e3934bc0d255f9372ca19 Crimson <necroticpublic@gmail.com> 1467739335 -0400	reset: moving to 0cdeb25f82f1d2766c6e3934bc0d255f9372ca19
+0cdeb25f82f1d2766c6e3934bc0d255f9372ca19 6b654e61ded2ab7833d380d1c67942ba3802a962 Crimson <necroticpublic@gmail.com> 1467739361 -0400	pull origin master: Fast-forward
+6b654e61ded2ab7833d380d1c67942ba3802a962 6ee0a12d54e04f08def2e7194da8eb3d69a140f6 Crimson <necroticpublic@gmail.com> 1467740328 -0400	commit: ghostwalk
+6ee0a12d54e04f08def2e7194da8eb3d69a140f6 dd064e685a2a1ab9b9efa2957b28f16d58f164fc Crimson <necroticpublic@gmail.com> 1467743430 -0400	commit: world_shops.json
+dd064e685a2a1ab9b9efa2957b28f16d58f164fc 368989be177ee253eb6627f385730317b36c5d90 Crimson <necroticpublic@gmail.com> 1467745271 -0400	commit: gaerg
+368989be177ee253eb6627f385730317b36c5d90 d86ab726169bc19fc0926b174be9a455dbd9a46c Crimson <necroticpublic@gmail.com> 1467745597 -0400	commit: ::ghostwalk
+d86ab726169bc19fc0926b174be9a455dbd9a46c 62e62432c6fc3a8bfc9caf4afcd3202d7fb574bc Crimson <necroticpublic@gmail.com> 1467748879 -0400	commit: Coffin of the dead, barrows 45%, 1/250 chance to get coffin from barrows chest, members get double runes from barrows
+62e62432c6fc3a8bfc9caf4afcd3202d7fb574bc ffdec7486359e2dd99d632dab362fc3bc0638aa1 Crimson <necroticpublic@gmail.com> 1467763494 -0400	commit: fire chicken drops flight pot
+ffdec7486359e2dd99d632dab362fc3bc0638aa1 0a07d9f45906b7f6af7d59f9e38ed458fb63ef1f Crimson <necroticpublic@gmail.com> 1467772016 -0400	commit: coffin of the damned, potion of flight, flameburst in shop
+0a07d9f45906b7f6af7d59f9e38ed458fb63ef1f 4ce8c803cfc4dadd1cf67cbba1b8496de97fec91 Crimson <necroticpublic@gmail.com> 1467773554 -0400	commit: game settings
+4ce8c803cfc4dadd1cf67cbba1b8496de97fec91 d1a0d72f7883756020d25f67e3ce3520959f67f5 Crimson <necroticpublic@gmail.com> 1467837536 -0400	commit: sgs spec uses new heal method
+d1a0d72f7883756020d25f67e3ce3520959f67f5 f523177a84b17a54012933fa0689ab046d33efbe Crimson <necroticpublic@gmail.com> 1467863385 -0400	commit: .contains removed for shitty old commands
+f523177a84b17a54012933fa0689ab046d33efbe 35182c5f888f104cd461796d2a83ea0dc8718c4b Crimson <necroticpublic@gmail.com> 1468003491 -0400	commit: "Treasure Hunter" title
+35182c5f888f104cd461796d2a83ea0dc8718c4b 8db9c66e1e29e18ee71389787eaa83f4ca9861f0 Crimson <necroticpublic@gmail.com> 1468030750 -0400	commit: looter title
+8db9c66e1e29e18ee71389787eaa83f4ca9861f0 d5ce7d2051a97355ed7f5eb20a1992cc94e9888e Crimson <necroticpublic@gmail.com> 1468124205 -0400	commit: Game will spawn global items when you login.
+d5ce7d2051a97355ed7f5eb20a1992cc94e9888e aa166e1c5b3b478f2248e8dc67ad585b8103bc6d Crimson <necroticpublic@gmail.com> 1468272430 -0400	commit: 2 new achievements:
+aa166e1c5b3b478f2248e8dc67ad585b8103bc6d 866cf3cd89d32a3702b1b29aeaa931a78252c3e3 Crimson <necroticpublic@gmail.com> 1468272863 -0400	commit: Crimson's Katana stats
+866cf3cd89d32a3702b1b29aeaa931a78252c3e3 4ac934f9d9f9c2238c5cd9a6e6c1bfcacebf1491 Crimson <necroticpublic@gmail.com> 1468273220 -0400	commit: Crimson drops Crim's Katana, Bandos ava drops flameburst
+4ac934f9d9f9c2238c5cd9a6e6c1bfcacebf1491 496a368936616109540b2dac1dcded89188f8e89 Crimson <necroticpublic@gmail.com> 1468273451 -0400	commit: Dark Beasts spawn in Chaos Tunnels
+496a368936616109540b2dac1dcded89188f8e89 39306a621ac59ee97ad271991c82430e0e0e6e59 Crimson <necroticpublic@gmail.com> 1468273748 -0400	commit: brackish nerf
+39306a621ac59ee97ad271991c82430e0e0e6e59 6eafc2e488df9f41dfcf0a5aca708e66526aa5a0 Crimson <necroticpublic@gmail.com> 1468273925 -0400	commit: brackish untradeable, sells in shops
+6eafc2e488df9f41dfcf0a5aca708e66526aa5a0 772ab2ae163bbc78cfc8e3dbf06a177c12852412 Crimson <necroticpublic@gmail.com> 1468274156 -0400	commit: more drop announcements
+772ab2ae163bbc78cfc8e3dbf06a177c12852412 34f3f75777509374a9019087bbf36dd2468c390c Crimson <necroticpublic@gmail.com> 1468274277 -0400	commit: Dragon items replacing Elite Black in shop
+34f3f75777509374a9019087bbf36dd2468c390c 6fa4e72c6045c16dd62ab3fe92766306c2d34d79 Crimson <necroticpublic@gmail.com> 1468275347 -0400	commit: KQ drops drag body not chain, body is announced, shop sells d chain
+6fa4e72c6045c16dd62ab3fe92766306c2d34d79 8685e8cef108574ae783392f25610611ef8078fb Crimson <necroticpublic@gmail.com> 1468276408 -0400	commit: Dragon pl8 price
+8685e8cef108574ae783392f25610611ef8078fb c9b46b601f3bff4ff9001348d73a5033c13976b5 Crimson <necroticpublic@gmail.com> 1468278049 -0400	commit: ::massacreitems
+c9b46b601f3bff4ff9001348d73a5033c13976b5 d7328b8e70cb2b4609d704a65d2eb076d284eaf2 Crimson <necroticpublic@gmail.com> 1468283849 -0400	commit: Zaryte bow uses it's own ammo
+d7328b8e70cb2b4609d704a65d2eb076d284eaf2 4f984657812263ae1257edb9f156f7de16e80a36 Crimson <necroticpublic@gmail.com> 1468288023 -0400	commit: version 7
+4f984657812263ae1257edb9f156f7de16e80a36 61a1be8381b53c8e3931d7f183482089760cb588 Crimson <necroticpublic@gmail.com> 1468356198 -0400	pull origin master: Fast-forward
+61a1be8381b53c8e3931d7f183482089760cb588 385043fd36bab536e88361f64f86c2978b02f7da Crimson <necroticpublic@gmail.com> 1468453384 -0400	commit: Void changes WIP
+385043fd36bab536e88361f64f86c2978b02f7da 73bb5e561ad2fe6fa15aebbb560d533ffdd9ab54 Crimson <necroticpublic@gmail.com> 1468455522 -0400	commit: Our void effects are now equal to Oldschool's. Use ::hasvoid for debugging, as well as "debug" cc
+73bb5e561ad2fe6fa15aebbb560d533ffdd9ab54 8e3c04cf125ba08c7769d9deaa08e3c4cdee771a Crimson <necroticpublic@gmail.com> 1468460267 -0400	commit: unlockPkTitles on login if you've earned them
+8e3c04cf125ba08c7769d9deaa08e3c4cdee771a e0ef47184e491b9cb40cd06f2216695dcfc1da65 Crimson <necroticpublic@gmail.com> 1468460603 -0400	commit: Removed Ice Arrows from drops
+e0ef47184e491b9cb40cd06f2216695dcfc1da65 f07d55786607b200a746c7b9f38728d37246da7f Crimson <necroticpublic@gmail.com> 1468550127 -0400	commit: VOTING IS FUCKING FIXED 
+f07d55786607b200a746c7b9f38728d37246da7f 39d3d6e340bf6c5112ff6881688afa29e67a3378 Crimson <necroticpublic@gmail.com> 1468550760 -0400	commit: gaergaerg
+39d3d6e340bf6c5112ff6881688afa29e67a3378 f43fb9b762156fff76a3bc61999fbd372cd0b43d Crimson <necroticpublic@gmail.com> 1468814263 -0400	commit: Wildy Zulrah progress
+f43fb9b762156fff76a3bc61999fbd372cd0b43d 49d3f9b7d074a348f4d2b91643ea0e70527c8b53 Crimson <necroticpublic@gmail.com> 1468820171 -0400	commit: NewZulrah progress
+49d3f9b7d074a348f4d2b91643ea0e70527c8b53 e7e2f0843119ef6ac9593daeae26ffdc167b12ff Crimson <necroticpublic@gmail.com> 1468822272 -0400	commit: Zulrah
+e7e2f0843119ef6ac9593daeae26ffdc167b12ff 148895709bbe0206a696fbdce6d8aa47e9890865 Crimson <necroticpublic@gmail.com> 1468883535 -0400	commit: zulrah WIP
+148895709bbe0206a696fbdce6d8aa47e9890865 e201f8df5e1a795b5e68b64f4db1c4137b275dce Crimson <necroticpublic@gmail.com> 1468914126 -0400	commit: push
+e201f8df5e1a795b5e68b64f4db1c4137b275dce e56f12244a20661724784c8df4c92c3fc56bfac6 Crimson <necroticpublic@gmail.com> 1470005480 -0400	commit: Bronze axe spawns outside brimhaven dung.
+e56f12244a20661724784c8df4c92c3fc56bfac6 2b346e8fab32c5e1720e0e6a99faac1afef96a81 Crimson <necroticpublic@gmail.com> 1470082836 -0400	commit: Changed starters to not get removed
+2b346e8fab32c5e1720e0e6a99faac1afef96a81 49e488b664fb6b0559362422c32d34eba362fb61 Crimson <necroticpublic@gmail.com> 1470084492 -0400	commit: Difficulty push 1
+49e488b664fb6b0559362422c32d34eba362fb61 7e5946873d84da63a9772ebc609d7a768ff2cefd Crimson <necroticpublic@gmail.com> 1470096751 -0400	commit: Potion of flight announces
+7e5946873d84da63a9772ebc609d7a768ff2cefd c6b78dede7f49164e2210486cddfed638ac11cea Crimson <necroticpublic@gmail.com> 1470280853 -0400	commit: CE + Smithing spawn fixed & whitelist,
+c6b78dede7f49164e2210486cddfed638ac11cea f0d1ec2936d9c12540dddb1e0e11d04464c6e76f Crimson <necroticpublic@gmail.com> 1470462050 -0400	commit: updated trio boss names
+f0d1ec2936d9c12540dddb1e0e11d04464c6e76f 2f51597af9f3ea15dd205088f8d9a86902d77ecd Crimson <necroticpublic@gmail.com> 1470463652 -0400	commit: ::wiki fix
+2f51597af9f3ea15dd205088f8d9a86902d77ecd 5e9e5cc903ba132393ee2e14d831672d3dcd9423 Crimson <necroticpublic@gmail.com> 1471062016 -0400	commit: Zaryte bow value fix
+5e9e5cc903ba132393ee2e14d831672d3dcd9423 30ac7c32605a3bbdc1602a864e99bae152d43db2 Crimson <necroticpublic@gmail.com> 1471066469 -0400	commit: Slayer Partner teleport
+30ac7c32605a3bbdc1602a864e99bae152d43db2 a4deab86ad2f4c991033900a489b737645c829d7 Crimson <necroticpublic@gmail.com> 1471066486 -0400	commit: Agility rebalance
+a4deab86ad2f4c991033900a489b737645c829d7 4d2fdd25c09c5433944d26e920e8217786284452 Crimson <necroticpublic@gmail.com> 1471066498 -0400	commit: Woodcutting rebalance
+4d2fdd25c09c5433944d26e920e8217786284452 ca430089b17bd802e2bf97054eef782d16aac4d3 Crimson <necroticpublic@gmail.com> 1471066508 -0400	commit: Hunter rebalance
+ca430089b17bd802e2bf97054eef782d16aac4d3 082029159c9ebc61333e3df9b16a771c4ea3860e Crimson <necroticpublic@gmail.com> 1471573203 -0400	commit: Yell message changed for ironmen
+082029159c9ebc61333e3df9b16a771c4ea3860e 08fc48205ebb20a342cc0f5f23743ee3245989c9 Crimson <necroticpublic@gmail.com> 1471573279 -0400	commit: Opening caskets will now format coins properly
+08fc48205ebb20a342cc0f5f23743ee3245989c9 4d595cc1268e7eaf48fc3671c4bee73bb8587497 Crimson <necroticpublic@gmail.com> 1471809104 -0400	commit: Hunter 60* OSRS
+4d595cc1268e7eaf48fc3671c4bee73bb8587497 3d5ff820748e971e179739f131cece8cd6b5628a Crimson <necroticpublic@gmail.com> 1471812103 -0400	commit: Can un-note impling jars, impling EXP increased
+3d5ff820748e971e179739f131cece8cd6b5628a 209923f8e564fc43ccbb0a135226847fd4edfaf6 Crimson <necroticpublic@gmail.com> 1471812150 -0400	commit: Wildy ropeswing now gives EXP,
+209923f8e564fc43ccbb0a135226847fd4edfaf6 2029795a4a3261cfd0e526908a9441fd6f70da6a Crimson <necroticpublic@gmail.com> 1471814047 -0400	commit: Checks for players logging in at wildy pipe
+2029795a4a3261cfd0e526908a9441fd6f70da6a f9a7770c1bf69eb800b663d4cc81f35b1577559a Crimson <necroticpublic@gmail.com> 1471814109 -0400	commit: Added tinderbox to wilfred's logs
+f9a7770c1bf69eb800b663d4cc81f35b1577559a 4378f3f9ca8ef6e53c429a6c7f464b620de72c51 Crimson <necroticpublic@gmail.com> 1471821659 -0400	commit: Revert previous skill buffs
+4378f3f9ca8ef6e53c429a6c7f464b620de72c51 c4d316e7c5a1aa707488c106e2f5141a94284457 Crimson <necroticpublic@gmail.com> 1471821670 -0400	commit: New skill rates
+c4d316e7c5a1aa707488c106e2f5141a94284457 5e7a56ca287a3f9ad2cb12bdc0a08857008d8dc5 Crimson <necroticpublic@gmail.com> 1471822294 -0400	commit: prayer done
+5e7a56ca287a3f9ad2cb12bdc0a08857008d8dc5 4b03998849cfe8a3b5984dfa59fd901d038b88d6 Crimson <necroticpublic@gmail.com> 1471825358 -0400	commit: ItemOnItem change
+4b03998849cfe8a3b5984dfa59fd901d038b88d6 713e38eac90ed94a803ceea0124328cf31734a36 Crimson <necroticpublic@gmail.com> 1471825372 -0400	commit: Skill updates
+713e38eac90ed94a803ceea0124328cf31734a36 c44cf2cec12a579de6fcefd98a478336f1bfc9eb Crimson <necroticpublic@gmail.com> 1471898749 -0400	commit: ItemOnItem update
+c44cf2cec12a579de6fcefd98a478336f1bfc9eb 7457932b5d803b3f09dfb5e3463c5099e1b3afc8 Crimson <necroticpublic@gmail.com> 1471898774 -0400	commit: Fletching
+7457932b5d803b3f09dfb5e3463c5099e1b3afc8 4f2e6ad2ef9d17d68549a98f42cf398265a98ece Crimson <necroticpublic@gmail.com> 1471899561 -0400	commit: Fishing
+4f2e6ad2ef9d17d68549a98f42cf398265a98ece e0df09f41dc7e5e2881c253b40e9e0e79a7bd861 Crimson <necroticpublic@gmail.com> 1471907652 -0400	commit: Smithing
+e0df09f41dc7e5e2881c253b40e9e0e79a7bd861 b45168390a4d3f82dedb0d7b6c244880bc7e192a Crimson <necroticpublic@gmail.com> 1471912608 -0400	commit: Smithing now based on amount of bars consumed rather than particular item being created
+b45168390a4d3f82dedb0d7b6c244880bc7e192a 8b2fd36f0a032c103fa508079c7e896d08c43672 Crimson <necroticpublic@gmail.com> 1471913547 -0400	commit: Mining
+8b2fd36f0a032c103fa508079c7e896d08c43672 e8f8cc679edb09d5fa988eb579c3929cff4c6140 Crimson <necroticpublic@gmail.com> 1471914280 -0400	commit: Herblore
+e8f8cc679edb09d5fa988eb579c3929cff4c6140 97a3c99d056ee93fa436518352271335c9e2f246 Crimson <necroticpublic@gmail.com> 1471915780 -0400	commit: Slayer
+97a3c99d056ee93fa436518352271335c9e2f246 f0bd6bdbe713c23674826e3d9014992290ab0239 Crimson <necroticpublic@gmail.com> 1471926156 -0400	commit: Skills, p2w items removed
+f0bd6bdbe713c23674826e3d9014992290ab0239 829122602878444cb38a1d1d02a9c2ac314ca025 Crimson <necroticpublic@gmail.com> 1471926271 -0400	commit: Removed gambler npc
+829122602878444cb38a1d1d02a9c2ac314ca025 96b340e14cbb0ce3617ac5cee9befabc8763b63d Crimson <necroticpublic@gmail.com> 1471926409 -0400	commit: V9
+96b340e14cbb0ce3617ac5cee9befabc8763b63d e3503bbe6c78115cb707aec302a3faea3e39dae2 Crimson <necroticpublic@gmail.com> 1471927777 -0400	commit: other .addexp changes
+e3503bbe6c78115cb707aec302a3faea3e39dae2 ab6b746f3896021c1b9e8cd9ed74303047e82fd2 Crimson <necroticpublic@gmail.com> 1471928517 -0400	commit: Lamp fixes
+ab6b746f3896021c1b9e8cd9ed74303047e82fd2 0ebe8b5931fa9fdfc7473b4c0e5383bd601e47dd Crimson <necroticpublic@gmail.com> 1472931896 -0400	commit: Doom class
+0ebe8b5931fa9fdfc7473b4c0e5383bd601e47dd 08f558ab7eeeb3251b7121b6269c07679c01b86e Crimson <necroticpublic@gmail.com> 1472931928 -0400	commit: fixes
+08f558ab7eeeb3251b7121b6269c07679c01b86e 8a22307935391d25f2311fa6274d09c0efe04273 Crimson <necroticpublic@gmail.com> 1473021504 -0400	commit: Cannonball fix
+8a22307935391d25f2311fa6274d09c0efe04273 f0d46331572b50090b3285862eda7052ada93eb3 Crimson <necroticpublic@gmail.com> 1473124587 -0400	commit: Armadyl Crossbow & Spec (2x accuracy)
+f0d46331572b50090b3285862eda7052ada93eb3 5533a2c04c80fb4b242b378ecbd83d9e1e3ff71e Crimson <necroticpublic@gmail.com> 1473125943 -0400	commit: Slayer point glitch updated, Armadyl Crossbow from Legendary M'box
+5533a2c04c80fb4b242b378ecbd83d9e1e3ff71e 887df9f783ebd655d942e18af9b0a57e025b063c Crimson <necroticpublic@gmail.com> 1473126079 -0400	commit: V10
+887df9f783ebd655d942e18af9b0a57e025b063c 772ce9fd608356f6b3ae3f931547005df13267cf Crimson <necroticpublic@gmail.com> 1473645354 -0400	commit: Mem scrolls logs
+772ce9fd608356f6b3ae3f931547005df13267cf 98ba8a7f9d71f47fd7db681523dea9e4f40b626a Crimson <necroticpublic@gmail.com> 1473655200 -0400	commit: Phat log
+98ba8a7f9d71f47fd7db681523dea9e4f40b626a 83f7babe72dd098cc5ed54b5bfed0828a52b1401 Crimson <necroticpublic@gmail.com> 1473886958 -0400	commit: Armadyl Crossbow from Armadyl Boss, Smelting EXP fixed.
+83f7babe72dd098cc5ed54b5bfed0828a52b1401 af109ce439d6bb5407c52e8ecb6416ec9b7eb6aa Crimson <necroticpublic@gmail.com> 1473887105 -0400	commit: v11
+af109ce439d6bb5407c52e8ecb6416ec9b7eb6aa 6747b0c2a67a535d8a06d2d944299443fe2b0f30 Crimson <necroticpublic@gmail.com> 1474862196 -0400	commit: Temp Mutes, Difficulties, Gamemode Changes, Skill changes, Mutes, Shops teleport, Teleport Tabs, Player information tab updated to show gamemode & difficulty, clanchat spacing fixed for ironmen, difficulty in tutorial, removed novite items from tutorial
+6747b0c2a67a535d8a06d2d944299443fe2b0f30 92cc1f36652cc598e01022e9de381a1ef8cc838c Crimson <necroticpublic@gmail.com> 1474862476 -0400	commit: new v
+92cc1f36652cc598e01022e9de381a1ef8cc838c 6da39dc98320476b2252d2e1469ab48cfd52c273 Crimson <necroticpublic@gmail.com> 1474863537 -0400	commit: ::checkgear
+6da39dc98320476b2252d2e1469ab48cfd52c273 7e059125aebadd6abd5553ff527487b2c3dd7337 Crimson <necroticpublic@gmail.com> 1475037721 -0400	commit: Cluescrolls!
+7e059125aebadd6abd5553ff527487b2c3dd7337 48903ae19f328f6ac7be00d7d5a613a783ab2c5e Crimson <necroticpublic@gmail.com> 1475119329 -0400	commit: gilded
+48903ae19f328f6ac7be00d7d5a613a783ab2c5e 3439f9fd193c17aa404f69e8f2c1021f6d51fbd1 Crimson <necroticpublic@gmail.com> 1475131007 -0400	commit: leather
+3439f9fd193c17aa404f69e8f2c1021f6d51fbd1 75866279eff2609e82f2d8ed76707936589901cc Crimson <necroticpublic@gmail.com> 1475184951 -0400	commit: Amulet of Glory (T),
+75866279eff2609e82f2d8ed76707936589901cc 9c4531a9d54cae8d8a929aae268315241187d206 Crimson <necroticpublic@gmail.com> 1475185066 -0400	commit: v13
+9c4531a9d54cae8d8a929aae268315241187d206 0e1a40844bb19a858b26112c1e822a8d7aea4dc2 Crimson <necroticpublic@gmail.com> 1475475962 -0400	commit: Clue fixes, 17 new clues!
+0e1a40844bb19a858b26112c1e822a8d7aea4dc2 de3baf40938c820bf4045aa88c80da2a58431a3a Crimson <necroticpublic@gmail.com> 1475477270 -0400	commit: phukt up some cluez
+de3baf40938c820bf4045aa88c80da2a58431a3a 0e89b89de2639077994f51350dc3c7d5b1f20952 Crimson <necroticpublic@gmail.com> 1475539803 -0400	commit: removed effigies/lamps
+0e89b89de2639077994f51350dc3c7d5b1f20952 adaea2b5a5ded3ffd86fd7dbe793499889d04c70 Crimson <necroticpublic@gmail.com> 1475542782 -0400	commit: more efficient portal handler
+adaea2b5a5ded3ffd86fd7dbe793499889d04c70 41d3104ce519c4aee147a21720b95646037c45a3 Crimson <necroticpublic@gmail.com> 1475543913 -0400	commit: Dark beasts mobed, clues updates accordingly
+41d3104ce519c4aee147a21720b95646037c45a3 a1a62d2f34b7c77a1f9d1bd60ca33ccfc6b4e0f6 Crimson <necroticpublic@gmail.com> 1475558121 -0400	commit: Goblins, chaos tunnels, slayer task changes,
+a1a62d2f34b7c77a1f9d1bd60ca33ccfc6b4e0f6 f73a0f8128f6454ddbc2c208043d1ae9354bc838 Crimson <necroticpublic@gmail.com> 1475586877 -0400	commit: nullPointer fix
+f73a0f8128f6454ddbc2c208043d1ae9354bc838 f5b733aade6be3d2bd1aa8b23c8824fa4382e545 Crimson <necroticpublic@gmail.com> 1475718620 -0400	commit: items changes? don't remember what this is
+f5b733aade6be3d2bd1aa8b23c8824fa4382e545 a27f87410041322e7a33480690159b5520c64f74 Crimson <necroticpublic@gmail.com> 1475718857 -0400	commit: Cannonballs tradeable, shop price changed.
+a27f87410041322e7a33480690159b5520c64f74 712fafaff3e65c77997188589a804024334d983e Crimson <necroticpublic@gmail.com> 1475718919 -0400	commit: v14
+712fafaff3e65c77997188589a804024334d983e 6b3faf66cccbfced02aaf0648621e6f2f5b39c42 Crimson <necroticpublic@gmail.com> 1475721142 -0400	commit: Cannonballs cost 5k, sell for 1k.
+6b3faf66cccbfced02aaf0648621e6f2f5b39c42 4bca2b9070f2b58fc6e5b636761de6af03399c5e Crimson <necroticpublic@gmail.com> 1476120335 -0400	commit: Graveyard minigame no longer gives cluescrolls.
+4bca2b9070f2b58fc6e5b636761de6af03399c5e 5f148c0e81004207cd7faa5b0be265dbb0c02089 Crimson <necroticpublic@gmail.com> 1476121037 -0400	commit: Old Zulrahs renamed
+5f148c0e81004207cd7faa5b0be265dbb0c02089 885eec1486855a289d1372bff5e3d491116737ac Crimson <necroticpublic@gmail.com> 1476157105 -0400	commit: Cannons can't be setup in wilderness
+885eec1486855a289d1372bff5e3d491116737ac 07aacf0e814b2e62f8ec09ccbf5ae90c9444f3c3 Crimson <necroticpublic@gmail.com> 1476157127 -0400	commit: a
+07aacf0e814b2e62f8ec09ccbf5ae90c9444f3c3 111c453b9dbef53bbf8722a8bacde7fbc1b7461c Crimson <necroticpublic@gmail.com> 1476160563 -0400	commit: announce 3rd age
+111c453b9dbef53bbf8722a8bacde7fbc1b7461c d42cb85a157183be13db5b0b6506965e8c0f26c6 Crimson <necroticpublic@gmail.com> 1476211728 -0400	commit: Nature talisman
+d42cb85a157183be13db5b0b6506965e8c0f26c6 c3e617d393d05ff33a76946f1cae80a9eb6d0b81 Crimson <necroticpublic@gmail.com> 1476306190 -0400	commit: cluescroll names changed, examine fixed
+c3e617d393d05ff33a76946f1cae80a9eb6d0b81 ddf53d908a7313dade040d2d8543d933cdd4869a Crimson <necroticpublic@gmail.com> 1476321517 -0400	commit: Fragment costs lowered, Huge pouch added, introduced minimum levels to buy pouches
+ddf53d908a7313dade040d2d8543d933cdd4869a 81ef4d430d3d948e29409c7cd33efa00661957a9 Crimson <necroticpublic@gmail.com> 1476322035 -0400	commit: Hunter -> impling EXP nerfs
+81ef4d430d3d948e29409c7cd33efa00661957a9 8a997480651902a4441a7634fbcd1eb1fe2b61f1 Crimson <necroticpublic@gmail.com> 1476332272 -0400	commit: Jullage fixed.
+8a997480651902a4441a7634fbcd1eb1fe2b61f1 d8ed2c96416aa4552bf03c1636d3d94bae207ac0 Crimson <necroticpublic@gmail.com> 1476333939 -0400	commit: Logging death items, logging duel arena better, logging item pickups
+d8ed2c96416aa4552bf03c1636d3d94bae207ac0 ab6521b4b58670fc1387e3850d47c648b78a8489 Crimson <necroticpublic@gmail.com> 1476505916 -0400	commit: new Items
+ab6521b4b58670fc1387e3850d47c648b78a8489 85c65ad2e3e751b5fcb187912c00890ebca7f6aa Crimson <necroticpublic@gmail.com> 1476505969 -0400	commit: v15
+85c65ad2e3e751b5fcb187912c00890ebca7f6aa 7017e2afad9f9e1534c65ba1e9e989bdf3670156 Crimson <necroticpublic@gmail.com> 1476556979 -0400	commit: Apache Commons lib
+7017e2afad9f9e1534c65ba1e9e989bdf3670156 5b60992fe83d23ed4592c70520814b64c2ed6cac Crimson <necroticpublic@gmail.com> 1476558506 -0400	commit: space checking
+5b60992fe83d23ed4592c70520814b64c2ed6cac 896b7e7e0d1c170d9b4dd245b19b793d00f91bde Crimson <necroticpublic@gmail.com> 1476795803 -0400	commit: h'ween
+896b7e7e0d1c170d9b4dd245b19b793d00f91bde a3a070fa0a0cde3916e01df50dab2ceb527f172c Crimson <necroticpublic@gmail.com> 1477018802 -0400	commit: H'ween event
+a3a070fa0a0cde3916e01df50dab2ceb527f172c aad286cc71c13c1be151e9b231567a50f13cc95e Crimson <necroticpublic@gmail.com> 1477343502 -0400	commit: HCIM can use any noted item on a bank to have it unnoted
+aad286cc71c13c1be151e9b231567a50f13cc95e 0652eeb9ec1b2e1a184532fb3231d3c31e277571 Crimson <necroticpublic@gmail.com> 1477349990 -0400	commit: Client interface functionality -> Summoning dropdown, Globe dropdown
+0652eeb9ec1b2e1a184532fb3231d3c31e277571 91a7e6d998c41c5685430e56a158cd4084b71111 Crimson <necroticpublic@gmail.com> 1477352966 -0400	commit: Town Teleports 1
+91a7e6d998c41c5685430e56a158cd4084b71111 e63deb89280fd4a9a48f1ac8c17676931d49e565 Crimson <necroticpublic@gmail.com> 1477354377 -0400	commit: Globe to Teleport to Cities
+e63deb89280fd4a9a48f1ac8c17676931d49e565 d3203f7a645b16c66e99cdb7d0653116669a3811 Crimson <necroticpublic@gmail.com> 1477355029 -0400	commit: fixed cannon
+d3203f7a645b16c66e99cdb7d0653116669a3811 0950322d0240af82ec1a3f2adc4f9b58b6de9eb9 Crimson <necroticpublic@gmail.com> 1477366924 -0400	commit: scythe
+0950322d0240af82ec1a3f2adc4f9b58b6de9eb9 0c6b86689b00f19e021f0be66aeefee4dca4c8ac Crimson <necroticpublic@gmail.com> 1477370104 -0400	commit: soul arrows stackable
+0c6b86689b00f19e021f0be66aeefee4dca4c8ac 9677bfee0c3b104e57bfb56f69703041199526b3 Crimson <necroticpublic@gmail.com> 1477762276 -0400	commit: Halloween
+9677bfee0c3b104e57bfb56f69703041199526b3 a241be77853071b3c14a706e0ab4dec939534379 Crimson <necroticpublic@gmail.com> 1477762442 -0400	commit: 25
+a241be77853071b3c14a706e0ab4dec939534379 11d15c792af547b2c8d67039bbe4ee4f4b0ecce8 Crimson <necroticpublic@gmail.com> 1477763438 -0400	commit: changed hween msg
+11d15c792af547b2c8d67039bbe4ee4f4b0ecce8 6429f5d8dee91e4b09236e791734d58311621462 Crimson <necroticpublic@gmail.com> 1477945652 -0400	commit: bye halloween, fixed clue bug
+6429f5d8dee91e4b09236e791734d58311621462 feb2ff1d5805380db5e8b1ad576a067a477c6f0d Crimson <necroticpublic@gmail.com> 1477950368 -0400	commit: Slayer based on whoever assigned the monster
+feb2ff1d5805380db5e8b1ad576a067a477c6f0d 5f5adb9157f8980caabc4c01b1b1ae85adba414f Crimson <necroticpublic@gmail.com> 1477958169 -0400	commit: Slayer tower changes, admin mode for higurswashee
+5f5adb9157f8980caabc4c01b1b1ae85adba414f d761a200434a0b56a1a01daef7f53dde403b6c2e Crimson <necroticpublic@gmail.com> 1477962368 -0400	commit: draynor event fix
+d761a200434a0b56a1a01daef7f53dde403b6c2e e97bed55a39faa99eaddefe72b732805fa2ee8c1 Crimson <necroticpublic@gmail.com> 1477965573 -0400	commit: runecrafting fix
+e97bed55a39faa99eaddefe72b732805fa2ee8c1 d26b830a5fb829fc009857e5d61955f863e401c1 Crimson <necroticpublic@gmail.com> 1477974142 -0400	commit: d hally scythe
+d26b830a5fb829fc009857e5d61955f863e401c1 d4d1182847110e65685f45acb5aa2f2e4d6dba4a Crimson <necroticpublic@gmail.com> 1478030845 -0400	commit: Exp (un)locking
+d4d1182847110e65685f45acb5aa2f2e4d6dba4a 7b732876865a4b5aa299e4a889d9526acf0d5054 Crimson <necroticpublic@gmail.com> 1478036849 -0400	commit: New type of clue: Use on NPC
+7b732876865a4b5aa299e4a889d9526acf0d5054 defb2cbc9d2366fedda02078fb1d2305b357cce4 Crimson <necroticpublic@gmail.com> 1478054655 -0400	commit: petReturn;
+defb2cbc9d2366fedda02078fb1d2305b357cce4 c098d03bdd1f5e0cd9b204905def89e2bc8945d2 Crimson <necroticpublic@gmail.com> 1478054752 -0400	commit: v19
+c098d03bdd1f5e0cd9b204905def89e2bc8945d2 3acea5151f6b3e3a157dc87584d5945d162a0a60 Crimson <necroticpublic@gmail.com> 1478054989 -0400	commit: devs can trade ironfucks
+3acea5151f6b3e3a157dc87584d5945d162a0a60 1e62f751737605facab932682fff1fe58cf48b68 Crimson <necroticpublic@gmail.com> 1478202491 -0400	commit: member scroll shits
+1e62f751737605facab932682fff1fe58cf48b68 570625a11eca679b3033b56ce91d35f61cc30030 Crimson <necroticpublic@gmail.com> 1478662006 -0500	commit: clue fix
+570625a11eca679b3033b56ce91d35f61cc30030 82e55115d01233063d136775e0eca7c715e5d854 Crimson <necroticpublic@gmail.com> 1479071215 -0500	commit: Agility ticket exchange rates fixed
+82e55115d01233063d136775e0eca7c715e5d854 cc9381ef8770d171c04e2a52c6e4d16a0c2b00ce Crimson <necroticpublic@gmail.com> 1479072260 -0500	commit: Limps in shop
+cc9381ef8770d171c04e2a52c6e4d16a0c2b00ce 91f1eefb20bbee743ea6adf807a60d7105808931 Crimson <necroticpublic@gmail.com> 1479073664 -0500	commit: Slayer Instructor gone, Slayer Master changed message no longer appears
+91f1eefb20bbee743ea6adf807a60d7105808931 a86719ec13c2242a0b42c07dbc3354c3fd0d2380 Crimson <necroticpublic@gmail.com> 1479076208 -0500	commit: Tutorial shortened
+a86719ec13c2242a0b42c07dbc3354c3fd0d2380 221c63c5051c8fcd980418687a9e40fdbd1e93f0 Crimson <necroticpublic@gmail.com> 1479077814 -0500	commit: Mining Guild door > Member's only
+221c63c5051c8fcd980418687a9e40fdbd1e93f0 4deb15f43b07e09c44137d03bcde1ee5c905c094 Crimson <necroticpublic@gmail.com> 1479104861 -0500	commit: mining area
+4deb15f43b07e09c44137d03bcde1ee5c905c094 2abbc806891a489864175e3697b0c860f038704a Crimson <necroticpublic@gmail.com> 1479158062 -0500	commit: tut isle smithing
+2abbc806891a489864175e3697b0c860f038704a e00392a29e3d22349fbbae736324516eb4161e1e Crimson <necroticpublic@gmail.com> 1479165608 -0500	commit: Remove doors and gates
+e00392a29e3d22349fbbae736324516eb4161e1e 86e51f94ec0be10f8d5a69111a04d72548d234e8 Crimson <necroticpublic@gmail.com> 1479167705 -0500	commit: Fishing guild
+86e51f94ec0be10f8d5a69111a04d72548d234e8 04879123145f905c29475f7bc0cc5e1004644d0c Crimson <necroticpublic@gmail.com> 1479173605 -0500	commit: beanstalk, cooking guild
+04879123145f905c29475f7bc0cc5e1004644d0c 3fec6874f47ec305b3291c00ec01e75b89bfa1da Crimson <necroticpublic@gmail.com> 1479175979 -0500	commit: beanstalk
+3fec6874f47ec305b3291c00ec01e75b89bfa1da e74a222ee834d8d247e6cb05eb3a30eb3bd07156 Crimson <necroticpublic@gmail.com> 1479355245 -0500	commit: obsidian necklace, furnace
+e74a222ee834d8d247e6cb05eb3a30eb3bd07156 d5d0bcd16032de97d1228039cf11845e2bb882e8 Crimson <necroticpublic@gmail.com> 1479501636 -0500	commit: Runecrafting cluescroll fixed
+d5d0bcd16032de97d1228039cf11845e2bb882e8 1ce83c63806dbacdcfed90b101dda4be0d11a01f Crimson <necroticpublic@gmail.com> 1479878367 -0500	commit: bandos avatar moved, fixed objectactionpacketlistener
+1ce83c63806dbacdcfed90b101dda4be0d11a01f 03baba89e08ad131cbe5a79568456d81eb1278e0 Crimson <necroticpublic@gmail.com> 1479878715 -0500	commit: Ingridients -> Ingredients
+03baba89e08ad131cbe5a79568456d81eb1278e0 546030cbdd0afc7dbb10de25557c67683ed46a8f Crimson <necroticpublic@gmail.com> 1479880046 -0500	commit: skilling descriptions
+546030cbdd0afc7dbb10de25557c67683ed46a8f 83cb2b008df306ad2d30c90a507e2f10995cdff5 Crimson <necroticpublic@gmail.com> 1479881022 -0500	commit: Fixed using items
+83cb2b008df306ad2d30c90a507e2f10995cdff5 93437ba7109769cf6074dcef42977c1eab7b0ba8 Crimson <necroticpublic@gmail.com> 1479927336 -0500	commit: fixed attacking
+93437ba7109769cf6074dcef42977c1eab7b0ba8 bdc0ee2f5fe951852bdfe5074cc7397a5665336c Crimson <necroticpublic@gmail.com> 1480201509 -0500	commit: Veng Other
+bdc0ee2f5fe951852bdfe5074cc7397a5665336c 310dcb0eafbbafbf5bd2abb89b4ff46513c5f65c Crimson <necroticpublic@gmail.com> 1480204270 -0500	commit: check for amount of items required
+310dcb0eafbbafbf5bd2abb89b4ff46513c5f65c 946b4ad02c2772b4857906220327b974ab4f7e2c Crimson <necroticpublic@gmail.com> 1480205431 -0500	commit: Magic EXP
+946b4ad02c2772b4857906220327b974ab4f7e2c 9051b7b6ec59567c44988d068977522dae5def02 Crimson <necroticpublic@gmail.com> 1480224349 -0500	commit: Lumbridge functionality
+9051b7b6ec59567c44988d068977522dae5def02 2d34a166f7823e30d8dca3a279167e8f3527da1f Crimson <necroticpublic@gmail.com> 1480393885 -0500	commit: Smithing fury
+2d34a166f7823e30d8dca3a279167e8f3527da1f 7d3578b039760f9f8c17809fb770a4c2fe75b8c2 Crimson <necroticpublic@gmail.com> 1480402699 -0500	commit: iron lost item logging
+7d3578b039760f9f8c17809fb770a4c2fe75b8c2 3a5f38ad7ef13284822c0e3c2adcfcc1125dd68b Crimson <necroticpublic@gmail.com> 1480658106 -0800	commit: Lumbridge "bug fixes" and dialogue
+3a5f38ad7ef13284822c0e3c2adcfcc1125dd68b 44e45c849f48bbf3b5520fd97a4b2fbd4f957290 Crimson <necroticpublic@gmail.com> 1481237481 -0500	commit: Black mask
+44e45c849f48bbf3b5520fd97a4b2fbd4f957290 8beb4ccfbcdc8375ad988cfab11efb8a27e7f320 Crimson <necroticpublic@gmail.com> 1481240741 -0500	commit: nullcheck items
+8beb4ccfbcdc8375ad988cfab11efb8a27e7f320 57a961efdb461207e3652082e2ed457caa950fd6 Crimson <necroticpublic@gmail.com> 1481245178 -0500	commit: xmas event
+57a961efdb461207e3652082e2ed457caa950fd6 aedc7dcd600dc158ca2f1e3648d60be0e21a4267 Crimson <necroticpublic@gmail.com> 1481501975 -0500	commit: santa sack
+aedc7dcd600dc158ca2f1e3648d60be0e21a4267 21377fa53ab77c05e45bf09cea722c76c3435484 Crimson <necroticpublic@gmail.com> 1482110213 -0500	commit: xmas 2016 progress
+21377fa53ab77c05e45bf09cea722c76c3435484 f9e0d98d7d406f091340f9e9285faa11ed25ad9c Crimson <necroticpublic@gmail.com> 1482563444 -0500	commit: christmas shit
+f9e0d98d7d406f091340f9e9285faa11ed25ad9c 7578996275ff47b264adea42fb128ddc614c05fc Crimson <necroticpublic@gmail.com> 1482977713 -0500	commit: Christmas Event, Firelighters
+7578996275ff47b264adea42fb128ddc614c05fc c8c3d8789d586c99f9882b2f8c2cd26f57383e5d Crimson <necroticpublic@gmail.com> 1483223007 -0500	commit: Fixed explorer jack in lumbridge message, firelighters automated & untradeable (and logs too),
+c8c3d8789d586c99f9882b2f8c2cd26f57383e5d eed0e6e04c74ae722cf19348b53e8138fdcdcbee Crimson <necroticpublic@gmail.com> 1483244348 -0500	commit: Discord messenger
+eed0e6e04c74ae722cf19348b53e8138fdcdcbee 902a2542d17ec026af0e6bf6d099b83e768dbd74 Crimson <necroticpublic@gmail.com> 1483271657 -0500	commit: discord
+902a2542d17ec026af0e6bf6d099b83e768dbd74 b500253177d55607b67d02be2c2dcce167babddc Crimson <necroticpublic@gmail.com> 1483574655 -0500	commit: moving canary
+b500253177d55607b67d02be2c2dcce167babddc cbe5ee359ecd0ed3b278f415cff20bb95415ab76 Crimson <necroticpublic@gmail.com> 1483574703 -0500	commit: hello canary
+cbe5ee359ecd0ed3b278f415cff20bb95415ab76 fa1b851f06f094897bf93d3ec6692ab9f4bad468 Crimson <necroticpublic@gmail.com> 1483574720 -0500	commit: json simple
+fa1b851f06f094897bf93d3ec6692ab9f4bad468 db9cf34d4a1a5044dccc1da0beb7345bf111cfa8 Crimson <necroticpublic@gmail.com> 1483574852 -0500	commit: Removed meme claws from Brandon's (saggi) drop table
+db9cf34d4a1a5044dccc1da0beb7345bf111cfa8 151e93165b6ac7e6ef5d1be1885688706e3ed999 Crimson <necroticpublic@gmail.com> 1483575256 -0500	commit: disable canary printlns
+151e93165b6ac7e6ef5d1be1885688706e3ed999 e003b9386790f63284c9ae9e7b85e0a8a0e447f6 Crimson <necroticpublic@gmail.com> 1483579313 -0500	commit: Party Pete New Year 2017 event
+e003b9386790f63284c9ae9e7b85e0a8a0e447f6 fa752a0b6e3ad72d6716a8a989797f6c1a6ebfd4 Crimson <necroticpublic@gmail.com> 1483582165 -0500	commit: xmas decor
+fa752a0b6e3ad72d6716a8a989797f6c1a6ebfd4 9e6f90caae45997ea6f9e4b958a3001d093ca392 Crimson <necroticpublic@gmail.com> 1483850986 -0500	commit: Drop tables & removed a fuckload of stupid imports
+9e6f90caae45997ea6f9e4b958a3001d093ca392 355027a41ea7eb89b62f1e55e9684f2d647e86df Crimson <necroticpublic@gmail.com> 1483851622 -0500	commit: more imports
+355027a41ea7eb89b62f1e55e9684f2d647e86df 90b1ef4987cd7afa5c99797dbd7536755b3befc8 Crimson <necroticpublic@gmail.com> 1483853805 -0500	commit: removed nothing interesting message from barrows
+90b1ef4987cd7afa5c99797dbd7536755b3befc8 8c4f95c018ffe2ce3ca400ba7e4dba95b61c2b8c Crimson <necroticpublic@gmail.com> 1483857168 -0500	commit: added book to tutorial
+8c4f95c018ffe2ce3ca400ba7e4dba95b61c2b8c 0aeaa6c7b97669133e4c8326f02ba4defda552b4 Crimson <necroticpublic@gmail.com> 1483863657 -0500	commit: Renamed tome, removed trident from sea slug's table
+0aeaa6c7b97669133e4c8326f02ba4defda552b4 08d98fab6defebb996312b29146f86ba6c31a1ef Crimson <necroticpublic@gmail.com> 1483918917 -0500	commit: Removed duplicate dragon defender.
+08d98fab6defebb996312b29146f86ba6c31a1ef 8841aff28aff88ea8d8d73a135749df5cf89ceef Crimson <necroticpublic@gmail.com> 1483931255 -0500	commit: removed ::bank, sorry mzxtt
+8841aff28aff88ea8d8d73a135749df5cf89ceef 0750e4584e519257c6d50ebbd36992a3a027668a Crimson <necroticpublic@gmail.com> 1483934428 -0500	commit: hsl, rgb shit
+0750e4584e519257c6d50ebbd36992a3a027668a 5096b41d52b079370a6b0e23104ba420a1abc158 Crimson <necroticpublic@gmail.com> 1483941299 -0500	commit: hp every 60 sec
+5096b41d52b079370a6b0e23104ba420a1abc158 b6e01f3bbdca780de3823324b1357146e129b376 Crimson <necroticpublic@gmail.com> 1483944181 -0500	commit: fixed cap
+b6e01f3bbdca780de3823324b1357146e129b376 ffa75f9acc5698d717c3c508bfc72554237884e4 Crimson <necroticpublic@gmail.com> 1483987455 -0500	commit: Puro Puro typo in clue
+ffa75f9acc5698d717c3c508bfc72554237884e4 f401d59898098cc5edb82c41d94a130be4bc243c Crimson <necroticpublic@gmail.com> 1483987526 -0500	commit: *UPDATE TUT* Players converted to extreme, saving original difficulty choice tho
+f401d59898098cc5edb82c41d94a130be4bc243c 3c437a4e0f357617197339e262a418b48f37577b Crimson <necroticpublic@gmail.com> 1484172436 -0500	commit: Changed skills pet calculations
+3c437a4e0f357617197339e262a418b48f37577b c5ed4d0a8418781cac90b74572c514c1c1dc5c27 Crimson <necroticpublic@gmail.com> 1484172466 -0500	commit: more
+c5ed4d0a8418781cac90b74572c514c1c1dc5c27 502c3b7724c7390dfeeaa6243da2cf69b76b69c2 Crimson <necroticpublic@gmail.com> 1484172486 -0500	commit: JSch shit
+502c3b7724c7390dfeeaa6243da2cf69b76b69c2 80fc24d4d6c69a9fc2376e25bfec22a5fbf7f508 Crimson <necroticpublic@gmail.com> 1484180428 -0500	commit: highscores
+80fc24d4d6c69a9fc2376e25bfec22a5fbf7f508 64bd1bc44d839cad3b684768bf623368aed0b9bb Crimson <necroticpublic@gmail.com> 1484180484 -0500	commit: purchased
+64bd1bc44d839cad3b684768bf623368aed0b9bb 6795736f2d1ed9a54b9f58b954e6ff5a263b2b3e Crimson <necroticpublic@gmail.com> 1484343594 -0500	commit: PID randomizer, clue scroll nerf
+6795736f2d1ed9a54b9f58b954e6ff5a263b2b3e f71e505acc259f016fba4598d310f0da028a41fb Crimson <necroticpublic@gmail.com> 1484354816 -0500	commit: friday 13th, cluescroll changes,
+f71e505acc259f016fba4598d310f0da028a41fb 6c420c7918ae183b13495407c80cc08c228b3081 Crimson <necroticpublic@gmail.com> 1485046817 -0500	commit: Removed a lot of items from the unsellable list that weren't on for a good reason; GWD items
+6c420c7918ae183b13495407c80cc08c228b3081 3337466bf399d08f83139fffeb4f16b94fee1d8f Crimson <necroticpublic@gmail.com> 1485048351 -0500	commit: vengeance fixes
+3337466bf399d08f83139fffeb4f16b94fee1d8f d6e107026fc7cea4b79af4e78f32d3df154f3bd6 Crimson <necroticpublic@gmail.com> 1485123461 -0500	commit: veng other duel checking
+d6e107026fc7cea4b79af4e78f32d3df154f3bd6 cf2284b38789d04a5064e40d16e888f3e9618deb Crimson <necroticpublic@gmail.com> 1485123483 -0500	commit: clue scroll - 3rd age table, ultra rare trable
+cf2284b38789d04a5064e40d16e888f3e9618deb 8fa0babe3c9ff5bb21d044d66eed0c8d6da980b8 Crimson <necroticpublic@gmail.com> 1485126843 -0500	commit: Modern skill
+8fa0babe3c9ff5bb21d044d66eed0c8d6da980b8 f1bfef1b4244be012782ed021ca2ee457cb1d5c4 Crimson <necroticpublic@gmail.com> 1485130052 -0500	commit: HCIM -> UIM
+f1bfef1b4244be012782ed021ca2ee457cb1d5c4 27175d29cd53ce6feaf8cc3fbf164ce19f04c682 Crimson <necroticpublic@gmail.com> 1485130339 -0500	commit: xmas stuff is gone from home
+27175d29cd53ce6feaf8cc3fbf164ce19f04c682 2969676b144d8b6684e55fab544dfa578ee24c80 Crimson <necroticpublic@gmail.com> 1485130467 -0500	commit: bye party pete
+2969676b144d8b6684e55fab544dfa578ee24c80 47af5a31bea338f6b89040a42b7215d1ed1c2e1a Crimson <necroticpublic@gmail.com> 1485135879 -0500	commit: New Dungeoneering Formula for EXP, tokens
+47af5a31bea338f6b89040a42b7215d1ed1c2e1a 5045c712a2f176a0762235aebe9344d548d41d4b Crimson <necroticpublic@gmail.com> 1485151432 -0500	commit: tru
+5045c712a2f176a0762235aebe9344d548d41d4b b584d67b7baf37e148399500e1ad6718e077f2c3 Crimson <necroticpublic@gmail.com> 1485396782 -0500	commit: difficulty removed from tut, removed toggle from wrong shields
+b584d67b7baf37e148399500e1ad6718e077f2c3 8a67576991e6563b14f9988543a7d26be4af957b Crimson <necroticpublic@gmail.com> 1485398031 -0500	commit: v29
+8a67576991e6563b14f9988543a7d26be4af957b b0ef9778dc02d4e2a229a300e064dcb567d59e00 Crimson <necroticpublic@gmail.com> 1485466618 -0500	commit: iron dude in dung
+b0ef9778dc02d4e2a229a300e064dcb567d59e00 1b2660390da91dbf1ecf1c26e7390a48a5d2e1b8 Crimson <necroticpublic@gmail.com> 1485467375 -0500	commit: namingConventions
+1b2660390da91dbf1ecf1c26e7390a48a5d2e1b8 ca78f1ac4a107da38fd1bb516630acdda76d9b69 Crimson <necroticpublic@gmail.com> 1485495835 -0500	commit: dungeoneeringstorage
+ca78f1ac4a107da38fd1bb516630acdda76d9b69 daf3a529e63a79d6c75a97923293cca113e2c04e Crimson <necroticpublic@gmail.com> 1486167540 -0500	commit: white knight anims
+daf3a529e63a79d6c75a97923293cca113e2c04e 458ae4663228e0cdac6d153c4d198a37a4152392 Crimson <necroticpublic@gmail.com> 1486181518 -0500	commit: Ultimate Iron dungeoneering
+458ae4663228e0cdac6d153c4d198a37a4152392 3feb9217c04cb1c5b75aea95954701b4113b4671 Crimson <necroticpublic@gmail.com> 1486184565 -0500	commit: Good luck screwing around with UIM npc
+3feb9217c04cb1c5b75aea95954701b4113b4671 7acf83fbceaf8426920b28400d4a171f14996e7f Crimson <necroticpublic@gmail.com> 1486184943 -0500	commit: v30
+7acf83fbceaf8426920b28400d4a171f14996e7f 6f42d1b5aa936ffaf1659d175d152c1e5aca125b Crimson <necroticpublic@gmail.com> 1486197296 -0500	commit: UIM Dung storage fixes
+6f42d1b5aa936ffaf1659d175d152c1e5aca125b 8afe68308522525bbd1433381deaf979ec0e4d14 Crimson <necroticpublic@gmail.com> 1486198092 -0500	commit: Use item on Banker to unnote/note as hcim
+8afe68308522525bbd1433381deaf979ec0e4d14 d4137422e960da0140f2ee0bf6e9bf8035f7c691 Crimson <necroticpublic@gmail.com> 1486201794 -0500	commit: Rune < Adze == Sacred < Dragon
+d4137422e960da0140f2ee0bf6e9bf8035f7c691 e7f1c9674afdde123e58d8621b2098ab09c6372f Crimson <necroticpublic@gmail.com> 1486202455 -0500	commit: checking for dungeoneering ring
+e7f1c9674afdde123e58d8621b2098ab09c6372f b1ec325c769f2be90def9e64a032e2ac16e4edd1 Crimson <necroticpublic@gmail.com> 1486203619 -0500	commit: jad +1 tick faster, hit splats sync with animations better
+b1ec325c769f2be90def9e64a032e2ac16e4edd1 d503b2adf3eda29934b35c890240621dccbca0bc Crimson <necroticpublic@gmail.com> 1486203785 -0500	commit: removed ez clue from rockcrab
+d503b2adf3eda29934b35c890240621dccbca0bc 3cb3d26192b7ec9e7df593d37703b66e2ef4b6f3 Crimson <necroticpublic@gmail.com> 1486205501 -0500	commit: Can cook rabbit, drink booze from port
+3cb3d26192b7ec9e7df593d37703b66e2ef4b6f3 4420b4faaf8d55a7de22ba991e91ec161836e05a Crimson <necroticpublic@gmail.com> 1486206255 -0500	commit: auto-switch slayer masters on get-task, added get-task for duradel, moved default rock crab teleport
+4420b4faaf8d55a7de22ba991e91ec161836e05a ab9604579643040504f663d77c3893eaf07ba19c Crimson <necroticpublic@gmail.com> 1486533259 -0500	commit: Crafting/enchanting 1.0
+ab9604579643040504f663d77c3893eaf07ba19c df0604b69f0dfe135bcf075fa2c6d641d0728f66 Crimson <necroticpublic@gmail.com> 1486605061 -0500	commit: Ring of Recoil
+df0604b69f0dfe135bcf075fa2c6d641d0728f66 c070143de862c15b6d8d35b8c30324ccd64e28f2 Crimson <necroticpublic@gmail.com> 1486605093 -0500	commit: typo
+c070143de862c15b6d8d35b8c30324ccd64e28f2 0d3e1f84e382395ced0547772c9b9dffcd7e6a61 Crimson <necroticpublic@gmail.com> 1486959851 -0500	commit: jewelry
+0d3e1f84e382395ced0547772c9b9dffcd7e6a61 2d864b886ef83cb9d7d61db2912447b6e7902950 Crimson <necroticpublic@gmail.com> 1486960878 -0500	commit: Ring of forging
+2d864b886ef83cb9d7d61db2912447b6e7902950 df0d2a78fe4edb93aa6bcaaba7d258fe37f3e4b2 Crimson <necroticpublic@gmail.com> 1486960893 -0500	commit: better anims jewels
+df0d2a78fe4edb93aa6bcaaba7d258fe37f3e4b2 5183ad4db7a0833d0ca5933a4ea5359c55efbcb5 Crimson <necroticpublic@gmail.com> 1486963399 -0500	commit: new dung formula, uim handler fix, moulds being sold in shops
+5183ad4db7a0833d0ca5933a4ea5359c55efbcb5 dad00235f4bc10707e278b676e99ca76637786af Crimson <necroticpublic@gmail.com> 1487548336 -0500	commit: Members can use taverly shortcut without 70 agil
+dad00235f4bc10707e278b676e99ca76637786af 0a7f69c9db404352aab4363e4644a9c9b17a3fd6 Crimson <necroticpublic@gmail.com> 1488845982 -0500	commit: zulrah 1
+0a7f69c9db404352aab4363e4644a9c9b17a3fd6 b4b050ad9f3cc28936bf0d85021a09439604fa6f Crimson <necroticpublic@gmail.com> 1488925024 -0500	commit: Zulrah beta
+b4b050ad9f3cc28936bf0d85021a09439604fa6f 5199afa766096e5b8c1b8cf98cf918602d571f88 Crimson <necroticpublic@gmail.com> 1488925231 -0500	commit: gameversion
+5199afa766096e5b8c1b8cf98cf918602d571f88 a0d77a9702559fbe76f541f4acc817df6817045d Crimson <necroticpublic@gmail.com> 1488929103 -0500	commit: zulrah respawn disabled
+a0d77a9702559fbe76f541f4acc817df6817045d cdab4b008a47910eaaa3d23dfaeb6c041cb74412 Crimson <necroticpublic@gmail.com> 1489226141 -0500	commit: Zulrah "santuary".
+cdab4b008a47910eaaa3d23dfaeb6c041cb74412 196afd6f5fa1ef5f0fb6277386e4795588bacd1a Crimson <necroticpublic@gmail.com> 1489786233 -0400	commit: ranged ammo spawns under player at zulrah, kraken
+196afd6f5fa1ef5f0fb6277386e4795588bacd1a 708af3d9e15b107f6eb4e080c4ada0d215801de9 Crimson <necroticpublic@gmail.com> 1490735580 -0400	commit: All commands should work on users with spaces now =]
+708af3d9e15b107f6eb4e080c4ada0d215801de9 b4f89761272b05f77ec9849cbc8465013502b571 Crimson <necroticpublic@gmail.com> 1491083903 -0400	commit: Removed un neccesary variables
+b4f89761272b05f77ec9849cbc8465013502b571 b218b9892881675ca550cd4a3e58bdbac53fae31 Crimson <necroticpublic@gmail.com> 1491104819 -0400	commit: checkForOwner method updated
+b218b9892881675ca550cd4a3e58bdbac53fae31 5635c029d4232c07dbc8350255cc185796ac5d37 Crimson <necroticpublic@gmail.com> 1491266496 -0400	pull origin master: Fast-forward
+5635c029d4232c07dbc8350255cc185796ac5d37 c65c081dd38d870a0979c236854a540fa834d618 Crimson <necroticpublic@gmail.com> 1491272768 -0400	commit: Blowpipe counts from 0 to MAX
+c65c081dd38d870a0979c236854a540fa834d618 d281f6b1abcfb54afb53314a974f380ad9302d01 Crimson <necroticpublic@gmail.com> 1491295760 -0400	commit: Maximum players online at once changed (from 1k) to 2.5k
+d281f6b1abcfb54afb53314a974f380ad9302d01 e4c00a837cd822ecb2e22a9a52a7b81e57b9b8a9 Crimson <necroticpublic@gmail.com> 1491343723 -0400	commit: wikia link
+e4c00a837cd822ecb2e22a9a52a7b81e57b9b8a9 7fe77bd3de39bf7e54929d0101f89e95f676ec13 Crimson <necroticpublic@gmail.com> 1491344565 -0400	commit: G-Pay is ready to go.
+7fe77bd3de39bf7e54929d0101f89e95f676ec13 934014f9920943375fde472392eb78e910196cc4 Crimson <necroticpublic@gmail.com> 1491344710 -0400	commit: check for less than 0 scales when uncharging b. pipe
+934014f9920943375fde472392eb78e910196cc4 07937c8f7541023d75230d3af8ff5adfb36e8d88 Crimson <necroticpublic@gmail.com> 1491365888 -0400	commit: zulrah scale examine
+07937c8f7541023d75230d3af8ff5adfb36e8d88 015a7d7a94eb1d6908ac575a20f12aae2bc36223 Crimson <necroticpublic@gmail.com> 1491368587 -0400	pull origin master: Fast-forward
+015a7d7a94eb1d6908ac575a20f12aae2bc36223 5c27ecd659ca150259e36f86d44862c448d613a6 Crimson <necroticpublic@gmail.com> 1491368688 -0400	commit: Zulrah will not activate RoL / Def cape effect.
+5c27ecd659ca150259e36f86d44862c448d613a6 3b002fe11ef22d88bd3af2f2716f63c762688e11 Crimson <necroticpublic@gmail.com> 1491370733 -0400	commit: increased zulrah drop rates of uniques,
+3b002fe11ef22d88bd3af2f2716f63c762688e11 75e1bb73c0fcc06b6d4a68b1aadd1441979e6a7c Crimson <necroticpublic@gmail.com> 1491370986 -0400	commit: smithing and mining exp buffed to be 85* RS rates (from 75*)
+75e1bb73c0fcc06b6d4a68b1aadd1441979e6a7c d03218874c2b27b4646ff221d04e3e2b6fa426ea Crimson <necroticpublic@gmail.com> 1491371819 -0400	pull origin master: Fast-forward
+d03218874c2b27b4646ff221d04e3e2b6fa426ea 0a0eacfbea1bdfbbb928505a79826e4486dc900a Crimson <necroticpublic@gmail.com> 1491371930 -0400	pull origin master: Fast-forward
+0a0eacfbea1bdfbbb928505a79826e4486dc900a 39e841b856b49916bc94d2d5700a766022defa8b Crimson <necroticpublic@gmail.com> 1491429453 -0400	commit: Armored zombie drop tables
+39e841b856b49916bc94d2d5700a766022defa8b 95bbea3fa766523e3b52796584f9af88ee9fe97a Crimson <necroticpublic@gmail.com> 1491434558 -0400	commit: Maxwell will sell u fucking capes, found some adamcode and fixed that shit
+95bbea3fa766523e3b52796584f9af88ee9fe97a b16a05d5408bdd6ca6a9c653fc3ec8d2a491931f Crimson <necroticpublic@gmail.com> 1491448364 -0400	commit: Zulrah slayer task,
+b16a05d5408bdd6ca6a9c653fc3ec8d2a491931f 6f61d7ba522fc15bea49e272b4df4a613bbad18e Crimson <necroticpublic@gmail.com> 1491454984 -0400	commit: Slayer exp buffs in mid-game, formula = constitution * 5 with some slight variance
+6f61d7ba522fc15bea49e272b4df4a613bbad18e cb53ca775bef2aaa0e3283855098842412cba3ab Crimson <necroticpublic@gmail.com> 1491455550 -0400	commit: Auto charm dropper -> fixed typo
+cb53ca775bef2aaa0e3283855098842412cba3ab e73a0daf2179214338d8bd5520d8125223c8b5e8 Crimson <necroticpublic@gmail.com> 1491512117 -0400	commit: zaryte on attack in wilderness
+e73a0daf2179214338d8bd5520d8125223c8b5e8 31d380a5a6a2a65fda1c4446f07216411705c77e Crimson <necroticpublic@gmail.com> 1491521729 -0400	pull origin master: Fast-forward
+31d380a5a6a2a65fda1c4446f07216411705c77e 4f3c0b3b088fe5300ab4ae69fdca005f3ce6f7cb Crimson <necroticpublic@gmail.com> 1491521761 -0400	commit: seers ring (i) drops now
+4f3c0b3b088fe5300ab4ae69fdca005f3ce6f7cb e09998e76e8aaec9803c64f1eb7982cd9fd7d85d Crimson <necroticpublic@gmail.com> 1491539152 -0400	commit: Logging,
+e09998e76e8aaec9803c64f1eb7982cd9fd7d85d 341dd9c44fdc5df49ac349a7a9f14b61dfb77933 Crimson <necroticpublic@gmail.com> 1491540709 -0400	commit: (PRETTY MUCH EVERYTHING THAT GOT DICKED IN THE MERGE)
+341dd9c44fdc5df49ac349a7a9f14b61dfb77933 7e2e30d3acba62042eb6cce0796ab446e145c636 Crimson <necroticpublic@gmail.com> 1491541029 -0400	commit: fuck u quartz get the fuck out of my git repo
+7e2e30d3acba62042eb6cce0796ab446e145c636 e2789fe90f28b70e8aecc552599063db2902a700 Crimson <necroticpublic@gmail.com> 1491543888 -0400	commit: double exp weekends, NEW YARK time zone
+e2789fe90f28b70e8aecc552599063db2902a700 2e2f15a802dd0104b9162263e743e74e5743ec97 Crimson <necroticpublic@gmail.com> 1491544702 -0400	commit: fixed logging looping
+2e2f15a802dd0104b9162263e743e74e5743ec97 53f24c2f5083adc989f3f988581ea8bff02eb58f Crimson <necroticpublic@gmail.com> 1491547625 -0400	commit: --this was the last patch 4/7/17--
+53f24c2f5083adc989f3f988581ea8bff02eb58f bcd035bb749e867e35d896a2783dacdb8c02e1f6 Crimson <necroticpublic@gmail.com> 1491551567 -0400	commit: fixed spacing issue in ::yell
+bcd035bb749e867e35d896a2783dacdb8c02e1f6 bb9022cb1dbbd1a288b25ee995beac5b30ec34a7 Crimson <necroticpublic@gmail.com> 1491688687 -0400	pull origin master: Fast-forward
+bb9022cb1dbbd1a288b25ee995beac5b30ec34a7 ca3ea0ce8a4ad3f86dbf3fc6870c87f8c0d31b81 Crimson <necroticpublic@gmail.com> 1491688765 -0400	commit: This *should* fix zulrah dropping double loot,
+ca3ea0ce8a4ad3f86dbf3fc6870c87f8c0d31b81 10786910cb2742ae2213712ba32c672b033473b7 Crimson <necroticpublic@gmail.com> 1491703541 -0400	pull origin master: Fast-forward
+10786910cb2742ae2213712ba32c672b033473b7 6265bbc7138fdbd074818c2f4b04964528851ace Crimson <necroticpublic@gmail.com> 1491705719 -0400	commit: VoteRewardHandler COMPLETELY REWRITTEN
+6265bbc7138fdbd074818c2f4b04964528851ace 4a9abb87102d679b4f326784c3bf1f55e1fabb02 Crimson <necroticpublic@gmail.com> 1491715462 -0400	commit: test bonus exp
+4a9abb87102d679b4f326784c3bf1f55e1fabb02 4a2343fa105d962ccfcc8d06ce9d6b72e03a7064 Crimson <necroticpublic@gmail.com> 1491773197 -0400	commit: better trading logs
+4a2343fa105d962ccfcc8d06ce9d6b72e03a7064 4418d0c15ae066955545147a82df9076b502b654 Crimson <necroticpublic@gmail.com> 1491773244 -0400	pull origin master: Merge made by the 'recursive' strategy.
+4418d0c15ae066955545147a82df9076b502b654 c9db36b8ffa08fff1730bba8136da25e851e8b4b Crimson <necroticpublic@gmail.com> 1491777000 -0400	commit: Removed dialogue when entering/logging into GWD.
+c9db36b8ffa08fff1730bba8136da25e851e8b4b f1ac04b5e8a6d921e9d6766c5280496154094bd4 Crimson <necroticpublic@gmail.com> 1491778712 -0400	pull origin master: Fast-forward
+f1ac04b5e8a6d921e9d6766c5280496154094bd4 875fb24ce90e41e4533badc221fae033bb1c6181 Crimson <necroticpublic@gmail.com> 1491779526 -0400	commit: removed extra air rune
+875fb24ce90e41e4533badc221fae033bb1c6181 9e25ca3d8dbb56bfdc12234da0d27cb5119d0a27 Crimson <necroticpublic@gmail.com> 1491782862 -0400	commit: Cya KFC
+9e25ca3d8dbb56bfdc12234da0d27cb5119d0a27 305398861ee0f15a2d354d7382d7917c2b0c9f51 Crimson <necroticpublic@gmail.com> 1491784259 -0400	commit: You can only buy until there's 1 item left in the shop -- otherwise shop will remove items with 0 stock.
+305398861ee0f15a2d354d7382d7917c2b0c9f51 8a151b0c25249409f256d0d94c44f830e2b9b24b Crimson <necroticpublic@gmail.com> 1491809443 -0400	pull origin master: Fast-forward
+8a151b0c25249409f256d0d94c44f830e2b9b24b d95aa00153e6688fc9df7ff3ef773574b9216896 Crimson <necroticpublic@gmail.com> 1491810502 -0400	pull origin master: Fast-forward
+d95aa00153e6688fc9df7ff3ef773574b9216896 66de01caee5699daa34434c341ce1e58fd1b4116 Crimson <necroticpublic@gmail.com> 1491810559 -0400	commit: proper check for doubleEXPweekend 4 discord messages
+66de01caee5699daa34434c341ce1e58fd1b4116 769428f6e6a015f31448eb1b7df5711bdc3f5ce0 Crimson <necroticpublic@gmail.com> 1491938582 -0400	commit: ItemOnGroundItem fixes
+769428f6e6a015f31448eb1b7df5711bdc3f5ce0 2e8903fa5a661d9087f078db149bf9a12b0a8c3b Crimson <necroticpublic@gmail.com> 1491940293 -0400	commit: Scorpia bug fixed
+2e8903fa5a661d9087f078db149bf9a12b0a8c3b 9c3ddee72090ba93c620f70e6e0282e0d93baacc Crimson <necroticpublic@gmail.com> 1491955871 -0400	pull origin master: Fast-forward
+9c3ddee72090ba93c620f70e6e0282e0d93baacc c2690939565ff5c4318f9621ccd9a3dce4880a77 Crimson <necroticpublic@gmail.com> 1491969979 -0400	pull origin master: Fast-forward
+c2690939565ff5c4318f9621ccd9a3dce4880a77 538e8370b30582eba9ff9e09720023645e26dfde Crimson <necroticpublic@gmail.com> 1491970425 -0400	commit: Configure prayer, dung skill capes
+538e8370b30582eba9ff9e09720023645e26dfde 74e50fb77cf35af65617f8b7213cbbe0d2774dfc Crimson <necroticpublic@gmail.com> 1491971159 -0400	commit: whip, fc @ 200 vp
+74e50fb77cf35af65617f8b7213cbbe0d2774dfc b474d003eaada2694f5e6db58dc418b2cbb81886 Crimson <necroticpublic@gmail.com> 1491972451 -0400	pull origin master: Fast-forward
+b474d003eaada2694f5e6db58dc418b2cbb81886 0b8d749f5eb4e52ecbee2e84f68b2e349782200c Crimson <necroticpublic@gmail.com> 1491972590 -0400	commit: version update
+0b8d749f5eb4e52ecbee2e84f68b2e349782200c a335f0e05b9b222a793046c5f7c612581e2f6b7b Crimson <necroticpublic@gmail.com> 1491987233 -0400	commit: ::curses
+a335f0e05b9b222a793046c5f7c612581e2f6b7b 3626e36f10d221fa628f5a242ef3897132c9f7bb Crimson <necroticpublic@gmail.com> 1492048439 -0400	commit: bunny's letter
+3626e36f10d221fa628f5a242ef3897132c9f7bb afcb0310ea5b5a82f4f8ffb404f948de6abddbb7 Crimson <necroticpublic@gmail.com> 1492060179 -0400	pull origin master: Fast-forward
+afcb0310ea5b5a82f4f8ffb404f948de6abddbb7 bbcc5e611d75ced882ba02c49a2bf476a3cccba8 Crimson <necroticpublic@gmail.com> 1492060215 -0400	commit: getMonth,
+bbcc5e611d75ced882ba02c49a2bf476a3cccba8 9b4321df6ed81b10691bb30198bb9ed6be5cb324 Crimson <necroticpublic@gmail.com> 1492119045 -0400	pull origin master: Fast-forward
+9b4321df6ed81b10691bb30198bb9ed6be5cb324 d966b361c56f90afe4500f6a703dd20bc34d1928 Crimson <necroticpublic@gmail.com> 1492138256 -0400	commit: easter2016data
+d966b361c56f90afe4500f6a703dd20bc34d1928 dff16f1426c7c022cf4c1d450d4e3a7138bd296a Crimson <necroticpublic@gmail.com> 1492138384 -0400	commit: easter2017 typo
+dff16f1426c7c022cf4c1d450d4e3a7138bd296a 1121b24116b57ca6641369f5cb5c0778b199a07f Crimson <necroticpublic@gmail.com> 1492140698 -0400	pull origin master: Fast-forward
+1121b24116b57ca6641369f5cb5c0778b199a07f bed9e8e1cdf569d979002bb42e6be8c7f8e23fba Crimson <necroticpublic@gmail.com> 1492146034 -0400	commit: EASTER EVENT LOGIC
+bed9e8e1cdf569d979002bb42e6be8c7f8e23fba 566b9b36e1b60ca181e5c6e16bf6ef5777df170a Crimson <necroticpublic@gmail.com> 1492146256 -0400	pull origin master: Fast-forward
+566b9b36e1b60ca181e5c6e16bf6ef5777df170a ea730527e5221def75f6cf8b30048e9cac82bbfb Crimson <necroticpublic@gmail.com> 1492148783 -0400	pull origin master: Fast-forward
+ea730527e5221def75f6cf8b30048e9cac82bbfb f37de683ceb689c0bbde288e9ad475d79c2d9bd9 Crimson <necroticpublic@gmail.com> 1492149073 -0400	commit: more easter horseshit
+f37de683ceb689c0bbde288e9ad475d79c2d9bd9 b35b972e6f73f3a4744bb84340544f152a3b8bde Crimson <necroticpublic@gmail.com> 1492150065 -0400	pull origin master: Fast-forward
+b35b972e6f73f3a4744bb84340544f152a3b8bde 6d8e51453fd79c361d2a4adc34ced63e0b938773 Crimson <necroticpublic@gmail.com> 1492152218 -0400	commit: NSA logging of votes / version update
+6d8e51453fd79c361d2a4adc34ced63e0b938773 c33689a113c7f04e9f5fcaa6c8f0612373ceedfa Crimson <necroticpublic@gmail.com> 1492210608 -0400	commit: altar at wilderness chaos temple restores prayer.
+c33689a113c7f04e9f5fcaa6c8f0612373ceedfa f53d3a9143d36821622846e2aa9f2d0433ba7d72 Crimson <necroticpublic@gmail.com> 1492210912 -0400	commit: vote scroll examine updated,
+f53d3a9143d36821622846e2aa9f2d0433ba7d72 28e373e67b5d3d7ec034deaf9e69e1c51c871d6e Crimson <necroticpublic@gmail.com> 1492211772 -0400	commit: Escape from wilderness agility spikes
+28e373e67b5d3d7ec034deaf9e69e1c51c871d6e f4407fc3838b4a11b44bb71b617e6836cc61a18c Crimson <necroticpublic@gmail.com> 1492220495 -0400	commit: RoT6 object spawning fixed
+f4407fc3838b4a11b44bb71b617e6836cc61a18c 2fde80c5c9cf5090bbc40edd2c33e0fe9d932466 Crimson <necroticpublic@gmail.com> 1492221127 -0400	pull origin master: Fast-forward
+2fde80c5c9cf5090bbc40edd2c33e0fe9d932466 e6df0eb950f763c6bf523cd8ce4f4e6eb302727e Crimson <necroticpublic@gmail.com> 1492222464 -0400	commit: Game version
+e6df0eb950f763c6bf523cd8ce4f4e6eb302727e 61a9f07e710149437c8ed064602a479fc682bc0e Crimson <necroticpublic@gmail.com> 1492303603 -0400	commit: Teleport Interface
+61a9f07e710149437c8ed064602a479fc682bc0e 3ef3c98b5acf8612c6c654b19f52e3ba4bce13bf Crimson <necroticpublic@gmail.com> 1492326063 -0400	commit: progress interface
+3ef3c98b5acf8612c6c654b19f52e3ba4bce13bf e7ac8870be9c6cfcf34d84d81addad2f82079e22 Crimson <necroticpublic@gmail.com> 1492386661 -0400	commit: TeleportInterface progress
+e7ac8870be9c6cfcf34d84d81addad2f82079e22 5ee648fdbd1c7cbaef7bcb18f34e5093e0b90b20 Crimson <necroticpublic@gmail.com> 1492391604 -0400	commit: TeleportInterface push
+5ee648fdbd1c7cbaef7bcb18f34e5093e0b90b20 4529125171dd083ad5644be2a47407154d53d189 Crimson <necroticpublic@gmail.com> 1492409112 -0400	commit: Teleport Interface almost all done.
+4529125171dd083ad5644be2a47407154d53d189 99fdc7c0235cb06bdcab00dfc5c35efbe7b20017 Crimson <necroticpublic@gmail.com> 1492479745 -0400	commit: teleport interface work
+99fdc7c0235cb06bdcab00dfc5c35efbe7b20017 6f829e6f20d5b4f1c32bcc1560462f4ea29f1d7d Crimson <necroticpublic@gmail.com> 1492483589 -0400	commit: Disable discording
+6f829e6f20d5b4f1c32bcc1560462f4ea29f1d7d aea4b4174bad96f9c12247e95b2d3dc467056d04 Crimson <necroticpublic@gmail.com> 1492483805 -0400	pull origin master: Fast-forward
+aea4b4174bad96f9c12247e95b2d3dc467056d04 96bd0712d2cb0c1e4d353513c9f49bac55f6126b Crimson <necroticpublic@gmail.com> 1492538584 -0400	pull origin master: Fast-forward
+96bd0712d2cb0c1e4d353513c9f49bac55f6126b 27e5474828c8683137cc8f6f612d4bc15b884fa5 Crimson <necroticpublic@gmail.com> 1492539701 -0400	commit: removed dont fuk wit it
+27e5474828c8683137cc8f6f612d4bc15b884fa5 fc4dc1a1824666db4807f44a738516a32a167cc6 Crimson <necroticpublic@gmail.com> 1492551210 -0400	commit: server sided text
+fc4dc1a1824666db4807f44a738516a32a167cc6 93c32f35b6736475027800279f9bbc991c79fa95 Crimson <necroticpublic@gmail.com> 1492559596 -0400	pull origin master: Fast-forward
+93c32f35b6736475027800279f9bbc991c79fa95 5c0d9742691ee29762ae6d04a252b04d35e14c4e Crimson <necroticpublic@gmail.com> 1492560863 -0400	commit: I don't have to take this shit
+5c0d9742691ee29762ae6d04a252b04d35e14c4e a245a3d70f2771256732e38c7117053b710035d2 Crimson <necroticpublic@gmail.com> 1492567713 -0400	commit: TP interface out of index fix
+a245a3d70f2771256732e38c7117053b710035d2 7471d8889f5159e1e5967a10a808d1116174cff4 Crimson <necroticpublic@gmail.com> 1492572800 -0400	commit: Runecrafting robes. Each piece makes you get hit significantly less from siphoning. Default 1/3 to get hit. Each item lowers chance to get hit by +1. IE: two items is 1/5. Three items is 1/6. Four items is 1/7.
+7471d8889f5159e1e5967a10a808d1116174cff4 8baedc23065149ee9780962ce4a20722bc609d5f Crimson <necroticpublic@gmail.com> 1492572998 -0400	commit: Paddle item added to cluescroll drop tables
+8baedc23065149ee9780962ce4a20722bc609d5f df573e45ae077d57154bdd0e38792e03ad20d38e Crimson <necroticpublic@gmail.com> 1492577802 -0400	commit: Member cape, Runecrafting syphoning buff, banker at runespan, no longer lose items on death at runespan, fixed runespan message, fixed teleport interface crash
+df573e45ae077d57154bdd0e38792e03ad20d38e 981ac036fb083f60f0d27f0f150fb7ef24cb04af Crimson <necroticpublic@gmail.com> 1492577819 -0400	commit: prt2 of last
+981ac036fb083f60f0d27f0f150fb7ef24cb04af 752d4dfebd1a345e566933846eeca7569f0834f5 Crimson <necroticpublic@gmail.com> 1492717332 -0400	commit: lengthFix should solve issues players are having with teleport interface.
+752d4dfebd1a345e566933846eeca7569f0834f5 e63a0c776da0f7622d10c683fd1247c513797d69 Crimson <necroticpublic@gmail.com> 1492717384 -0400	commit: version upd8
+e63a0c776da0f7622d10c683fd1247c513797d69 931892411e388bf0615bd3756221123eb4b3815c Crimson <necroticpublic@gmail.com> 1492810040 -0400	commit: fixed smithing not considering current level
+931892411e388bf0615bd3756221123eb4b3815c 47707403c3c4e33d95bc916f8061529b8db2d683 Crimson <necroticpublic@gmail.com> 1492815195 -0400	commit: crystalchest handler re-written
+47707403c3c4e33d95bc916f8061529b8db2d683 9c1e3d824155aef2c67a5e92df8ddd563a25e20c Crimson <necroticpublic@gmail.com> 1492820075 -0400	commit: stupid message removed
+9c1e3d824155aef2c67a5e92df8ddd563a25e20c 4e09c83e719880207abd7372ed0a72e185445b95 Crimson <necroticpublic@gmail.com> 1493052288 -0400	commit: fixed Teleport interface isseue
+4e09c83e719880207abd7372ed0a72e185445b95 b85eaccb10c6acdb19cffba57f9dd699b97b86f4 Crimson <necroticpublic@gmail.com> 1493055159 -0400	commit: Ruse MySQL is gone.
+b85eaccb10c6acdb19cffba57f9dd699b97b86f4 130a91f71bbcffb6cbe8a73701a9078cab44272b Crimson <necroticpublic@gmail.com> 1493057005 -0400	commit: store
+130a91f71bbcffb6cbe8a73701a9078cab44272b 824a3ff85b0e3b3d8d4cbb31149dbe2557896b49 Crimson <necroticpublic@gmail.com> 1493066817 -0400	pull origin master: Fast-forward
+824a3ff85b0e3b3d8d4cbb31149dbe2557896b49 1f35be7529169222ec8b4c096eea2b2f9f17f2ad Crimson <necroticpublic@gmail.com> 1493067913 -0400	commit: store updates
+1f35be7529169222ec8b4c096eea2b2f9f17f2ad b6bba6639ef64414aaebbb365df3ec42444b679f Crimson <necroticpublic@gmail.com> 1493069713 -0400	commit: breaks
+b6bba6639ef64414aaebbb365df3ec42444b679f 90e4b934bb3869b2378f189a269f25b1b0ebded1 Crimson <necroticpublic@gmail.com> 1493072137 -0400	commit: magic & fletching
+90e4b934bb3869b2378f189a269f25b1b0ebded1 6a5d73902d16cbdc5086be68fe22f868a4733cc2 Crimson <necroticpublic@gmail.com> 1493072182 -0400	pull origin master: Fast-forward
+6a5d73902d16cbdc5086be68fe22f868a4733cc2 920406a372e11c069dc76cb3a5d65dade9f962ea Crimson <necroticpublic@gmail.com> 1493073165 -0400	commit: fletching, herblore
+920406a372e11c069dc76cb3a5d65dade9f962ea c27a66d70ed9344e3ef4de4c7981af845bdf9958 Crimson <necroticpublic@gmail.com> 1493091123 -0400	pull origin master: Fast-forward
+c27a66d70ed9344e3ef4de4c7981af845bdf9958 2180c967953f155a0143e4dc0c5fe3a56c4ec14f Crimson <necroticpublic@gmail.com> 1493091149 -0400	commit: ::findnpc command
+2180c967953f155a0143e4dc0c5fe3a56c4ec14f 3cf766c9803ab2506224ad66222872433b8c6741 Crimson <necroticpublic@gmail.com> 1493234615 -0400	commit: IceQueen, empty y
+3cf766c9803ab2506224ad66222872433b8c6741 e83e82121a96e2d21b56f34e5d817c5fc54dfc26 Crimson <necroticpublic@gmail.com> 1493425825 -0400	pull origin master: Fast-forward
+e83e82121a96e2d21b56f34e5d817c5fc54dfc26 7f9e43654348961b77ca9f86480e794d9304a650 Crimson <necroticpublic@gmail.com> 1493425860 -0400	commit: Vesta Chainbody now has proper arm clipping
+7f9e43654348961b77ca9f86480e794d9304a650 084d6fa2ffa873414843260246bd93a74b68291e Crimson <necroticpublic@gmail.com> 1493430186 -0400	commit: gamesettings
+084d6fa2ffa873414843260246bd93a74b68291e 6c24dd4582bb40c5ff1eabab60942ad1e6caeca9 Crimson <necroticpublic@gmail.com> 1493823296 -0400	pull origin master: Fast-forward
+6c24dd4582bb40c5ff1eabab60942ad1e6caeca9 c0a47d060b5048a95058451a590799d1bd861181 Crimson <necroticpublic@gmail.com> 1493825655 -0400	commit: Fixed home bank strings when zulrah shrine heals you.
+c0a47d060b5048a95058451a590799d1bd861181 80803cfda2f8f61c1be4fad65fd58dcee07d5d0a Crimson <necroticpublic@gmail.com> 1493826438 -0400	commit: Blowpipe has 1/3 chance not to use a scale.
+80803cfda2f8f61c1be4fad65fd58dcee07d5d0a 203b6bf4c71f9a83df179c5100115ffbf348b0fe Crimson <necroticpublic@gmail.com> 1493831482 -0400	commit: Should fix TeleportInterface issues.
+203b6bf4c71f9a83df179c5100115ffbf348b0fe 091c12bd40d7959b1003c8966db88fa1679a4466 Crimson <necroticpublic@gmail.com> 1493847540 -0400	pull origin master: Fast-forward
+091c12bd40d7959b1003c8966db88fa1679a4466 5e3701e56f6163804662fdcdf0183c16d83d3dcc Crimson <necroticpublic@gmail.com> 1493850542 -0400	commit: bp anims, version
+5e3701e56f6163804662fdcdf0183c16d83d3dcc 0a2aacbe35fe1127c339bb76958395b335453936 Crimson <necroticpublic@gmail.com> 1493921866 -0400	commit: Discord on seperate thread
+0a2aacbe35fe1127c339bb76958395b335453936 e0d82e56a84399012caa1c29cb63780383a23d0d Crimson <necroticpublic@gmail.com> 1493922636 -0400	commit: Easter event fixes
+e0d82e56a84399012caa1c29cb63780383a23d0d 6c5384b205518d5d45b04ebde32347dee4054090 Crimson <necroticpublic@gmail.com> 1493923280 -0400	pull origin master: Fast-forward
+6c5384b205518d5d45b04ebde32347dee4054090 e10d43d6db38f4695bd86487fba5d10ff0fe1083 Crimson <necroticpublic@gmail.com> 1493923829 -0400	commit: clear list
+e10d43d6db38f4695bd86487fba5d10ff0fe1083 64bffce7c6ba51f8eec85d9e826ea85ed7a69855 Crimson <necroticpublic@gmail.com> 1493959409 -0400	pull origin master: Fast-forward
+64bffce7c6ba51f8eec85d9e826ea85ed7a69855 44d0cf8a590f7413fd48748a8bce8e66fd37811b Crimson <necroticpublic@gmail.com> 1494086304 -0400	commit: checkforowner fixed
+44d0cf8a590f7413fd48748a8bce8e66fd37811b ddb333388e5c8d74e89e9e3f58efc91c00cfb88b Crimson <necroticpublic@gmail.com> 1494087227 -0400	commit: Fishing exp increased
+ddb333388e5c8d74e89e9e3f58efc91c00cfb88b 147f322a15b219a42efa1c9e9319a1791adec4e1 Crimson <necroticpublic@gmail.com> 1494102510 -0400	commit: agility buff
+147f322a15b219a42efa1c9e9319a1791adec4e1 491f8238958c9adc3dd3be2cebf927f1c246e841 Crimson <necroticpublic@gmail.com> 1494259574 -0400	pull origin master: Fast-forward
+491f8238958c9adc3dd3be2cebf927f1c246e841 7c5a119b8885049f395e366d2661c576a1638678 Crimson <necroticpublic@gmail.com> 1494302685 -0400	commit: changed druid pos, added message for crim/brandon
+7c5a119b8885049f395e366d2661c576a1638678 f9b9107eb358c2cf44f386541a3e8c854819e3a3 Crimson <necroticpublic@gmail.com> 1494373742 -0400	commit: crim stuff
+f9b9107eb358c2cf44f386541a3e8c854819e3a3 9e11d890980a2f91ff00e596acf0773f4da3b3da Crimson <necroticpublic@gmail.com> 1494374461 -0400	pull origin master: Fast-forward
+9e11d890980a2f91ff00e596acf0773f4da3b3da d899de4f89f5a364e958b989e88c48201ea9e4d7 Crimson <necroticpublic@gmail.com> 1494374592 -0400	commit: Ecumenical key in vote shop, 1/(60+{10*owned}) drop rate from any npc in gwd.
+d899de4f89f5a364e958b989e88c48201ea9e4d7 c5569c467f62ffe7cd68f464b5df7918b55e5fb5 Crimson <necroticpublic@gmail.com> 1494376024 -0400	commit: slayer helm untradeable,
+c5569c467f62ffe7cd68f464b5df7918b55e5fb5 40348744d701102e88f2a2f80965edd1644ae4de Crimson <necroticpublic@gmail.com> 1494393749 -0400	commit: WildyWyrm
+40348744d701102e88f2a2f80965edd1644ae4de f18081ff46a10e4fd1e840749ff1e42654540c2c Crimson <necroticpublic@gmail.com> 1494394266 -0400	commit: lobster fishing exp buff
+f18081ff46a10e4fd1e840749ff1e42654540c2c e3f3f534782a348f591d0827a9510b699c88a22e Crimson <necroticpublic@gmail.com> 1494400102 -0400	commit: Dynamic clanchat colors
+e3f3f534782a348f591d0827a9510b699c88a22e a9f824e38b3d4f392e747f5c983b6cbe1b978db8 Crimson <necroticpublic@gmail.com> 1494526654 -0400	pull origin master: Fast-forward
+a9f824e38b3d4f392e747f5c983b6cbe1b978db8 e892138a6582e33afecd28d426eeb462c3d6946a Crimson <necroticpublic@gmail.com> 1494562036 -0400	commit: made yell member command
+e892138a6582e33afecd28d426eeb462c3d6946a 5de567a8e09dd6cce91f23fd436c66e65dddb8ba Crimson <necroticpublic@gmail.com> 1494570042 -0400	commit: achievement rewards
+5de567a8e09dd6cce91f23fd436c66e65dddb8ba 92cb4368f8eb4d191125b398042df951de51bb9e Crimson <necroticpublic@gmail.com> 1494570141 -0400	commit: disable discord
+92cb4368f8eb4d191125b398042df951de51bb9e 59b56c4ee08873163f17d7b206c23af8b15e09e0 Crimson <necroticpublic@gmail.com> 1494570253 -0400	commit: discord messaging fix
+59b56c4ee08873163f17d7b206c23af8b15e09e0 8e3855ac43dc487621c175dfab33cc5504ae8668 Crimson <necroticpublic@gmail.com> 1494571746 -0400	pull origin master: Fast-forward
+8e3855ac43dc487621c175dfab33cc5504ae8668 25ce3ec266a526e09d41b9117a7c259d0f8b03e3 Crimson <necroticpublic@gmail.com> 1494690782 -0400	commit: bandos boot price was too high haHAA
+25ce3ec266a526e09d41b9117a7c259d0f8b03e3 92ef5e6cc3f08246e77263d0e9a8a3aa2d6075c6 Crimson <necroticpublic@gmail.com> 1494780787 -0400	commit: UIM get achievements in inv.
+92ef5e6cc3f08246e77263d0e9a8a3aa2d6075c6 ce78c0e61ccfcd86ec4a87b94eef680b26240f9d Crimson <necroticpublic@gmail.com> 1494784935 -0400	commit: fixed ecumenical shit. don't do fucking returns anywhere in fucking npcdrops boys that shit will fuck shit up[
+ce78c0e61ccfcd86ec4a87b94eef680b26240f9d 4c47f9b12cf00e4b5355a2cbc46a0f04b450633b Crimson <necroticpublic@gmail.com> 1494790936 -0400	pull origin master: Fast-forward
+4c47f9b12cf00e4b5355a2cbc46a0f04b450633b 106edd950b221568239a534344a3db3e08503dd4 Crimson <necroticpublic@gmail.com> 1494794231 -0400	pull origin master: Fast-forward
+106edd950b221568239a534344a3db3e08503dd4 653da4883c81152b6238c9de525c212cf8454b3d Crimson <necroticpublic@gmail.com> 1494794359 -0400	commit: Crushing is fixed,
+653da4883c81152b6238c9de525c212cf8454b3d 025b046c8fa9012ffce955b061ebdba0d9653911 Crimson <necroticpublic@gmail.com> 1494794847 -0400	pull origin master: Fast-forward
+025b046c8fa9012ffce955b061ebdba0d9653911 8888063456c05e00c52f2452a297797c883dd6aa Crimson <necroticpublic@gmail.com> 1494799314 -0400	pull origin master: Fast-forward
+8888063456c05e00c52f2452a297797c883dd6aa 0ce87646d948d8d08ca8e8840ef4d8a9e061bc4f Crimson <necroticpublic@gmail.com> 1494799360 -0400	commit: Tux and custom yell title
+0ce87646d948d8d08ca8e8840ef4d8a9e061bc4f a7bfb998a00a318a733daad08501f181f164ef44 Crimson <necroticpublic@gmail.com> 1494809890 -0400	commit: custom yell titles
+a7bfb998a00a318a733daad08501f181f164ef44 df659336a451fbbb39985b6e064560de224b9a7a Crimson <necroticpublic@gmail.com> 1494811351 -0400	commit: DKs spawn faster, removed leech message
+df659336a451fbbb39985b6e064560de224b9a7a 79ac215978ea49b05a076b6aba59aa9d37fef49d Crimson <necroticpublic@gmail.com> 1494826694 -0400	commit: ::drops, and ::whatdrops, ::setyelltitle
+79ac215978ea49b05a076b6aba59aa9d37fef49d 67383c10061c2886760047108d730e87538d28f0 Crimson <necroticpublic@gmail.com> 1494827784 -0400	commit: version
+67383c10061c2886760047108d730e87538d28f0 22ff07f45aa1bf7b93f38e904046bf08a2070e6d Crimson <necroticpublic@gmail.com> 1494878571 -0400	commit: clanchatmanager - can no longer kick the clanchat owner from their own clan
+22ff07f45aa1bf7b93f38e904046bf08a2070e6d ffbaa6cde1925c065e342fdbf38f4f0a8d7d99c9 Crimson <necroticpublic@gmail.com> 1494882105 -0400	commit: removed null net
+ffbaa6cde1925c065e342fdbf38f4f0a8d7d99c9 a70b341484bd4525b1f12a2a9a00ccc409eeff7d Crimson <necroticpublic@gmail.com> 1494888860 -0400	commit: gourmet imps give proper jar
+a70b341484bd4525b1f12a2a9a00ccc409eeff7d ee05abad181c0bd62bb46921f634d69127cd4422 Crimson <necroticpublic@gmail.com> 1494963726 -0400	commit: tzhaar sells dagger, dagger is actually a weapon
+ee05abad181c0bd62bb46921f634d69127cd4422 927a51e9df18bbfad3cec1614ea7e6bea7c1355e Crimson <necroticpublic@gmail.com> 1495134580 -0400	commit: tp test
+927a51e9df18bbfad3cec1614ea7e6bea7c1355e 834f5343697d78828962aa8649c8b10ab43827dc Crimson <necroticpublic@gmail.com> 1495388175 -0400	commit: applyBonusExp -- checks for double exp weekend & bonus exp
+834f5343697d78828962aa8649c8b10ab43827dc d76ce9e8ebff40302fcaa536752ae5dd4debc5f3 Crimson <necroticpublic@gmail.com> 1495389262 -0400	commit: pressing "delete" no longer kicks all players in a clan lol
+d76ce9e8ebff40302fcaa536752ae5dd4debc5f3 9a23828cccb2b9934ae1a3a6e37803925333d518 Crimson <necroticpublic@gmail.com> 1495391400 -0400	commit: Woodcutting area fixes
+9a23828cccb2b9934ae1a3a6e37803925333d518 94438de8d9df8a99e92ca2658f885c6899ded2e9 Crimson <necroticpublic@gmail.com> 1495436812 -0400	commit: wc area fixes
+94438de8d9df8a99e92ca2658f885c6899ded2e9 6b0e69c2822f8c29e060e68e207dedb712091936 Crimson <necroticpublic@gmail.com> 1495581003 -0400	commit: Withdraw/store:
+6b0e69c2822f8c29e060e68e207dedb712091936 7209ab059db0acfa4d24f9b0255d0b3391abfa4e Crimson <necroticpublic@gmail.com> 1495651992 -0400	commit: While using nex gear your HP will regen to your new max health.
+7209ab059db0acfa4d24f9b0255d0b3391abfa4e 3f8de81382b0fc66f8793658725384f39d32b13d Crimson <necroticpublic@gmail.com> 1495673724 -0400	commit: Summoning regen player consitution
+3f8de81382b0fc66f8793658725384f39d32b13d e330de754ee1ae71eb08605e5128cdaada8b13b6 Crimson <necroticpublic@gmail.com> 1495686171 -0400	commit: Make All sets
+e330de754ee1ae71eb08605e5128cdaada8b13b6 464cb83e9c6c75d7252f6339c3998c2776d11b93 Crimson <necroticpublic@gmail.com> 1495688221 -0400	commit: UIM unnote message
+464cb83e9c6c75d7252f6339c3998c2776d11b93 57286250caad8ad9c14c1c1fd63796e9123748d9 Crimson <necroticpublic@gmail.com> 1495691689 -0400	commit: gs
+57286250caad8ad9c14c1c1fd63796e9123748d9 213c450da4c6aa373320b493f435a5353d1a4e9a Crimson <necroticpublic@gmail.com> 1496011940 -0400	commit: DropsInterface logic
+213c450da4c6aa373320b493f435a5353d1a4e9a 0410daa0833eac04a8987ec0f58751b6f209de39 Crimson <necroticpublic@gmail.com> 1496107412 -0400	pull origin master: Fast-forward
+0410daa0833eac04a8987ec0f58751b6f209de39 d9cfb9ac02cc9de2725ae3eba309e4599f35cdd0 Crimson <necroticpublic@gmail.com> 1496107465 -0400	commit: teleportinterface, dropsinterface work
+d9cfb9ac02cc9de2725ae3eba309e4599f35cdd0 e62868506d78876a8abf1347489f4b09a652ae77 Crimson <necroticpublic@gmail.com> 1496375539 -0400	commit: double vote points on weekends
+e62868506d78876a8abf1347489f4b09a652ae77 8b1cbc7aa23bc53456cf1eeefcd36eff89bd4d21 Crimson <necroticpublic@gmail.com> 1496380996 -0400	commit: TeleportInterface will send messages for destinations with a message.
+8b1cbc7aa23bc53456cf1eeefcd36eff89bd4d21 a749304413836f5cdc64c8853d0df207c0ac0bcd Crimson <necroticpublic@gmail.com> 1496382563 -0400	commit: WildyWyrm drops increased, more spawn points, demonic ruins
+a749304413836f5cdc64c8853d0df207c0ac0bcd 2f3f772e1d3e9578e593cd7886a3ea4b65b1ea22 Crimson <necroticpublic@gmail.com> 1496383372 -0400	commit: version
+2f3f772e1d3e9578e593cd7886a3ea4b65b1ea22 b2fbd368eaff458e5060d200143e77bbf6384885 Crimson <necroticpublic@gmail.com> 1496515944 -0400	pull origin master: Fast-forward
+b2fbd368eaff458e5060d200143e77bbf6384885 6651ede8954cc131d8e1df68536d55b39b78d804 Crimson <necroticpublic@gmail.com> 1496516554 -0400	commit: 3 ecu keys max
+6651ede8954cc131d8e1df68536d55b39b78d804 35b204caadec318f1f6c85ad2d586daf87459048 Crimson <necroticpublic@gmail.com> 1496517391 -0400	commit: .mailmap
+35b204caadec318f1f6c85ad2d586daf87459048 06982250de6f1374b4057eeec86f820582d937ca Crimson <necroticpublic@gmail.com> 1496523137 -0400	commit: Removed random packet listener set to [140]
+06982250de6f1374b4057eeec86f820582d937ca d2246e99e0fda8a4812846e346866a71fe431d68 Crimson <necroticpublic@gmail.com> 1496523712 -0400	commit: ghost town teleport bug fixed
+d2246e99e0fda8a4812846e346866a71fe431d68 203ccf63b11773e6a50661f98ca0710fae59f07f Crimson <necroticpublic@gmail.com> 1496525710 -0400	commit: Stopped bank opening w/ fake pin through cheat engine.
+203ccf63b11773e6a50661f98ca0710fae59f07f e3c91eee913153c5646279c22ee0b0343d4b1184 Crimson <necroticpublic@gmail.com> 1496609108 -0400	pull origin master: Fast-forward
+e3c91eee913153c5646279c22ee0b0343d4b1184 fec5484d5e451b34ff9ab52779d64c13dcc34209 Crimson <necroticpublic@gmail.com> 1496617086 -0400	commit: WildyWyrm in player panel
+fec5484d5e451b34ff9ab52779d64c13dcc34209 98c0b9a8ce4ba57805f759c42ce70c3d6a253e20 Crimson <necroticpublic@gmail.com> 1496806576 -0400	pull origin master: Fast-forward
+98c0b9a8ce4ba57805f759c42ce70c3d6a253e20 5a296aec03dfabd7fa86c38af514877a8a658b2b Crimson <necroticpublic@gmail.com> 1496807215 -0400	commit: gamesettings
+5a296aec03dfabd7fa86c38af514877a8a658b2b dc32ebc0cd588b6dcc12912f8313e6105446677e Crimson <necroticpublic@gmail.com> 1496866647 -0400	pull origin master: Fast-forward
+dc32ebc0cd588b6dcc12912f8313e6105446677e 8ed6eff76378fec02cd4a221a836117c07f65464 Crimson <necroticpublic@gmail.com> 1497122507 -0400	commit: ::checkwiki allows spaces
+8ed6eff76378fec02cd4a221a836117c07f65464 9b3563c8a96589b4c8fe1c423d00a0e5dd723300 Crimson <necroticpublic@gmail.com> 1497123203 -0400	pull origin master: Merge made by the 'recursive' strategy.
+9b3563c8a96589b4c8fe1c423d00a0e5dd723300 b56efeedd547c4f552ceb0834b6156d7f76ffdf0 Crimson <necroticpublic@gmail.com> 1497123244 -0400	commit: Tree, Star spawn on server restart
+b56efeedd547c4f552ceb0834b6156d7f76ffdf0 7086515382d8fdd0952b13a030a65aabf2ca2f78 Crimson <necroticpublic@gmail.com> 1497130142 -0400	commit: New Mahogany ID. needed for noted version of logs.
+7086515382d8fdd0952b13a030a65aabf2ca2f78 508f8dc30a7c464c0fe1d1df7509696961ebeeeb Crimson <necroticpublic@gmail.com> 1497130612 -0400	commit: Wildy wyrm location in player panel
+508f8dc30a7c464c0fe1d1df7509696961ebeeeb 3991536dcb6ce6baa21b11f6a93b4625022cd8ca Crimson <necroticpublic@gmail.com> 1497132866 -0400	commit: tree stuff
+3991536dcb6ce6baa21b11f6a93b4625022cd8ca bc3eb231859da264a9c9e6db36dbaf8725256daf Crimson <necroticpublic@gmail.com> 1497302812 -0400	pull origin master: Fast-forward
+bc3eb231859da264a9c9e6db36dbaf8725256daf 47b1932729b1c441691315c609b47ebd4ae31723 Crimson <necroticpublic@gmail.com> 1497310767 -0400	commit: eviltree ready
+47b1932729b1c441691315c609b47ebd4ae31723 7b31661d5dc05552a41b721674ada4bd8e2eb395 Crimson <necroticpublic@gmail.com> 1497313322 -0400	commit: Smith 4 cannonballs now
+7b31661d5dc05552a41b721674ada4bd8e2eb395 9a20a1b3655ea4519c38a3bf0662247596b205c5 Crimson <necroticpublic@gmail.com> 1497314066 -0400	commit: 60 def requirement for dragon kite
+9a20a1b3655ea4519c38a3bf0662247596b205c5 f34d8a183fbc3deace9a5b0b2d6bc8f30e678f47 Crimson <necroticpublic@gmail.com> 1497314560 -0400	commit: Serp removed from memeber shop 1 (it's still in member shop 2)
+f34d8a183fbc3deace9a5b0b2d6bc8f30e678f47 f8cef0527338ce682f54753c6b80eb6c688b1558 Crimson <necroticpublic@gmail.com> 1497315652 -0400	commit: onyx bolt spec can overheal with nex gear, seers ring drop rate same as warrior/zerker
+f8cef0527338ce682f54753c6b80eb6c688b1558 cf81b8698725a8ec1afb063a9f7943e57e37b7fa Crimson <necroticpublic@gmail.com> 1497326844 -0400	commit: return to OG vote rewards
+cf81b8698725a8ec1afb063a9f7943e57e37b7fa db6a22918c8e333e9be0e2129ebcce4fa114deac Crimson <necroticpublic@gmail.com> 1497331000 -0400	commit: version
+db6a22918c8e333e9be0e2129ebcce4fa114deac bb368300f837600e0bfb55b2850034131a53a3fc Crimson <necroticpublic@gmail.com> 1497463031 -0400	commit: Fixed fuckban
+bb368300f837600e0bfb55b2850034131a53a3fc 8713ed6479b621ecc980654428135d08ef4fdff1 Crimson <necroticpublic@gmail.com> 1497572931 -0400	commit: [RS] UUID, MAC & combat wilderness test
+8713ed6479b621ecc980654428135d08ef4fdff1 5de847ddafa2372da23035f6dda48cb801638198 Crimson <necroticpublic@gmail.com> 1497582683 -0400	commit: ::permban ::permaban
+5de847ddafa2372da23035f6dda48cb801638198 679f68f68a0b94efda36b4d1c70bb237f7d9be9f Crimson <necroticpublic@gmail.com> 1497585402 -0400	commit: Berserker Necklace effect works
+679f68f68a0b94efda36b4d1c70bb237f7d9be9f 3b8f8b325900c5aa69904d8ebdbc6be070c166c4 Crimson <necroticpublic@gmail.com> 1497587445 -0400	commit: Veneifica drops virtus mask
+3b8f8b325900c5aa69904d8ebdbc6be070c166c4 29ef9866c7272969fea902be83f1225d624fe2b5 Crimson <necroticpublic@gmail.com> 1497590191 -0400	commit: ::time
+29ef9866c7272969fea902be83f1225d624fe2b5 bb26dac9d92e09c912eadbd9466d844076937409 Crimson <necroticpublic@gmail.com> 1497590402 -0400	commit: version 52
+bb26dac9d92e09c912eadbd9466d844076937409 d18c3f84e1e8d9ee1dba06c16053926a1f0ce0d2 Crimson <necroticpublic@gmail.com> 1497644954 -0400	commit: d chain requires 60 def
+d18c3f84e1e8d9ee1dba06c16053926a1f0ce0d2 a3752cb5a643ab5c23a3188d99a98db5551c10e6 Crimson <necroticpublic@gmail.com> 1497644994 -0400	pull origin master: Merge made by the 'recursive' strategy.
+a3752cb5a643ab5c23a3188d99a98db5551c10e6 0fc1422d2c322581f68a9114e6639913847d4b98 Crimson <necroticpublic@gmail.com> 1497831972 -0400	pull origin master: Fast-forward
+0fc1422d2c322581f68a9114e6639913847d4b98 2bc256e1c54f7ff76eaac3c0b474bcd35f09c338 Crimson <necroticpublic@gmail.com> 1497844631 -0400	commit: drops interface - ::dropi
+2bc256e1c54f7ff76eaac3c0b474bcd35f09c338 aed32478e8e02993abfe04d79694330af587d2aa Crimson <necroticpublic@gmail.com> 1497936143 -0400	commit: DropsInterface Efficiency,
+aed32478e8e02993abfe04d79694330af587d2aa c50d62eb412f430e5233a42249c9c91b822297ba Crimson <necroticpublic@gmail.com> 1497936173 -0400	commit: Removed all drops with id -1
+c50d62eb412f430e5233a42249c9c91b822297ba 5b9b23e9ec26ab8e7ba37a86cd6de8cc9e3d7a24 Crimson <necroticpublic@gmail.com> 1497997600 -0400	pull origin master: Fast-forward
+5b9b23e9ec26ab8e7ba37a86cd6de8cc9e3d7a24 069d564e94a49212e525bc4583739ef22a487670 Crimson <necroticpublic@gmail.com> 1498017350 -0400	commit: Smith crossbows = 2 bars
+069d564e94a49212e525bc4583739ef22a487670 694c8292c7f6dd40bd2564d296b2373c8945d33a Crimson <necroticpublic@gmail.com> 1498017900 -0400	pull origin master: Fast-forward
+694c8292c7f6dd40bd2564d296b2373c8945d33a 5d3537e1dd17f528630d64800ea816bd60a20fd0 Crimson <necroticpublic@gmail.com> 1498018257 -0400	commit: Steel interface shit
+5d3537e1dd17f528630d64800ea816bd60a20fd0 24400846012afce2c3a8dd1d3037a3ed02857d29 Crimson <necroticpublic@gmail.com> 1498019401 -0400	commit: sendEmptyStrings
+24400846012afce2c3a8dd1d3037a3ed02857d29 df2d35773ed656c6139df051540b9cbc43768974 Crimson <necroticpublic@gmail.com> 1498020184 -0400	commit: Smithing all metal crossbows and pickaxes - done
+df2d35773ed656c6139df051540b9cbc43768974 086106c8f329dff09afbdc0d304a659d4338ff53 Crimson <necroticpublic@gmail.com> 1498020368 -0400	commit: smith highest level bar first
+086106c8f329dff09afbdc0d304a659d4338ff53 56fcdc6c73b355bfa7512f0011e6f2f9cd3bd925 Crimson <necroticpublic@gmail.com> 1498020885 -0400	pull origin master: Fast-forward
+56fcdc6c73b355bfa7512f0011e6f2f9cd3bd925 122a2c0cd24c6c7eeec08feccd4498f36763b0fc Crimson <necroticpublic@gmail.com> 1498021337 -0400	commit: Smithing order = Rune -> Bronze
+122a2c0cd24c6c7eeec08feccd4498f36763b0fc 8a94814bc881b0926661d39ad2d35643966209db Crimson <necroticpublic@gmail.com> 1498021659 -0400	pull origin master: Fast-forward
+8a94814bc881b0926661d39ad2d35643966209db 701ef03e394bb68f42c20771f0948c5df64d2d5a Crimson <necroticpublic@gmail.com> 1498023719 -0400	commit: Integer.tostring
+701ef03e394bb68f42c20771f0948c5df64d2d5a c20288ea798b8f177be36b92029494f7f15ce11c Crimson <necroticpublic@gmail.com> 1498094095 -0400	pull origin master: Fast-forward
+c20288ea798b8f177be36b92029494f7f15ce11c 1e816c1adef2cdfbf757ff3442d0c2a497e7ed75 Crimson <necroticpublic@gmail.com> 1498094117 -0400	commit: DFS has same stats as charged shield
+1e816c1adef2cdfbf757ff3442d0c2a497e7ed75 65dcb0ea06ab0b0b567e47a91bf4186fd319ac46 Crimson <necroticpublic@gmail.com> 1498095841 -0400	commit: Aquanite drop table
+65dcb0ea06ab0b0b567e47a91bf4186fd319ac46 fb918163169182db28674b48e7ab53b6e6b63a75 Crimson <necroticpublic@gmail.com> 1498101097 -0400	commit: Mith dragon drops, PlayerDeathTask sorting (need some client love for this)
+fb918163169182db28674b48e7ab53b6e6b63a75 60295a75aaa08a012f3616d2391ac927cfc148b2 Crimson <necroticpublic@gmail.com> 1498108542 -0400	commit: ::clicktele done EZ
+60295a75aaa08a012f3616d2391ac927cfc148b2 b3b09dc02f659d6de345c72665348901898185a7 Crimson <necroticpublic@gmail.com> 1498165105 -0400	commit: version 53
+b3b09dc02f659d6de345c72665348901898185a7 6189a363f58375f5e3b56f7835f2b0d1724deae6 Crimson <necroticpublic@gmail.com> 1498343568 -0400	pull origin master: Fast-forward
+6189a363f58375f5e3b56f7835f2b0d1724deae6 e2b5f9e586088292d75f22908f545fa86cd589e5 Crimson <necroticpublic@gmail.com> 1498350358 -0400	commit: rip debug messages cx
+e2b5f9e586088292d75f22908f545fa86cd589e5 dbe05826fba60db4b9d82da88ea4476254b429f1 Crimson <necroticpublic@gmail.com> 1498351308 -0400	commit: vote shop logs
+dbe05826fba60db4b9d82da88ea4476254b429f1 e0d06b9fe0e75673caef4f8464141d99f7ab8186 Crimson <necroticpublic@gmail.com> 1498610367 -0400	commit: ::anim
+e0d06b9fe0e75673caef4f8464141d99f7ab8186 53d2153649e454cc8b638bf713b39cb22cc18203 Crimson <necroticpublic@gmail.com> 1498610393 -0400	pull origin master: Merge made by the 'recursive' strategy.
+53d2153649e454cc8b638bf713b39cb22cc18203 48bd2fe546f73400e668c643247a6204efe5eec2 Crimson <necroticpublic@gmail.com> 1498615996 -0400	commit: vngt:49 on veng cast
+48bd2fe546f73400e668c643247a6204efe5eec2 44cdf8c55210c77f71ab9fa6555a843c98726427 Crimson <necroticpublic@gmail.com> 1498853287 -0400	pull origin master: Fast-forward
+44cdf8c55210c77f71ab9fa6555a843c98726427 654ce13e0c9da1bf306baf3cb10570b24efcdfe5 Crimson <necroticpublic@gmail.com> 1498857375 -0400	commit: Monkey skeleton
+654ce13e0c9da1bf306baf3cb10570b24efcdfe5 b1e5b159e027d30193723f4dfac30c4458680ee4 Crimson <necroticpublic@gmail.com> 1498862930 -0400	commit: Guard drop tables. DI says no drops found.
+b1e5b159e027d30193723f4dfac30c4458680ee4 a190f0c9ac2f7b76c4819345b6a78dfae053ce67 Crimson <necroticpublic@gmail.com> 1498896866 -0400	commit: extra check
+a190f0c9ac2f7b76c4819345b6a78dfae053ce67 1f2d8b847499f7c029c575d0b1f8701eb3838a63 Crimson <necroticpublic@gmail.com> 1499309890 -0400	pull origin master: Fast-forward
+1f2d8b847499f7c029c575d0b1f8701eb3838a63 269564c6bb4a7e9fe0d1d4ae2cd7fc1eac65eb8e Crimson <necroticpublic@gmail.com> 1499321343 -0400	commit: ::entrana removed, null checks for locations
+269564c6bb4a7e9fe0d1d4ae2cd7fc1eac65eb8e bd3f81cd45770e48e2d956301ed6b7013b3223d6 Crimson <necroticpublic@gmail.com> 1499379818 -0400	commit: Virtus drop rates for Venefica corrected.
+bd3f81cd45770e48e2d956301ed6b7013b3223d6 35c99aaeedda10d5d5987edf090ee88d469842d3 Crimson <necroticpublic@gmail.com> 1499382055 -0400	commit: DFS 2 minute cooldown
+35c99aaeedda10d5d5987edf090ee88d469842d3 0efc60aab5bc7afd4123ebec8896b4db51ae0128 Crimson <necroticpublic@gmail.com> 1499473103 -0400	commit: DFS can now hit up to 250 (25 hp).
+0efc60aab5bc7afd4123ebec8896b4db51ae0128 6718b21e1ff76b81951d0cedf3dee851471fc2d0 Crimson <necroticpublic@gmail.com> 1499476045 -0400	commit: Rock Cake spawns & bar & home
+6718b21e1ff76b81951d0cedf3dee851471fc2d0 99c834e2ade4a11ed632cf429cc75575d0be0e48 Crimson <necroticpublic@gmail.com> 1499477413 -0400	commit: Rock cakes, ice gloves untradeable
+99c834e2ade4a11ed632cf429cc75575d0be0e48 513a067f4d3d9a4263448bbbca70056d88bbeb1a Crimson <necroticpublic@gmail.com> 1499479950 -0400	commit: better CheckForOwner
+513a067f4d3d9a4263448bbbca70056d88bbeb1a e60405235ebcd62b6f48a7f93fcc43d2417e12fa Crimson <necroticpublic@gmail.com> 1499480666 -0400	pull origin master: Fast-forward
+e60405235ebcd62b6f48a7f93fcc43d2417e12fa a63aafd1d66fbac91c2f0252b07762c9f5fd5d38 Crimson <necroticpublic@gmail.com> 1499481195 -0400	commit: Ring (i) worth 900k
+a63aafd1d66fbac91c2f0252b07762c9f5fd5d38 1f66b53eae528607cb5ea4487a37ff593a11c4e5 Crimson <necroticpublic@gmail.com> 1499584523 -0400	pull origin master: Fast-forward
+1f66b53eae528607cb5ea4487a37ff593a11c4e5 5a867d551860560edf4a0bf46f140b3184b4e9c7 Crimson <necroticpublic@gmail.com> 1499584582 -0400	commit: Necrotic.json (clan commit)
+5a867d551860560edf4a0bf46f140b3184b4e9c7 e1d45cc72c4525e9c9a9c74e86a8d573329606e0 Crimson <necroticpublic@gmail.com> 1499585872 -0400	pull origin master: Fast-forward
+e1d45cc72c4525e9c9a9c74e86a8d573329606e0 d03edcf566a28e0dcbf49f33fb9be751b543532b Crimson <necroticpublic@gmail.com> 1499722395 -0400	commit: crimson's katana worth 10m steel tempest 16m
+d03edcf566a28e0dcbf49f33fb9be751b543532b 2144597a3f59ff512aa285f3276f33989f855ee1 Crimson <necroticpublic@gmail.com> 1499722446 -0400	pull origin master: Merge made by the 'recursive' strategy.
+2144597a3f59ff512aa285f3276f33989f855ee1 6e82e679626e13765caab172844682d92e9f24cd Crimson <necroticpublic@gmail.com> 1499722718 -0400	commit: fixed merge issue, items.txt repaired
+6e82e679626e13765caab172844682d92e9f24cd b837e29d5524fbde2fa454d8f31645c46e77f591 Crimson <necroticpublic@gmail.com> 1499736380 -0400	commit: bCrypt Password Hashing
+b837e29d5524fbde2fa454d8f31645c46e77f591 eee6677359bdab44cfb35067498d04af9caf6aa4 Crimson <necroticpublic@gmail.com> 1499752909 -0400	commit: Log users name when they buy from vote shop
+eee6677359bdab44cfb35067498d04af9caf6aa4 3ccde0b27cd7eca0fa47f2856d4bc1bcce262505 Crimson <necroticpublic@gmail.com> 1499793418 -0400	pull origin master: Fast-forward
+3ccde0b27cd7eca0fa47f2856d4bc1bcce262505 6e0597f66fd12a732664735953d29916ffb35cf1 Crimson <necroticpublic@gmail.com> 1499800804 -0400	commit: hashCharacterJson
+6e0597f66fd12a732664735953d29916ffb35cf1 39a1dd3063fdab6e9404cf70b1108893b1e6d048 Crimson <necroticpublic@gmail.com> 1499801121 -0400	commit: hashCharacterJson snip
+39a1dd3063fdab6e9404cf70b1108893b1e6d048 e7c2c823822268708abd2115effcdc82eeae3de9 Crimson <necroticpublic@gmail.com> 1499810381 -0400	commit: ItemOnGround amount stored as long
+e7c2c823822268708abd2115effcdc82eeae3de9 a983da752b8cb44b79dcb1a126bcccf73a38a9a4 Crimson <necroticpublic@gmail.com> 1499813395 -0400	pull origin master: Fast-forward
+a983da752b8cb44b79dcb1a126bcccf73a38a9a4 faba46d7911bdc1b48719a21465e1401d20b1497 Crimson <necroticpublic@gmail.com> 1499817901 -0400	commit: ZulrahLogic more despawn checks
+faba46d7911bdc1b48719a21465e1401d20b1497 a38f8ad944bf9afb7a0ef3e3db8d3a3febf95e2b Crimson <necroticpublic@gmail.com> 1499819082 -0400	commit: Black Dragon anims fixed
+a38f8ad944bf9afb7a0ef3e3db8d3a3febf95e2b f8b6f29469aabf307f476714ae1fefb420fb9dde Crimson <necroticpublic@gmail.com> 1499819718 -0400	commit: Void no longer requires body and legs.
+f8b6f29469aabf307f476714ae1fefb420fb9dde d45020e60a96b5879cde756a520c24cf216884a0 Crimson <necroticpublic@gmail.com> 1499821916 -0400	commit: Version 54
+d45020e60a96b5879cde756a520c24cf216884a0 ba6664e4fe026dc89a9c32b395c040c4a87fbe76 Crimson <necroticpublic@gmail.com> 1499987711 -0400	commit: Loading salt from hash, removed hash boolean
+ba6664e4fe026dc89a9c32b395c040c4a87fbe76 9299835df8f9ad576442b2795ea078e39467a755 Crimson <necroticpublic@gmail.com> 1500076669 -0400	pull origin master: Fast-forward
+9299835df8f9ad576442b2795ea078e39467a755 9249ba73a6cf79919f09a9341b6e9d715df20754 Crimson <necroticpublic@gmail.com> 1500080095 -0400	commit: If construction exp > 1, then we reset their construction. Avoid upsets on HS.
+9249ba73a6cf79919f09a9341b6e9d715df20754 c94fa0023f9269749fedb9af82b25931abea7898 Crimson <necroticpublic@gmail.com> 1500082510 -0400	commit: Max EXP increased to 2 fuckin billion 2b
+c94fa0023f9269749fedb9af82b25931abea7898 c0c88379ee2ffad013a77c4a1429ef7fb3b2b1f1 Crimson <necroticpublic@gmail.com> 1500082557 -0400	commit: removed ::save for players, hiscore sql connect on save, added ::dispose, game mode sent to sql server
+c0c88379ee2ffad013a77c4a1429ef7fb3b2b1f1 747ade567b1f935ae421a95d6016d8e19f5282f9 Crimson <necroticpublic@gmail.com> 1500084267 -0400	commit: spacing
+747ade567b1f935ae421a95d6016d8e19f5282f9 75700c52509e35875a503a02b2a7ea0001b82306 Crimson <necroticpublic@gmail.com> 1500167844 -0400	commit: Moved com/ruse/hiscores/* to com/ruse/mysql/*
+75700c52509e35875a503a02b2a7ea0001b82306 cb97f0bd3e7790a150c58496b6d4808f08967bac Crimson <necroticpublic@gmail.com> 1500167954 -0400	commit: return if owner highscores
+cb97f0bd3e7790a150c58496b6d4808f08967bac 65009602f028fdb4a23ded0847bd0072061aae25 Crimson <necroticpublic@gmail.com> 1500168131 -0400	commit: Cleaned up summoning constitution restore prints
+65009602f028fdb4a23ded0847bd0072061aae25 a6a83160dd7648492fb02d19ca301c6a0ab7b36b Crimson <necroticpublic@gmail.com> 1500168346 -0400	commit: Hiscores & Store don't
+a6a83160dd7648492fb02d19ca301c6a0ab7b36b f7716984fc672cb2bd449106688cb557e431c26e Crimson <necroticpublic@gmail.com> 1500168402 -0400	commit: no regen in areas summoning is disallowed
+f7716984fc672cb2bd449106688cb557e431c26e fb4e6f402c0b43c9dac0d16f7045ce63e9f08783 Crimson <necroticpublic@gmail.com> 1500168637 -0400	commit: summoningregenplayerconstitutiontask cleanup
+fb4e6f402c0b43c9dac0d16f7045ce63e9f08783 bc1881651906e6d1eb28cc7027ab2f99143c05c9 Crimson <necroticpublic@gmail.com> 1500168731 -0400	pull origin master: Fast-forward
+bc1881651906e6d1eb28cc7027ab2f99143c05c9 e64a81c299c705174db59b394e75f0fd3000609a Crimson <necroticpublic@gmail.com> 1500169007 -0400	commit: Connect to necrotic.org for all database connections
+e64a81c299c705174db59b394e75f0fd3000609a 330fa341ba1ba6e7bd1e02e51f277c1f0376c96a Crimson <necroticpublic@gmail.com> 1500330621 -0400	pull origin master: Fast-forward
+330fa341ba1ba6e7bd1e02e51f277c1f0376c96a 7d51694d589a283156da062b46dcb45ff4ada6bc Crimson <necroticpublic@gmail.com> 1500340894 -0400	pull origin master: Fast-forward
+7d51694d589a283156da062b46dcb45ff4ada6bc cb1e47f71b8105566dc531e94de088a3337f0425 Crimson <necroticpublic@gmail.com> 1500526553 -0400	pull origin master: Fast-forward
+cb1e47f71b8105566dc531e94de088a3337f0425 732aeb7eed455018d7689098e862891b00f448ec Crimson <necroticpublic@gmail.com> 1500768315 -0400	pull origin master: Fast-forward
+732aeb7eed455018d7689098e862891b00f448ec 9d48aef777a089e781c963e2022393714adea33d Crimson <necroticpublic@gmail.com> 1500773378 -0400	pull origin master: Fast-forward
+9d48aef777a089e781c963e2022393714adea33d 641cbcd5daebb42bedfbc6fd50d67f2270339f72 Crimson <necroticpublic@gmail.com> 1500773810 -0400	pull origin master: Fast-forward
+641cbcd5daebb42bedfbc6fd50d67f2270339f72 139110a9e0d14b495905120e50b856e5391fe5f1 Crimson <necroticpublic@gmail.com> 1500773831 -0400	commit: PotionCombinating in order
+139110a9e0d14b495905120e50b856e5391fe5f1 aa4bbedf22e7b0887e73ea4e3af74ed661f10200 Crimson <necroticpublic@gmail.com> 1500780277 -0400	commit: Removed potion.java -> was never used.
+aa4bbedf22e7b0887e73ea4e3af74ed661f10200 0be8195fe61af2c400f1b3d2a6f8b70e68e93a48 Crimson <necroticpublic@gmail.com> 1500780333 -0400	commit: Removed id value check on Decanting.java since Item doesn't return 0 or -1 as it did when originally testing
+0be8195fe61af2c400f1b3d2a6f8b70e68e93a48 c0279576f05a05ed7a8f68dfb801224bbfac644f Crimson <necroticpublic@gmail.com> 1500780591 -0400	commit: Removed (additional) id value checks on Decanting.java
+c0279576f05a05ed7a8f68dfb801224bbfac644f 29c1310c5b8a8a197392ea0cd299ee07223f1f3f Crimson <necroticpublic@gmail.com> 1500850092 -0400	pull origin master: Fast-forward
+29c1310c5b8a8a197392ea0cd299ee07223f1f3f dcd79b4e00213e1a6a458d1143bd6dd231b172ed Crimson <necroticpublic@gmail.com> 1500852148 -0400	pull origin master: Fast-forward
+dcd79b4e00213e1a6a458d1143bd6dd231b172ed b100e73ffc94df5478528c0f2b85937b28d304c4 Crimson <necroticpublic@gmail.com> 1500852568 -0400	commit: Do NOT connect to live databases if CheckForOwner is true
+b100e73ffc94df5478528c0f2b85937b28d304c4 efef3f6a17b48327fd263cd20fba845191d62cd7 Crimson <necroticpublic@gmail.com> 1500854758 -0400	commit: Removed PID shuffling, fixed PvP bug?
+efef3f6a17b48327fd263cd20fba845191d62cd7 a6d733b7732d30eae31cc512699f690a90e051ff Crimson <necroticpublic@gmail.com> 1500854915 -0400	commit: Starters.txt blank. We should ignore this file.
+a6d733b7732d30eae31cc512699f690a90e051ff e31035a0e827dec8e2f85c39fb832543bf053d59 Crimson <necroticpublic@gmail.com> 1500855007 -0400	commit: Ignore starters.txt
+e31035a0e827dec8e2f85c39fb832543bf053d59 08c4ec157e123b24b0369018d43cf7514d9b7e09 Crimson <necroticpublic@gmail.com> 1500856617 -0400	commit: handleDegradingItems seperated from handleArmorEffects
+08c4ec157e123b24b0369018d43cf7514d9b7e09 5c72ec2d7f9688c5d3a608533b4f99cb45e76be2 Crimson <necroticpublic@gmail.com> 1500856757 -0400	commit: renamed handleArmorEffects to degradeWhenHit in ItemDegrading.java / CombatFactory referrences
+5c72ec2d7f9688c5d3a608533b4f99cb45e76be2 ede5efadbb2bd822163716a64b273a83485aeab2 Crimson <necroticpublic@gmail.com> 1500858257 -0400	pull origin master: Fast-forward
+ede5efadbb2bd822163716a64b273a83485aeab2 5f8d31eeb6aa6d0141aaeea540d7e9dd8d83410e Crimson <necroticpublic@gmail.com> 1500864627 -0400	commit: Degrading of Armor/Weapons seperately.
+5f8d31eeb6aa6d0141aaeea540d7e9dd8d83410e b570c78bd0aca22840b87314b5b5ac38755191da Crimson <necroticpublic@gmail.com> 1500865288 -0400	commit: getWeapons and getNonWeapons declared as final since their values will never change.
+b570c78bd0aca22840b87314b5b5ac38755191da bb7eacff20bcf9e79b0c0604ba08bf46cd8b0334 Crimson <necroticpublic@gmail.com> 1500865906 -0400	commit: Better checking for items that shouldn't degrade, removed comments
+bb7eacff20bcf9e79b0c0604ba08bf46cd8b0334 5114ddca4dd06de66e4ddecf567af687a4f506c2 Crimson <necroticpublic@gmail.com> 1500868226 -0400	commit: Slayer gem -> right click to view remaining kills
+5114ddca4dd06de66e4ddecf567af687a4f506c2 7ec7da4f1306fbb291bf6662a4bd1402c046b860 Crimson <necroticpublic@gmail.com> 1500888111 -0400	commit: Weapon interfaces for corrupt ancient gear, also removed old degrading
+7ec7da4f1306fbb291bf6662a4bd1402c046b860 2be868f14185cd2e8e14024406668ab1af1a181a Crimson <necroticpublic@gmail.com> 1500935124 -0400	pull origin master: Fast-forward
+2be868f14185cd2e8e14024406668ab1af1a181a 61905c8f24d1eb9f551c22de6b66ae0e40ee807c Crimson <necroticpublic@gmail.com> 1500936214 -0400	commit: updateGearBonuses will assign weaponinterface, weaponanims, bonuses, reset SoL, and refresh appearance when items degrade
+61905c8f24d1eb9f551c22de6b66ae0e40ee807c 5b6642bdbe0753cd5d2e1e864d6083ac76bb4e82 Crimson <necroticpublic@gmail.com> 1500937641 -0400	commit: Decanting on herblore npc
+5b6642bdbe0753cd5d2e1e864d6083ac76bb4e82 ec13010125b1a708a74eacd6d76953ca8418b8d5 Crimson <necroticpublic@gmail.com> 1500943450 -0400	commit: Achievement rewards will go to proper tabs in bank.
+ec13010125b1a708a74eacd6d76953ca8418b8d5 502c176fae0069945cd002b9eda4de18180e0edf Crimson <necroticpublic@gmail.com> 1500946566 -0400	commit: Comments explaining how RoW works.
+502c176fae0069945cd002b9eda4de18180e0edf deb543636de9a31c9d12c33c4ddb134012446c44 Crimson <necroticpublic@gmail.com> 1501020322 -0400	pull origin master: Fast-forward
+deb543636de9a31c9d12c33c4ddb134012446c44 5baab2f59c8d6c57bf831ccf52a6a0ca99e7d833 Crimson <necroticpublic@gmail.com> 1501021217 -0400	commit: Armadyl talisman
+5baab2f59c8d6c57bf831ccf52a6a0ca99e7d833 aa195aeef87129122e12b79119108b91a271bf82 Crimson <necroticpublic@gmail.com> 1501025631 -0400	commit: ReducedSellPrice enum
+aa195aeef87129122e12b79119108b91a271bf82 9e39298525b3ff3294bd878db98b156ece007b8f Crimson <necroticpublic@gmail.com> 1501028495 -0400	commit: Hiscores update on logout only
+9e39298525b3ff3294bd878db98b156ece007b8f cfd435d62a41b56ae45ff7ea478f65b73d213d8b Crimson <necroticpublic@gmail.com> 1501030522 -0400	commit: changed other trio drops and version = 55
+cfd435d62a41b56ae45ff7ea478f65b73d213d8b c29942ad1ede2461a1ab298485046d69907be4fb Crimson <necroticpublic@gmail.com> 1501039861 -0400	commit: changed value of spirit shields in relation to ancient nex gear
+c29942ad1ede2461a1ab298485046d69907be4fb a1f99a999610127f04e614db7e84fd4fe6ea632f Crimson <necroticpublic@gmail.com> 1501040372 -0400	commit: noted versions of stuff
+a1f99a999610127f04e614db7e84fd4fe6ea632f 80d5d9ec15fb5410a0b1ea91432be271810cee93 Crimson <necroticpublic@gmail.com> 1501100994 -0400	commit: isNotMember() depreciated
+80d5d9ec15fb5410a0b1ea91432be271810cee93 9e6c420fd4df4f06b9ad6283e923b91978cc4dd1 Crimson <necroticpublic@gmail.com> 1501126070 -0400	pull origin master: Fast-forward
+9e6c420fd4df4f06b9ad6283e923b91978cc4dd1 185425c18d9a648c454f1d4d49f3ebbcf33e9940 Crimson <necroticpublic@gmail.com> 1501126184 -0400	pull origin master: Fast-forward
+185425c18d9a648c454f1d4d49f3ebbcf33e9940 6f615ef9205cfcf7e211b9fdb5048a3002e2d4ca Crimson <necroticpublic@gmail.com> 1501143332 -0400	commit: YT color changed to real YT color
+6f615ef9205cfcf7e211b9fdb5048a3002e2d4ca 9a0e6629fc311216f45667bc900d64bd49e8e8d1 Crimson <necroticpublic@gmail.com> 1501385044 -0400	pull origin master: Fast-forward
+9a0e6629fc311216f45667bc900d64bd49e8e8d1 9a50d39118cd1ed65d3b8879818dbe733e67ffd9 Crimson <necroticpublic@gmail.com> 1501714071 -0400	commit: Removed the crawling hand item
+9a50d39118cd1ed65d3b8879818dbe733e67ffd9 998ca0c046600f4a484c2916004d77caa70ed60c Crimson <necroticpublic@gmail.com> 1501891633 -0400	commit: fixed playerrights
+998ca0c046600f4a484c2916004d77caa70ed60c a8efb643ed234be1f614b0b1082cb7ad4f2d07eb Crimson <necroticpublic@gmail.com> 1502491970 -0400	commit: Fixed barrows digging message
+a8efb643ed234be1f614b0b1082cb7ad4f2d07eb d323f12aa8c6e5e806026686f054142801054cb3 Crimson <necroticpublic@gmail.com> 1502577236 -0400	commit: Edibles;
+d323f12aa8c6e5e806026686f054142801054cb3 e4232f51a87ac7edbe4f605a58259e636959d836 Crimson <necroticpublic@gmail.com> 1502591081 -0400	commit: 5 second stun/always do picking anim
+e4232f51a87ac7edbe4f605a58259e636959d836 2cebbb5e16e6f9bf2466e7f4287fc5ae0be48030 Crimson <necroticpublic@gmail.com> 1503474218 -0400	commit: watermelon seeds added to master farmer
+2cebbb5e16e6f9bf2466e7f4287fc5ae0be48030 50d58a120ac890e1d998d2d62d668f2074600ca7 Crimson <necroticpublic@gmail.com> 1503485919 -0400	commit: [TEST] PVP BUG TRACKING
+50d58a120ac890e1d998d2d62d668f2074600ca7 6f3560f7b78bbed469ca56fad8ae22eba1752228 Crimson <necroticpublic@gmail.com> 1503491977 -0400	commit: Everything in Gamesettings is final. None of it changes.
+6f3560f7b78bbed469ca56fad8ae22eba1752228 9ba5ee1f8471330a316cf48c2cbd7369d48503d7 Crimson <necroticpublic@gmail.com> 1503500886 -0400	commit: GameSettings.getBcryptRounds replaced with GameSettings.BCRYPT_ROUNDS
+9ba5ee1f8471330a316cf48c2cbd7369d48503d7 e459b13d2b49dc6c9dd9ded01b0036a77f7ab4e7 Crimson <necroticpublic@gmail.com> 1504495091 -0400	commit: No longer encrypting passwords,
+e459b13d2b49dc6c9dd9ded01b0036a77f7ab4e7 45440335096eb377dee5e7fad00dfe102db56993 Crimson <necroticpublic@gmail.com> 1504595091 -0400	commit: Extra check for already logged in accounts
+45440335096eb377dee5e7fad00dfe102db56993 3bda89e15a73c78f50c1a7b9cd96b7abf956d364 Crimson <necroticpublic@gmail.com> 1520730911 -0500	commit: Some misc changes waiting to be pushed
