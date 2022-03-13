@@ -12,7 +12,7 @@ import com.ruse.world.content.PlayerPunishment;
 import com.ruse.world.content.clan.ClanChatManager;
 import com.ruse.world.content.dialogue.DialogueManager;
 import com.ruse.world.entity.impl.player.Player;
-import com.sun.xml.internal.ws.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * This file represents a player's relation with other world entities,
