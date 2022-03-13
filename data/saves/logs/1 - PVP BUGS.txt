@@ -1,0 +1,1 @@
+[7/23/17 06:44PM]	Error 959.6 PVP bug occured with Debug attacking Crimson. Pos(p): Position values: [x, y, z] - [3093, 3524, 0]. Pos(a): Position values: [x, y, z] - [3092, 3524, 0].	

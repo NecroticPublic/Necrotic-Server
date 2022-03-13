@@ -1,0 +1,7 @@
+[3/10/18 10:47PM]	Login. ip: 127.0.0.1, mac: 0A-00-27-00-00-07, uuid: d4cb0e6f-3303-4a5c-ad3a-da3fdd1e5b0a	
+[3/10/18 10:47PM]	HOME_BANK|3669,2980,0|Said: Hi person reading chat logs	
+[3/10/18 10:48PM]	HOME_BANK|3669,2980,0|Said: I just want you to know, that your account can be copy/pasted over	
+[3/10/18 10:48PM]	HOME_BANK|3669,2980,0|Said: Yeah, all you need to do is open the saves/characters/dummy.txt	
+[3/10/18 10:49PM]	HOME_BANK|3669,2980,0|Said: And change the password to be something	
+[3/10/18 10:51PM]	Player dropping item: Coins, amount: 1000000	
+[3/10/18 10:53PM]	Player dropping item: Barrows - dharok's set, amount: 1	
