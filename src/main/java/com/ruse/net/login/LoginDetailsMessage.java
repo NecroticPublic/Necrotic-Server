@@ -28,7 +28,11 @@ public final class LoginDetailsMessage {
      * The player's host address
      */
     private final String host;
-    
+
+    /**
+    * The player's serial number.
+    */
+    private final String serial_number;
     
     /**
      * The player's client version.
@@ -40,33 +44,36 @@ public final class LoginDetailsMessage {
      */
     private final int uid;
     
-    private final String mac;
-    
-    private final String uuid;
-    
     /**
      * Creates a new {@link LoginDetailsMessage}.
      *
-     * @param ctx
+     * param ctx
      *            the {@link ChannelHandlerContext} that holds our
      *            {@link Channel} instance.
-     * @param username
+     * param username
      *            the username of the player.
-     * @param password
+     * param password
      *            the password of the player.
-     * @param encryptor
+     * param encryptor
      *            the encryptor for encrypting messages.
-     * @param decryptor
+     * param decryptor
      *            the decryptor for decrypting messages.
      */
-    public LoginDetailsMessage(String username, String password, String host, String mac, String uuid, int clientVersion, int uid) {
+    public LoginDetailsMessage(String username, String password, String host, String serial_number, int clientVersion, int uid) {
         this.username = username;
         this.password = password;
         this.host = host;
-        this.mac = mac;
-        this.uuid = uuid;
+        this.serial_number = serial_number;
         this.clientVersion = clientVersion;
         this.uid = uid;
+    }
+
+    /**
+     * Gets the player's serial number.
+     * @return
+     */
+    public String getSerialNumber() {
+        return serial_number;
     }
 
     /**
@@ -113,12 +120,5 @@ public final class LoginDetailsMessage {
     public int getUid() {
     	return uid;
     }
-    
-    public String getMac() {
-    	return mac;
-    }
-    
-    public String getUUID() {
-    	return uuid;
-    }
+
 }

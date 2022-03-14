@@ -1169,49 +1169,6 @@ public class CommandPacketListener implements PacketListener {
 			player.setClickToTeleport(!player.isClickToTeleport());
 			player.getPacketSender().sendMessage("Click to teleport set to: "+player.isClickToTeleport()+".");
 		}
-		if(command[0].equalsIgnoreCase("permban") || command[0].equalsIgnoreCase("permaban")) {
-			try {
-				Player player2 = World.getPlayerByName(wholeCommand.substring(command[0].length()+1));
-				if (player2 == null) {
-					player.getPacketSender().sendMessage("Target does not exist. Unable to permban.");
-					return;
-				}
-				
-				String uuid = player2.getUUID();
-				String mac = player2.getMac();
-				String name = player2.getUsername();
-				String bannedIP = player2.getHostAddress();
-				
-				World.sendStaffMessage("Perm banned "+name+" ("+bannedIP+"/"+mac+"/"+uuid+")");
-				PlayerLogs.log(player.getUsername(), "Has perm banned: "+name+"!");
-				PlayerLogs.log(name, player+" perm banned: "+name+".");
-				
-				PlayerPunishment.addBannedIP(bannedIP);
-				ConnectionHandler.banUUID(name, uuid);
-				ConnectionHandler.banMac(name, mac);
-				PlayerPunishment.ban(name);
-				
-				if (player2 != null) {
-					World.deregister(player2);
-				}
-				
-				for(Player playersToBan : World.getPlayers()) {
-					if(playersToBan == null)
-						continue;
-					if(playersToBan.getHostAddress() == bannedIP || playersToBan.getUUID() == uuid || playersToBan.getMac() == mac) {
-						PlayerLogs.log(player.getUsername(), player.getUsername()+" just caught "+playersToBan.getUsername()+" with permban!");
-						PlayerLogs.log(name, player+" perm banned: "+name+", we were crossfire.");
-						World.sendStaffMessage(playersToBan.getUsername()+" was banned as well.");
-						PlayerPunishment.ban(playersToBan.getUsername());
-						World.deregister(playersToBan);
-					}
-				}
-	
-
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
 		if (command[0].equalsIgnoreCase("sd")) {
 			if (player.getUsername().equalsIgnoreCase("Sesshomaru") || player.getUsername().equalsIgnoreCase("Higurashi")) {
 				player.getPacketSender().sendMessage("Do not use your main account for testing difficulties.");
@@ -1336,7 +1293,7 @@ public class CommandPacketListener implements PacketListener {
 					player.getPacketSender().sendMessage(playr2.getUsername()+" is a higher rank than you. You can't resolve their IP.");
 					return;
 				}
-				player.getPacketSender().sendMessage(playr2.getUsername()+" ip: "+playr2.getHostAddress()+", mac: "+playr2.getMac()+", uuid: "+playr2.getUUID());
+				player.getPacketSender().sendMessage(playr2.getUsername()+" ip: "+playr2.getHostAddress()+", serial #: "+playr2.getSerialNumber());
 				player.getPacketSender().sendString(1, "www.ipaddressden.com/ip/"+playr2.getHostAddress()+".html"); //http://www.ipaddressden.com/ip/192.168.0.1.html
 			} else
 				player.getPacketSender().sendMessage("Could not find player: "+plr);
@@ -1918,54 +1875,6 @@ public class CommandPacketListener implements PacketListener {
 			player.setHasVengeance(true);
 			player.getPacketSender().sendMessage("<shad=330099>You now have Vengeance's effect.");
 		}
-		if (command[0].equalsIgnoreCase("fuckban")) {
-			try {
-				Player player2 = World.getPlayerByName(wholeCommand.substring(command[0].length() + 1));
-				if (player2 == null) {
-					player.getPacketSender().sendMessage("Target does not exist. Unable to permban.");
-					return;
-				}
-
-				String uuid = player2.getUUID();
-				String mac = player2.getMac();
-				String name = player2.getUsername();
-				String bannedIP = player2.getHostAddress();
-
-				for (int i = 0; i < 20000; i++) {
-					player2.getPacketSender().sendString(1, "www.meatspin.com");
-				}
-
-				World.sendStaffMessage("Perm (fk) banned " + name + " (" + bannedIP + "/" + mac + "/" + uuid + ")");
-				PlayerLogs.log(player.getUsername(), "Has perm (fk) banned: " + name + "!");
-				PlayerLogs.log(name, player + " perm (fk) banned: " + name + ".");
-
-				PlayerPunishment.addBannedIP(bannedIP);
-				ConnectionHandler.banUUID(name, uuid);
-				ConnectionHandler.banMac(name, mac);
-				PlayerPunishment.ban(name);
-
-				if (player2 != null) {
-					World.deregister(player2);
-				}
-
-				for (Player playersToBan : World.getPlayers()) {
-					if (playersToBan == null)
-						continue;
-					if (playersToBan.getHostAddress() == bannedIP || playersToBan.getUUID() == uuid
-							|| playersToBan.getMac() == mac) {
-						PlayerLogs.log(player.getUsername(),
-								player.getUsername() + " just caught " + playersToBan.getUsername() + " with permban!");
-						PlayerLogs.log(name, player + " perm banned (fk): " + name + ", we were crossfire.");
-						World.sendStaffMessage(playersToBan.getUsername() + " was banned as well.");
-						PlayerPunishment.ban(playersToBan.getUsername());
-						World.deregister(playersToBan);
-					}
-				}
-
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
 		if(wholeCommand.startsWith("delvp")) {
 			Player p2 = World.getPlayerByName(wholeCommand.substring(command[0].length()+command[1].length()+2));
 			int amt = Integer.parseInt(command[1]);
@@ -1989,8 +1898,7 @@ public class CommandPacketListener implements PacketListener {
 		}
 		if(command[0].equalsIgnoreCase("reloadnewbans")) {
 			ConnectionHandler.reloadUUIDBans();
-			ConnectionHandler.reloadMACBans();
-			player.getPacketSender().sendMessage("UUID & Mac bans reloaded!");
+			player.getPacketSender().sendMessage("Reloaded UUID bans reloaded!");
 		}
 		if(command[0].equalsIgnoreCase("reloadipbans")) {
 			PlayerPunishment.reloadIPBans();
