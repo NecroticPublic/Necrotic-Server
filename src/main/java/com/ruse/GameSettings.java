@@ -7,33 +7,42 @@ import com.ruse.model.Position;
 import com.ruse.net.security.ConnectionHandler;
 
 public class GameSettings {
-	
 
-	public static final String RSPS_NAME = "Necrotic";
-	public static final String BCRYPT_EXAMPLE_SALT = "$2a$09$kCPIaYJ6vJmzJM/zq8vuSO";
-	
 	/**
-	 * WEB URLS
+	 * Change this and CTRL+SHIFT+F in IDEA to search through the project.
+	 * Ctrl + Click on variable names or datatypes for references.
+	 * Ctrl + F12 for an overview of this package.
 	 */
-	public static final String DomainUrl = "www.Necrotic.org/";
-	public static final String ForumUrl = DomainUrl+"forums";
-	public static final String StoreUrl = DomainUrl+"store";
-	public static final String VoteUrl = DomainUrl+"vote";
-	public static final String HiscoreUrl = DomainUrl+"hiscores";
-	public static final String ReportUrl = DomainUrl+"forums/forumdisplay.php?fid=28";
-	public static final String RuleUrl = DomainUrl+"forums/showthread.php?tid=17";
-	public static final String CommandsUrl = DomainUrl+"forums/showthread.php?tid=73";
-	public static final String RankFeaturesUrl = DomainUrl+"forums/showthread.php?tid=147"; //http://Ruseps.com/forums/index.php?/topic/2-member-rank-features/
-	public static final String WikiaUrl = "www.necrotic.wikia.com"; //http://necrotic.wikia.com/wiki/Special:Search?search=balls&fulltext=Search
-	public static final String IronManModesUrl = DomainUrl+"forums/showthread.php?tid=12"; //http://Ruseps.com/forums/index.php?/topic/3-ironman-modes/
-	public static final String HexUrl = "www.colorpicker.com";
-	public static final String DiscordUrl = DomainUrl+"discord";
-	public static final String ThreadUrl = ForumUrl+"/showthread.php?tid=";
-	public static final String RickRoll = "www.youtube.com/watch?v=C1R2oE7mvXw";
-	public static final String DifficultyUrl = WikiaUrl+"/wiki/Difficulties";
-	
+	public static final String RSPS_NAME = "Necrotic";
+
+	/**
+	 * The game port
+	 */
+	public static final int GAME_PORT = 43594;
+
+	public static final boolean BCRYPT_HASH_PASSWORDS = false;
+	public static final int BCRYPT_ROUNDS = Integer.parseInt("04"); //add a 0 for numbers less than 10. IE: 04, 05, 06, 07, 08, 09, 10, 11, etc.
+
+	/**
+	 * The game version
+	 */
+	public static final int GAME_VERSION = 55;
+	public static final int GAME_UID = 23; //don't change
+
+	/**
+	 *
+	 * The default position
+	 */
+	public static final Position DEFAULT_POSITION = new Position(3669, 2980);
+	public static final Position HOME_CORDS = new Position(3669, 2980, 0);
+
+	/**
+	 * Processing the engine
+	 */
+	public static final int ENGINE_PROCESSING_CYCLE_RATE = 600;//200;
+	public static final int GAME_PROCESSING_CYCLE_RATE = 600;
+
 	public static final long tempMuteInterval = 86400000;
-	
 	public static final int BaseImplingExpMultiplier = 2;
 	/**
 	 * Shop Buy Limit (at one time)
@@ -46,20 +55,7 @@ public class GameSettings {
 	public static final int charcterSavingInterval = 60000;
 	public static final int playerCharacterListCapacity = 2500; //was 1000
 	public static final int npcCharacterListCapacity = 20000; //was 2027
-	
-	/**
-	 * The game port
-	 */
-	public static final int GAME_PORT = 43594;
 
-	/**
-	 * The game version
-	 */
-	public static final int GAME_VERSION = 55;
-	public static final int GAME_UID = 23; //don't change
-	
-	public static final boolean BCRYPT_HASH_PASSWORDS = false;
-	public static final int BCRYPT_ROUNDS = Integer.parseInt("04"); //add a 0 for numbers less than 10. IE: 04, 05, 06, 07, 08, 09, 10, 11, etc.
 	/**
 	 * The maximum amount of players that can be logged in on a single game
 	 * sequence.
@@ -111,30 +107,38 @@ public class GameSettings {
 	 * The maximum amount of messages that can be decoded in one sequence.
 	 */
 	public static final int DECODE_LIMIT = 30;
-	
-	/** GAME **/
-	
-	public static final int[] MASSACRE_ITEMS = 
+
+	public static final String BCRYPT_EXAMPLE_SALT = "$2a$09$kCPIaYJ6vJmzJM/zq8vuSO";
+
+	/**
+	 * WEB URLS
+	 */
+	public static final String DomainUrl = "www.Necrotic.org/";
+	public static final String ForumUrl = DomainUrl+"forums";
+	public static final String StoreUrl = DomainUrl+"store";
+	public static final String VoteUrl = DomainUrl+"vote";
+	public static final String HiscoreUrl = DomainUrl+"hiscores";
+	public static final String ReportUrl = DomainUrl+"forums/forumdisplay.php?fid=28";
+	public static final String RuleUrl = DomainUrl+"forums/showthread.php?tid=17";
+	public static final String CommandsUrl = DomainUrl+"forums/showthread.php?tid=73";
+	public static final String RankFeaturesUrl = DomainUrl+"forums/showthread.php?tid=147"; //http://Ruseps.com/forums/index.php?/topic/2-member-rank-features/
+	public static final String WikiaUrl = "www.necrotic.wikia.com"; //http://necrotic.wikia.com/wiki/Special:Search?search=balls&fulltext=Search
+	public static final String IronManModesUrl = DomainUrl+"forums/showthread.php?tid=12"; //http://Ruseps.com/forums/index.php?/topic/3-ironman-modes/
+	public static final String HexUrl = "www.colorpicker.com";
+	public static final String DiscordUrl = DomainUrl+"discord";
+	public static final String ThreadUrl = ForumUrl+"/showthread.php?tid=";
+	public static final String RickRoll = "www.youtube.com/watch?v=C1R2oE7mvXw";
+	public static final String DifficultyUrl = WikiaUrl+"/wiki/Difficulties";
+
+	public static final int[] MASSACRE_ITEMS =
 		{4587, 20051, 13634, 13632, 11842, 11868, 14525, 13734, 10828, 1704, 15365, 15363, 7462, 3842
 		};
 
-	/**
-	 * Processing the engine
-	 */
-	public static final int ENGINE_PROCESSING_CYCLE_RATE = 600;//200;
-	public static final int GAME_PROCESSING_CYCLE_RATE = 600;
-	
 	public static boolean Halloween = false;
 	public static boolean Christmas2016 = false;
 	public static boolean newYear2017 = false;
 	public static boolean FridayThe13th = false;
-	/**
-	 * 
-	 * The default position
-	 */
-	public static final Position DEFAULT_POSITION = new Position(3669, 2980);
 	public static final Position CORP_CORDS =  new Position(2900, 4384);
-	public static final Position HOME_CORDS = new Position(3669, 2980, 0);
 	public static final Position EDGE_CORDS = new Position(3094, 3503, 0);
 	public static final Position TRIO_CORDS = new Position(3025, 5231, 0);
 	public static final Position KFC_CORDS = new Position(2606, 4774, 4);
