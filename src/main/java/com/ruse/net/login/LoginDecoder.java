@@ -24,7 +24,7 @@ import com.ruse.world.World;
 import com.ruse.world.entity.impl.player.Player;
 
 /**
- * A {@link org.niobe.net.StatefulFrameDecoder} which decodes
+ * A {link org.niobe.net.StatefulFrameDecoder} which decodes
  * the login requests.
  *
  * @author Gabriel Hannason
@@ -123,8 +123,6 @@ public final class LoginDecoder extends FrameDecoder {
 			int uid = rsaBuffer.readInt();
 			String username = Misc.readString(rsaBuffer);
 			String password = Misc.readString(rsaBuffer);
-			String mac = Misc.readString(rsaBuffer);
-			String uuid = Misc.readString(rsaBuffer);
 			//String serial = Misc.readString(rsaBuffer);
 			if (username.length() > 12 || password.length() > 20) {
 				System.out.println("Username or password length too long");
@@ -133,7 +131,7 @@ public final class LoginDecoder extends FrameDecoder {
 			username = Misc.formatText(username.toLowerCase());
 			channel.getPipeline().replace("encoder", "encoder", new PacketEncoder(new IsaacRandom(seed)));
 			channel.getPipeline().replace("decoder", "decoder", new PacketDecoder(decodingRandom));
-			return login(channel, new LoginDetailsMessage(username, password, ((InetSocketAddress) channel.getRemoteAddress()).getAddress().getHostAddress(), mac, uuid, clientVersion, uid));
+			return login(channel, new LoginDetailsMessage(username, password, ((InetSocketAddress) channel.getRemoteAddress()).getAddress().getHostAddress(), "", clientVersion, uid));
 		}
 		return null;
 	}
@@ -146,8 +144,7 @@ public final class LoginDecoder extends FrameDecoder {
 		.setLongUsername(NameUtils.stringToLong(msg.getUsername()))
 		.setPassword(msg.getPassword())
 		.setHostAddress(msg.getHost())
-		.setMac(msg.getMac())
-		.setUUID(msg.getUUID());
+		.setSerialNumber(msg.getSerialNumber());
 
 		session.setPlayer(player);
 		

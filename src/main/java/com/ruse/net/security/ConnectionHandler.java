@@ -27,14 +27,14 @@ public class ConnectionHandler {
 		
 	public static void init() {
 		loadHostBlacklist();
-		loadUUIDBans();
-		loadMacBans();
+		loadBannedComputers();
 		loadStarters();
 	}
 	
 	public static int getResponse(Player player, LoginDetailsMessage msg) {
 
 		String host = msg.getHost();
+		String serial_number = msg.getSerialNumber();
 
 		if (PlayerPunishment.banned(player.getUsername())) {
 			return LoginResponses.LOGIN_DISABLED_ACCOUNT;
@@ -42,14 +42,6 @@ public class ConnectionHandler {
 
 		if(isBlocked(host)) {
 			return LoginResponses.LOGIN_REJECT_SESSION;
-		}
-		
-		if (isMacBanned(msg.getMac()) || isUUIDBanned(msg.getUUID())) {
-			return LoginResponses.LOGIN_DISABLED_COMPUTER;
-		}
-		
-		if (msg.getMac().isEmpty() || msg.getMac().equalsIgnoreCase("") || msg.getUUID().isEmpty() || msg.getUUID().equalsIgnoreCase("")) {
-			return LoginResponses.OLD_CLIENT_VERSION;
 		}
 		
 		if (PlayerPunishment.IPBanned(host)) {
@@ -70,15 +62,11 @@ public class ConnectionHandler {
 	/** BLACKLISTED CONNECTIONS SUCH AS PROXIES **/
 	private static final String BLACKLIST_DIR = "./data/saves/blockedhosts.txt";
 	private static List<String> BLACKLISTED_HOSTNAMES = new ArrayList<String>();
-	
-	
-	private static final String BLACKLISTED_MACS_DIR = "./data/saves/BannedMacs.txt";
-	private static List<String> BLACKLISTED_MACS = new ArrayList<String>();
-	
-	private static final String BLACKLISTED_UUIDS_DIR = "./data/saves/BannedUUIDs.txt";
-	private static List<String> BLACKLISTED_UUIDS = new ArrayList<String>();
-	
-	
+
+	/** BLACKLISTED HARDWARE NUMBERS **/
+	private static final String BLACKLISTED_SERIAL_NUMBERS_DIR = "./data/saves/blockedhardwares.txt";
+	private static List<String> BLACKLISTED_SERIAL_NUMBERS = new ArrayList<String>();
+
 	
 	/**
 	 * The concurrent map of registered connections.
@@ -110,24 +98,18 @@ public class ConnectionHandler {
 	public static boolean isBlocked(String host) {
 		return BLACKLISTED_HOSTNAMES.contains(host.toLowerCase());
 	}
-	
-	public static boolean isMacBanned(String mac) {
-		return BLACKLISTED_MACS.contains(mac.toLowerCase());
-	}
-	
-	public static boolean isUUIDBanned(String uuid) {
-		return BLACKLISTED_UUIDS.contains(uuid.toLowerCase());
-	}
-	
-	
-	private static void loadMacBans() {
+
+	private static void loadBannedComputers() {
 		String line = null;
+
 		try {
+
 			BufferedReader in = new BufferedReader(
-					new FileReader(BLACKLISTED_MACS_DIR));
+					new FileReader(BLACKLISTED_SERIAL_NUMBERS_DIR));
 			while ((line = in.readLine()) != null) {
-				if(line.contains("="))
-					BLACKLISTED_MACS.add(String.valueOf(line.substring(line.indexOf("=")+1)));
+
+				if (line.contains("="))
+					BLACKLISTED_SERIAL_NUMBERS.add(String.valueOf(line.substring(line.indexOf("=") + 1)));
 			}
 			in.close();
 			in = null;
@@ -137,14 +119,14 @@ public class ConnectionHandler {
 		}
 	}
 
-	public static void banMac(String playername, String mac) {
-		if(BLACKLISTED_MACS.contains(mac))
+	public static void banComputer(String playername, String serial_number) {
+		if(BLACKLISTED_SERIAL_NUMBERS.contains(serial_number))
 			return;
-		BLACKLISTED_MACS.add(mac);
+		BLACKLISTED_SERIAL_NUMBERS.add(serial_number);
 		GameServer.getLoader().getEngine().submit(() -> {
 			try {
-				BufferedWriter writer = new BufferedWriter(new FileWriter(BLACKLISTED_MACS_DIR, true));
-				writer.write(""+playername+"="+mac);
+				BufferedWriter writer = new BufferedWriter(new FileWriter(BLACKLISTED_SERIAL_NUMBERS_DIR, true));
+				writer.write(""+playername+"="+serial_number);
 				writer.newLine();
 				writer.close();
 			} catch (IOException e) {
@@ -152,20 +134,15 @@ public class ConnectionHandler {
 			}
 		});
 	}
-	
-	public static void reloadMACBans() {
-		BLACKLISTED_MACS.clear();
-		loadMacBans();
-	}
-	
+
 	private static void loadUUIDBans() {
 		String line = null;
 		try {
 			BufferedReader in = new BufferedReader(
-					new FileReader(BLACKLISTED_UUIDS_DIR));
+					new FileReader(BLACKLISTED_SERIAL_NUMBERS_DIR));
 			while ((line = in.readLine()) != null) {
 				if(line.contains("="))
-					BLACKLISTED_UUIDS.add(String.valueOf(line.substring(line.indexOf("=")+1)));
+					BLACKLISTED_SERIAL_NUMBERS.add(String.valueOf(line.substring(line.indexOf("=")+1)));
 			}
 			in.close();
 			in = null;
@@ -175,24 +152,8 @@ public class ConnectionHandler {
 		}
 	}
 
-	public static void banUUID(String playername, String uuid) {
-		if(BLACKLISTED_UUIDS.contains(uuid))
-			return;
-		BLACKLISTED_UUIDS.add(uuid);
-		GameServer.getLoader().getEngine().submit(() -> {
-			try {
-				BufferedWriter writer = new BufferedWriter(new FileWriter(BLACKLISTED_UUIDS_DIR, true));
-				writer.write(""+playername+"="+uuid);
-				writer.newLine();
-				writer.close();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		});
-	}
-	
 	public static void reloadUUIDBans() {
-		BLACKLISTED_UUIDS.clear();
+		BLACKLISTED_SERIAL_NUMBERS.clear();
 		loadUUIDBans();
 	}
 
