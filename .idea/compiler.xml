@@ -6,11 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-      </profile>
-      <profile name="Annotation profile for NecroticSource" enabled="true">
-        <sourceOutputDir name="bin/generated-sources/annotations" />
-        <sourceTestOutputDir name="bin/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="NecroticSource" />
       </profile>
     </annotationProcessing>
