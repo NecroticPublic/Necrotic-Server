@@ -58,7 +58,7 @@ public class PlayerHandler {
 
 	public static void handleLogin(Player player) {
 		//Register the player
-		System.out.println("[World] Registering player - [username, host] : [" + player.getUsername() + ", " + player.getHostAddress() + "]");
+		System.out.println("[World] Registering player - [username, host, serial] : [" + player.getUsername() + ", " + player.getHostAddress() + ", " +player.getSerialNumber() + " ]");
 		ConnectionHandler.add(player.getHostAddress());
 		World.getPlayers().add(player);
 		World.updatePlayersOnline();
@@ -217,7 +217,7 @@ public class PlayerHandler {
 		}
 		
 		player.getUpdateFlag().flag(Flag.APPEARANCE);
-		PlayerLogs.log(player.getUsername(), "Login. ip: "+player.getHostAddress()+", mac: "+player.getMac()+", uuid: "+player.getUUID());
+		PlayerLogs.log(player.getUsername(), "Login. ip: "+player.getHostAddress()+", serial #: "+player.getSerialNumber());
 		/* if(player.getSkillManager().getCurrentLevel(Skill.CONSTITUTION) == 0){
 			player.getSkillManager().setCurrentLevel(Skill.CONSTITUTION, 1);
 			World.deregister(player);

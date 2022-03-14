@@ -102,28 +102,6 @@ public class Player extends Character {
 		this.session = playerIO;
 	}
 	
-	private String mac;
-	private String uuid;
-	
-	public String getMac() {
-		return mac;
-	}
-	
-	public String getUUID() {
-		return uuid;
-	}
-	
-	public Player setMac(String mac) {
-		this.mac = mac;
-		return this;
-	}
-	
-	public Player setUUID(String uuid) {
-		this.uuid = uuid;
-		return this;
-	}
-
-
 	@Override
 	public void appendDeath() {
 		if(!isDying) {
@@ -1079,7 +1057,7 @@ public class Player extends Character {
 	}
 
 	/**
-	 * @param rangedAmmo
+	 * param rangedAmmo
 	 *            the rangedAmmo to set
 	 */
 	public void setRangedWeaponData(RangedWeaponData rangedWeaponData) {
