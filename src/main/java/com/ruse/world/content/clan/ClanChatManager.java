@@ -335,7 +335,7 @@ public class ClanChatManager {
 		if (!Misc.isAcceptableMessage(message)) {
 			player.getPacketSender().sendMessage("Your message could not be sent because of the symbols.");
 			System.out.println(player.getUsername()+" Unacceptable message.");
-			PlayerLogs.log(player.getUsername(), "Tried to send an unhandled message.");
+			PlayerLogs.log("1 - unhandled text", player.getUsername()+" tried to send an unhandled message.");
 			return;
 		}
 		ClanChatRank rank = clan.getRank(player);

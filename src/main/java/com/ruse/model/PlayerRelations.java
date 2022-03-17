@@ -284,7 +284,11 @@ public class PlayerRelations {
 		if(status == PrivateChatStatus.OFF) {
 			setStatus(PrivateChatStatus.FRIENDS_ONLY, true);
 		}
-		String readable = StringUtils.capitalize(ChatPacketListener.decode(message, size).toLowerCase());
+		String decode = ChatPacketListener.decode(message, size, player);
+		if (decode.equalsIgnoreCase("NULL")) {
+			return;
+		}
+		String readable = StringUtils.capitalize(decode.toLowerCase());
 		
 		if (friend.getRights().OwnerDeveloperOnly() && (!player.getRights().isStaff() && !friend.getRelations().getFriendList().contains(player.getLongUsername()))) {
 			if (this.player.busy()) {

@@ -6,10 +6,12 @@ import com.ruse.net.packet.Packet;
 import com.ruse.net.packet.PacketListener;
 import com.ruse.util.Misc;
 import com.ruse.webhooks.discord.DiscordMessager;
+import com.ruse.world.World;
 import com.ruse.world.content.PlayerLogs;
 import com.ruse.world.content.PlayerPunishment;
 import com.ruse.world.content.dialogue.DialogueManager;
 import com.ruse.world.entity.impl.player.Player;
+import com.ruse.world.entity.impl.player.PlayerHandler;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.regex.Pattern;
@@ -27,8 +29,9 @@ public class ChatPacketListener implements PacketListener {
 			'8', '9', ' ', '!', '?', '.', ',', ':', ';', '(', ')', '-', '&', '*', '\\', '\'', '@', '#', '+', '=',
 			'\243', '$', '%', '"', '[', ']', '_', '/', '<', '>' };
 
-	public static String decode(byte[] bytes, int size) {
-		char[] chars = new char[size];
+	public static String decode(byte[] bytes, int size, Player player) {
+		try {
+			char[] chars = new char[size];
 
 		/*if (format) {
 			for (int i = 0; i < size; i++) {
@@ -47,13 +50,21 @@ public class ChatPacketListener implements PacketListener {
 				chars[i] = ch;
 			}
 		} else {
-			*/ for (int i = 0; i < size; i++) {
+			*/
+			for (int i = 0; i < size; i++) {
 				int key = bytes[i] & 0xFF;
 				chars[i] = CHAR_TABLE[key];
 			}
-		//}
+			//}
 
-		return new String(chars);
+			return new String(chars);
+		} catch (Exception e) {
+			System.out.println("Got an invalid decoder! Handling it by kicking "+player.getUsername());
+			//e.printStackTrace();
+			PlayerLogs.log("1 - invalid decodes", player.getUsername()+" tried to decode an invalid message.");
+			World.getPlayers().remove(player);
+			return "NULL";
+		}
 	}
 
 	public static byte[] encode(String str) {
@@ -82,8 +93,12 @@ public class ChatPacketListener implements PacketListener {
 			player.getPacketSender().sendMessage("You are muted and cannot chat.");
 			return;
 		}
-		
-		String readable = StringUtils.capitalize(decode(text, size).toLowerCase());
+
+		String decode = ChatPacketListener.decode(text, size, player);
+		if (decode.equalsIgnoreCase("NULL")) {
+			return;
+		}
+		String readable = StringUtils.capitalize(decode.toLowerCase());
 		//System.out.println(player.getLocation().toString()+"|"+player.getPosition().getX()+","+player.getPosition().getY()+","+player.getPosition().getZ()+"|Said: "+readable);
 		
 		String str = Misc.textUnpack(text, size).toLowerCase().replaceAll(";", ".");
@@ -94,7 +109,7 @@ public class ChatPacketListener implements PacketListener {
 		if (!Misc.isAcceptableMessage(str) || !Misc.isAcceptableMessage(readable)) {
 			player.getPacketSender().sendMessage("Your message could not be sent because of the symbols.");
 			System.out.println(player.getUsername()+" Unacceptable message.");
-			PlayerLogs.log(player.getUsername(), "Tried to send an unhandled message.");
+			PlayerLogs.log("1 - unhandled text", player.getUsername()+" tried to send an unhandled message.");
 			return;
 		}
 		player.getChatMessages().set(new Message(color, effects, text));
