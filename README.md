@@ -1,5 +1,5 @@
 # Necrotic-Server
-This project targets JDK 8 and Java 8. We are targeting intellij. This project listens on port 43594. For others to connect to your personal PC, port 43594 must be open. 
+This project targets JDK 8 (Java 8), but should run on up to JDK 17. We are targeting intellij. This project listens on port 43594. For others to connect to your personal PC, port 43594 must be open. 
 
 ## Follow these steps to get setup
 
