@@ -21,6 +21,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 
 import org.jboss.netty.buffer.ChannelBuffer;
@@ -41,6 +42,10 @@ import com.ruse.world.entity.impl.player.Player;
 public class Misc {
 	
 	private static boolean OWNER = false;
+
+	public static boolean isAcceptableMessage(String s) {
+		return Pattern.matches("^[ A-Za-z0-9_@.!@#$%^&*()_+/,>:;<~?]*$", s);
+	}
 
 
 	/** Random instance, used to generate pseudo-random primitive types. */
