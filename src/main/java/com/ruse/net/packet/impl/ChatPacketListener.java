@@ -101,12 +101,13 @@ public class ChatPacketListener implements PacketListener {
 		String readable = StringUtils.capitalize(decode.toLowerCase());
 		//System.out.println(player.getLocation().toString()+"|"+player.getPosition().getX()+","+player.getPosition().getY()+","+player.getPosition().getZ()+"|Said: "+readable);
 		
-		String str = Misc.textUnpack(text, size).toLowerCase().replaceAll(";", ".");
-		if(Misc.blockedWord(str) && !(player.getRights().OwnerDeveloperOnly())) {
+		boolean blockedWord = Misc.blockedWord(readable);
+		if(blockedWord && !(player.getRights().OwnerDeveloperOnly())) {
 			DialogueManager.sendStatement(player, "A word was blocked in your sentence. Please do not repeat it!");
 			return;
 		}
-		if (!Misc.isAcceptableMessage(str) || !Misc.isAcceptableMessage(readable)) {
+		boolean acceptableReadable = Misc.isAcceptableMessage(readable);
+		if (!acceptableReadable) {
 			player.getPacketSender().sendMessage("Your message could not be sent because of the symbols.");
 			System.out.println(player.getUsername()+" Unacceptable message.");
 			PlayerLogs.log("1 - unhandled text", player.getUsername()+" tried to send an unhandled message.");

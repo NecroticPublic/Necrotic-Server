@@ -552,6 +552,10 @@ public class CommandPacketListener implements PacketListener {
             TeleportHandler.teleportPlayer(player, position, TeleportType.NORMAL);
             player.getPacketSender().sendMessage("Teleporting you to <col=#002AF8>Chill!");
         }
+        if (command[0].equalsIgnoreCase("tome")) {
+            player.getInventory().add(9003, 1);
+            player.getPacketSender().sendMessage("You get a tome of inquisition.");
+        }
         if (command[0].equalsIgnoreCase("help")) {
             if (player.getLastYell().elapsed(30000)) {
                 if (player.getLocation() != null && player.getLocation() == Location.WILDERNESS) {
@@ -1596,7 +1600,7 @@ public class CommandPacketListener implements PacketListener {
             }
         }
         if (command[0].equalsIgnoreCase("find") || command[0].equalsIgnoreCase("fi")) {
-            String name = wholeCommand.substring(5).toLowerCase().replaceAll("_", " ");
+            String name = wholeCommand.substring(command[0].length() + 1).toLowerCase().replaceAll("_", " ");
             player.getPacketSender().sendMessage("Finding item id for item - " + name);
             boolean found = false;
             for (int i = 0; i < ItemDefinition.getMaxAmountOfItems(); i++) {
