@@ -248,8 +248,11 @@ public class ItemDefinition {
 	 * You should not be able to wear these weapons.
 	 * @return
 	 */
-	public boolean shouldNotBeWorn() {
-		return !weapon && equipmentType.equals(EquipmentType.WEAPON);
+	public boolean isUnwearable() {
+		if (!weapon && equipmentType.equals(EquipmentType.WEAPON)) {
+			return true;
+		}
+		return false;
 	}
 	
 	private EquipmentType equipmentType = EquipmentType.WEAPON;

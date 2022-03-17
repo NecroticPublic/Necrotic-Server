@@ -600,7 +600,7 @@ public class EquipPacketListener implements PacketListener {
 		if (item.getDefinition().getRequirement() == null) {
 			return false;
 		}
-		if (!item.getDefinition().shouldNotBeWorn()) {
+		if (item.getDefinition().isUnwearable()) {
 			PlayerLogs.log("1 - equip invalid items", player.getUsername()+" tried to equip invalid item: "+item.getId());
 			player.getPacketSender().sendMessage("This item can not be worn.");
 			return false;
