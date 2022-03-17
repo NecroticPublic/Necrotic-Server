@@ -12,6 +12,8 @@ import com.ruse.world.content.dialogue.DialogueManager;
 import com.ruse.world.entity.impl.player.Player;
 import org.apache.commons.lang3.StringUtils;
 
+import java.util.regex.Pattern;
+
 /**
  * This packet listener manages the spoken text by a player.
  * 
@@ -89,10 +91,20 @@ public class ChatPacketListener implements PacketListener {
 			DialogueManager.sendStatement(player, "A word was blocked in your sentence. Please do not repeat it!");
 			return;
 		}
+		if (!acceptableMessage(str) || !acceptableMessage(readable)) {
+			player.getPacketSender().sendMessage("Your message could not be sent because of the symbols.");
+			System.out.println(player.getUsername()+" Unacceptable message.");
+			PlayerLogs.log(player.getUsername(), "Tried to send an unhandled message.");
+			return;
+		}
 		player.getChatMessages().set(new Message(color, effects, text));
 		PlayerLogs.log(player.getUsername(), player.getLocation().toString()+"|"+player.getPosition().getX()+","+player.getPosition().getY()+","+player.getPosition().getZ()+"|Said: "+readable);
 		player.getUpdateFlag().flag(Flag.CHAT);
 		DiscordMessager.sendChatMessage("**"+player.getUsername()+"**|"+player.getLocation().toString()+"|"+player.getPosition().getX()+","+player.getPosition().getY()+","+player.getPosition().getZ()+"|Said: "+readable);
+	}
+
+	private boolean acceptableMessage(String s) {
+		return Pattern.matches("^[ A-Za-z0-9_@.!@#$%^&*()_+/,>:;<~?]*$", s);
 	}
 
 }

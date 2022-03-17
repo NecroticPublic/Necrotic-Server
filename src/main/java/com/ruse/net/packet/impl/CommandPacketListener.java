@@ -1585,7 +1585,7 @@ public class CommandPacketListener implements PacketListener {
 				player.getPacketSender().sendMessage("No NPC with name [" + name + "] has been found!");
 			}
 		}
-		if (command[0].equalsIgnoreCase("find")) {
+		if (command[0].equalsIgnoreCase("find") || command[0].equalsIgnoreCase("fi")) {
 			String name = wholeCommand.substring(5).toLowerCase().replaceAll("_", " ");
 			player.getPacketSender().sendMessage("Finding item id for item - " + name);
 			boolean found = false;
