@@ -362,11 +362,16 @@ public class ClanChatManager {
 				String formatted = String.format("%02d", clan.getName().length()+1);
 				
 				String rankImg = img > 0 ? " <img="+img+">" : "";
-				memberPlayer.getPacketSender()
-						.sendMessage(":clan:"+formatted + /*bracketColor +*/ "[" + /*clanNameColor +*/ clan.getName() + /*bracketColor +*/ "]"
+				String messageString = ":clan:"+formatted + /*bracketColor +*/ "[" + /*clanNameColor +*/ clan.getName() + /*bracketColor +*/ "]"
 						+ /*nameColor +*/ "<img=" + ironimg + ">" + rankImg +" "
 						+ NameUtils.capitalizeWords(player.getUsername()) + ": " + /*chatColor
-						+*/ NameUtils.capitalize(message));
+						+*/ NameUtils.capitalize(message);
+				// The maximum size is 253; https://www.rune-server.ee/runescape-development/rs2-server/snippets/678840-ruse-exploit-fix-makes-players-disconnect.html
+				if (messageString.length() > 253) {
+					messageString = message.substring(0, 253);
+					System.out.println("Cut down message string to 235");
+				}
+				memberPlayer.getPacketSender().sendMessage(messageString);
 			}
 		}
 		PlayerLogs.log(player.getUsername(), "(CC) " +(player.getCurrentClanChat() != null && player.getClanChatName() != null ? player.getClanChatName() : "NULL")+ ". Said: "+StringUtils.capitalize(message.toLowerCase()));
