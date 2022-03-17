@@ -45,7 +45,11 @@ public class EquipPacketListener implements PacketListener {
 		int id = packet.readShort();
 		int slot = packet.readShortA();
 		int interfaceId = packet.readShortA();
-		if(player.getInterfaceId() > 0 && player.getInterfaceId() != 21172 /* EQUIP SCREEN */) {
+		Item temp = new Item(id, 1);
+		if (!hasRequirements(player, temp)) {
+			return;
+		}
+		if (player.getInterfaceId() > 0 && player.getInterfaceId() != 21172 /* EQUIP SCREEN */) {
 			player.getPacketSender().sendInterfaceRemoval();
 			//return;
 		}
@@ -496,20 +500,7 @@ public class EquipPacketListener implements PacketListener {
 				 * Making sure item exists and that id is consistent.
 				 */
 				if (item != null && id == item.getId()) {
-					for (Skill skill : Skill.values()) {
-						if(skill == Skill.CONSTRUCTION)
-							continue;
-						if (item.getDefinition().getRequirement()[skill.ordinal()] > player.getSkillManager().getMaxLevel(skill)) {
-							StringBuilder vowel = new StringBuilder();
-							if (skill.getName().startsWith("a") || skill.getName().startsWith("e") || skill.getName().startsWith("i") || skill.getName().startsWith("o") || skill.getName().startsWith("u")) {
-								vowel.append("an ");
-							} else {
-								vowel.append("a ");
-							}
-							player.getPacketSender().sendMessage("You need " + vowel.toString() + Misc.formatText(skill.getName()) + " level of at least " + item.getDefinition().getRequirement()[skill.ordinal()] + " to wear this.");
-							return;
-						}
-					}
+
 					int equipmentSlot = item.getDefinition().getEquipmentSlot();
 					Item equipItem = player.getEquipment().forSlot(equipmentSlot).copy();
 					if(player.getLocation() == Location.DUEL_ARENA) {
@@ -601,6 +592,34 @@ public class EquipPacketListener implements PacketListener {
 			}
 			break;
 		}
+	}
+
+	private static boolean hasRequirements(Player player, Item item) {
+		if (item.getDefinition() == null)
+			return false;
+		if (item.getDefinition().getRequirement() == null) {
+			return false;
+		}
+		if (!item.getDefinition().shouldNotBeWorn()) {
+			PlayerLogs.log("1 - equip invalid items", player.getUsername()+" tried to equip invalid item: "+item.getId());
+			player.getPacketSender().sendMessage("This item can not be worn.");
+			return false;
+		}
+		for (Skill skill : Skill.values()) {
+			if(skill == Skill.CONSTRUCTION)
+				continue;
+			if (item.getDefinition().getRequirement()[skill.ordinal()] > player.getSkillManager().getMaxLevel(skill)) {
+				StringBuilder vowel = new StringBuilder();
+				if (skill.getName().startsWith("a") || skill.getName().startsWith("e") || skill.getName().startsWith("i") || skill.getName().startsWith("o") || skill.getName().startsWith("u")) {
+					vowel.append("an ");
+				} else {
+					vowel.append("a ");
+				}
+				player.getPacketSender().sendMessage("You need " + vowel.toString() + Misc.formatText(skill.getName()) + " level of at least " + item.getDefinition().getRequirement()[skill.ordinal()] + " to wear this.");
+				return false;
+			}
+		}
+		return true;
 	}
 
 	public static void resetWeapon(Player player) {

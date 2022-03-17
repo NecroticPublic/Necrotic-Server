@@ -236,6 +236,21 @@ public class ItemDefinition {
 	public boolean isWeapon() {
 		return weapon;
 	}
+
+	/**
+	 * Some items that should not be equipped have a EquipmentType of weapon but Weapon is false. For example:
+	 * Item Id: 946
+	 * Name: Knife
+	 * Equipment type: WEAPON
+	 * Is Weapon: false
+	 * finish
+	 *
+	 * You should not be able to wear these weapons.
+	 * @return
+	 */
+	public boolean shouldNotBeWorn() {
+		return !weapon && equipmentType.equals(EquipmentType.WEAPON);
+	}
 	
 	private EquipmentType equipmentType = EquipmentType.WEAPON;
 	

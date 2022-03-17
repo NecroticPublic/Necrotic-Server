@@ -70,6 +70,8 @@ import com.ruse.world.entity.impl.player.Player;
 
 public class ButtonClickPacketListener implements PacketListener {
 
+	// @todo add parent interface verification here
+
 	@Override
 	public void handleMessage(Player player, Packet packet) {
 
