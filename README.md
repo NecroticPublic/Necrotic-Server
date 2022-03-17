@@ -12,12 +12,10 @@ IE:
 
 ![Example run](https://i.imgur.com/0Z8wMJq.png)
 
-Make these folders exist: "NecroticCache", "NecroticClients", "NecroticSettings".
+Make this folder exists: "NecroticCache"
 
 For example, say your username was bob.
 - Bob/NecroticCache
-- Bob/NecroticClients
-- Bob/NecroticSettings
 
 ![Example of userprofile](https://i.imgur.com/Twmfc4u.png)
 
