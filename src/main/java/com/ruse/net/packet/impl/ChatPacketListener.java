@@ -91,7 +91,7 @@ public class ChatPacketListener implements PacketListener {
 			DialogueManager.sendStatement(player, "A word was blocked in your sentence. Please do not repeat it!");
 			return;
 		}
-		if (!acceptableMessage(str) || !acceptableMessage(readable)) {
+		if (!Misc.isAcceptableMessage(str) || !Misc.isAcceptableMessage(readable)) {
 			player.getPacketSender().sendMessage("Your message could not be sent because of the symbols.");
 			System.out.println(player.getUsername()+" Unacceptable message.");
 			PlayerLogs.log(player.getUsername(), "Tried to send an unhandled message.");
@@ -101,10 +101,6 @@ public class ChatPacketListener implements PacketListener {
 		PlayerLogs.log(player.getUsername(), player.getLocation().toString()+"|"+player.getPosition().getX()+","+player.getPosition().getY()+","+player.getPosition().getZ()+"|Said: "+readable);
 		player.getUpdateFlag().flag(Flag.CHAT);
 		DiscordMessager.sendChatMessage("**"+player.getUsername()+"**|"+player.getLocation().toString()+"|"+player.getPosition().getX()+","+player.getPosition().getY()+","+player.getPosition().getZ()+"|Said: "+readable);
-	}
-
-	private boolean acceptableMessage(String s) {
-		return Pattern.matches("^[ A-Za-z0-9_@.!@#$%^&*()_+/,>:;<~?]*$", s);
 	}
 
 }

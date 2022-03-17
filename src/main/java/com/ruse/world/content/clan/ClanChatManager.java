@@ -332,6 +332,12 @@ public class ClanChatManager {
 			player.getPacketSender().sendMessage("You can talk in the clan as soon as you're out of jail.");
 			return;
 		}
+		if (!Misc.isAcceptableMessage(message)) {
+			player.getPacketSender().sendMessage("Your message could not be sent because of the symbols.");
+			System.out.println(player.getUsername()+" Unacceptable message.");
+			PlayerLogs.log(player.getUsername(), "Tried to send an unhandled message.");
+			return;
+		}
 		ClanChatRank rank = clan.getRank(player);
 		if(clan.getRankRequirement()[ClanChat.RANK_REQUIRED_TO_TALK] != null) {
 			if (rank == null || rank.ordinal() < clan.getRankRequirement()[ClanChat.RANK_REQUIRED_TO_TALK].ordinal()) {
@@ -366,10 +372,10 @@ public class ClanChatManager {
 						+ /*nameColor +*/ "<img=" + ironimg + ">" + rankImg +" "
 						+ NameUtils.capitalizeWords(player.getUsername()) + ": " + /*chatColor
 						+*/ NameUtils.capitalize(message);
-				// The maximum size is 253; https://www.rune-server.ee/runescape-development/rs2-server/snippets/678840-ruse-exploit-fix-makes-players-disconnect.html
-				if (messageString.length() > 253) {
-					messageString = message.substring(0, 253);
-					System.out.println("Cut down message string to 235");
+				// The maximum size is 200; https://www.rune-server.ee/runescape-development/rs2-server/snippets/678840-ruse-exploit-fix-makes-players-disconnect.html
+				if (messageString.length() > 200) {
+					messageString = message.substring(0, 200);
+					System.out.println("Cut down message string length to 200.");
 				}
 				memberPlayer.getPacketSender().sendMessage(messageString);
 			}
